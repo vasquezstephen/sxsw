@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/views/layout/header.html" afterPath="$PROJECT_DIR$/webroot/views/layout/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sxsw.iws" />
@@ -142,6 +141,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -805,7 +809,7 @@
       <created>1452782493129</created>
       <option name="number" value="Default" />
       <updated>1452782493129</updated>
-      <workItem from="1452782494594" duration="6570000" />
+      <workItem from="1452782494594" duration="6634000" />
     </task>
     <task id="LOCAL-00001" summary="added something to header to test">
       <created>1452789568380</created>
@@ -813,11 +817,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452789568380</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed it back">
+      <created>1452789638195</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1452789638195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6570000" />
+    <option name="totallyTimeSpent" value="6634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -857,7 +867,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added something to header to test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added something to header to test" />
+    <MESSAGE value="changed it back" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed it back" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
