@@ -1,8 +1,13 @@
 <div class="rsvp-wrapper">
 <div class="header-style1"> R&middot;S&middot;V&middot;P&middot; Links</div>
     <div class="rsvp-gallery">
-        <div class="rsvp-gallery-item">
-            <div class="rsvp-gallery-image"></div>
+        <div class="rsvp-gallery-item" ng-repeat="links in gallery">
+            <div class="rsvp-gallery-image">
+                <img src="links.image">
+            </div>
+            <div class="rsvp-gallery-description">
+                <p>links.description</p>
+            </div>
         </div>
     </div>
 </div>
