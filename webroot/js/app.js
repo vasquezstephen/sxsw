@@ -4,56 +4,55 @@
 (function () {
     'use strict';
 
-    angular.module('stevieApp', [
+    angular.module('sxswApp', [
+            'ui.router',
+            'ngAnimate',
+            'ngTouch'
 
-    ])
-        .config(csrfConfig)
+        ])
+        .config(configRoutes)
         .controller('ApplicationController', ApplicationController);
 
-    csrfConfig.$inject = ['csrfProvider'];
-    function csrfConfig(csrfProvider) {
-        csrfProvider.config({
-            url: '/steviedoes/csrfToken'
-        });
+    configRoutes.$inject = ['$urlRouterProvider'];
+    function configRoutes($urlRouterProvider){
+        $urlRouterProvider
+            .otherwise('/');
     }
-
     //An App controller that changes some of the bounded data in the view if they are not set.
     ApplicationController.$inject = ['$scope', '$anchorScroll', '$rootScope'];
     function ApplicationController($scope, $anchorScroll, $rootScope) {
         var app = this;
 
-        $rootScope.contextUrl = '/steviedoes';
-        $scope.isSideNavActive = false;
-        $scope.$on('$stateChangeSuccess', onStateChangeSuccess);
-        $scope.$on('closeSideNavIfOpen', closeSideNavIfOpen);
-        $scope.$on('toggleSideNav', toggleSideNav);
-        app.appName = 'stevie';
+        app.appName = 'sxsw';
         app.pageTitle = '';
 
-        function onStateChangeSuccess(toState) {
-            $rootScope.$broadcast('closeSideNavIfOpen');
-            returnToTop();
+        activate();
 
-            if (toState.data && toState.data.pageTitle) {
-                app.pageTitle = app.appName + ' ' + toState.data.pageTitle;
-            }
+        function activate() {
+            $scope.$on('$stateChangeSuccess', onStateChangeSuccess);
+        }
+
+
+        function onStateChangeSuccess(event, toState, toParams, fromState, fromParams) {
+            returnToTop();
 
             if (toState.data && toState.data.appName) {
                 app.appName = toState.data.appName;
             }
-        }
-        function closeSideNavIfOpen() {
-            if($scope.isSideNavActive) {
-                $scope.isSideNavActive = false;
+
+            if (toState.data && toState.data.pageTitle) {
+                app.pageTitle = app.appName + ' | ' + toState.data.pageTitle;
+            } else {
+                app.pageTitle = app.appName;
             }
-        }
-        function toggleSideNav() {
-            $scope.isSideNavActive = !$scope.isSideNavActive;
+
         }
 
         function returnToTop() {
             $anchorScroll.yOffset = 0;
             $anchorScroll();
         }
+
+
     }
 })();
