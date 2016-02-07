@@ -2,13 +2,9 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var nodemon		= require('nodemon');
-var jshint = require('gulp-jshint');
-var sass = require('gulp-sass');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var reload		= browserSync.stream;
+var sass		= require('gulp-sass');
 var config 		= require("./gulp.config")();
+var reload		= browserSync.stream;
 
 // Compile Our Sass
 gulp.task('sass', function() {
@@ -21,7 +17,7 @@ gulp.task('sass', function() {
 gulp.task("nodemon", function(){
 	var options = {
 		script: config.nodeApp,
-		watch: config.server
+		watch: [config.server, config.client]
 	};
 
 	return nodemon(options)
@@ -34,7 +30,7 @@ gulp.task("nodemon", function(){
 		})
 });
 
-gulp.task("default", ['sass','nodemon']);
+gulp.task("default", ['nodemon','sass']);
 
 function startBrowserSync(){
 	if(browserSync.active){
