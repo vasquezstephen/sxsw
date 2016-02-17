@@ -40,12 +40,12 @@ function startBrowserSync(){
 
 	var options = {
 		proxy: 'localhost:' + config.nodePort,
-        port: config.browserSyncPort,
+		port: config.browserSyncPort,
 		ghostMode: {
 			scroll: true
 		},
 		browser: ["google chrome"],
 		files: config.browserSyncFiles
 	};
-	browserSync(options);		
+	browserSync(options);
 }

@@ -1,0 +1,39 @@
+// Default Settings
+
+html {
+  color: $primary-text-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  background-image: url('/images/img6.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  body{
+    @include container(940px);
+    margin: 0 auto;
+  }
+
+}
+.form-input{
+  font-size: 18px;
+  input{
+    height: 20px;
+    width: 250px;
+  }
+}
+.header-style1 {
+  font-family: $header-font-family;
+  font-size: 36px;
+}
+.header-style2{
+  padding: 10px 0;
+  cursor: pointer;
+  font-family: $header-font-family;
+  font-size: 16px;
+  display: inline-block;
+}

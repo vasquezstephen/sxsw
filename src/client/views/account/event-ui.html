@@ -1,0 +1,41 @@
+<div class="ui-view">
+    <div class="form-container">
+        <form name="eventForm" ng-submit="insertEvent(event)">
+            <div class="form-input">Title:<br><input type="text" required placeholder="Title"
+                                                     ng-model="event.title"></div>
+            
+            <div class="form-input">Description:<br><input type="text" placeholder="Description"
+                                                       ng-model="event.description"></div>
+            
+            <div class="form-input"> Date:<br><input type="text" required
+                                                     ng-focus="ui.dateFormat= 'March ##, 2016'"
+                                                     ng-blur="ui.dateFormat= ''" placeholder="Date"
+                                                     ng-model="event.date">{{ui.dateFormat}}</div>
+            
+            <div class="form-input">Date Added:<br><input type="text" required
+                                                          ng-focus="ui.addedFormat= '#/##/16'"
+                                                          ng-blur="ui.addedFormat= ''" placeholder="Date Added"
+                                                          ng-model="event.dateAdded">{{ui.adddedFormat}}
+            </div>
+            
+            <div class="form-input">Image:<br><input type="text" required
+                                                     ng-focus="ui.imageFormat= 'images/screens/<imagetitle>.png'"
+                                                     ng-blur="ui.imageFormat= ''" placeholder="Image"
+                                                     ng-model="event.image">{{ui.imageFormat}}</div>
+            
+            <div class="form-input">Link:<br><input type="text" required placeholder="Link" ng-model="event.link"></div>
+            <button type="submit">Submit</button>
+                <div class="form-image" ng-show="eventForm.$invalid">
+                    <img src="/images/xmark.png"></div>
+                <div class="form-image" ng-show="eventForm.$valid">
+                    <img src="/images/checkmark.png"></div><div ng-show="eventForm.$valid && eventForm.$submitted">{{ui.datNew.title}} Added Successfully!</div>
+        </form>
+        <!--<div ng-init="submitted=false;"></div>-->
+
+        <pre>event = {{event | json}}</pre>
+        <pre>Just Added = {{ui.datNew | json}}</pre>
+
+
+    </div>
+
+</div>

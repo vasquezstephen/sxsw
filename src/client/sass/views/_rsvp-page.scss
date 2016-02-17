@@ -1,0 +1,39 @@
+.rsvp-view {
+  background-color: $white;
+  opacity: .95;
+  padding: 20px;
+
+  .rsvp-gallery {
+    @include container(940px);
+
+  }
+  .rsvp-gallery-item {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    display: inline-flex;
+  }
+  .rsvp-gallery-item-title{
+    height: 50px
+  }
+  .rsvp-gallery-image {
+    cursor: pointer;
+    background-color: #0b97c4;
+    height: 100px;
+    width: 200px;
+    border: solid;
+    img{
+      height: 100px;
+      width: 200px;
+    }
+  }
+  .top-button{
+    cursor: pointer;
+    display: block;
+    padding-bottom: 11px;
+  }
+  .rsvp-gallery-description {
+
+  }
+
+}
