@@ -12,6 +12,7 @@
     LoginController.$inject = ['$log','$scope','$state','DBServices'];
     function LoginController($log, $scope, $state, DBServices) {
         var login = this;
+        login.error = "";
         var checkRedirect = function (response){
             if(response.data.success){
                 console.log("redirect to ui");
@@ -21,6 +22,7 @@
             else{
                 console.log(response);
                 console.log("did not redirect");
+                login.error = response.data.message;
             }
 
         };

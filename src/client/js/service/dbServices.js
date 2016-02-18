@@ -20,7 +20,6 @@
                 });
         }
         function addEvent(stuff){
-            //console.log(stuff);
             return $http.post("api/list",stuff);
 
         }
@@ -35,9 +34,7 @@
         function authenticate(){
             return $http.post("api/authenticate", token)
                 .then(function (response){
-                    console.log("success");
                 },function (response){
-                    console.log("failure");
                     $state.go('login');
                 });
         }

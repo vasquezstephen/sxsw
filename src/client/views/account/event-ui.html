@@ -8,23 +8,25 @@
                                                        ng-model="event.description"></div>
             
             <div class="form-input"> Date:<br><input type="text" required
+                                                     ng-pattern="/^March \d{2}, 2016$/"
                                                      ng-focus="ui.dateFormat= 'March ##, 2016'"
                                                      ng-blur="ui.dateFormat= ''" placeholder="Date"
                                                      ng-model="event.date">{{ui.dateFormat}}</div>
             
             <div class="form-input">Date Added:<br><input type="text" required
-                                                          ng-focus="ui.addedFormat= '#/##/16'"
+                                                          ng-pattern="/^\d{4}-\d{1,2}-\d{1,2}$/"
+                                                          ng-focus="ui.addedFormat= 'YYYY-MM-DD'"
                                                           ng-blur="ui.addedFormat= ''" placeholder="Date Added"
-                                                          ng-model="event.dateAdded">{{ui.adddedFormat}}
+                                                          ng-model="event.dateAdded">{{ui.addedFormat}}
             </div>
             
-            <div class="form-input">Image:<br><input type="text" required
+            <div class="form-input">Image:<br><input type="text"
                                                      ng-focus="ui.imageFormat= 'images/screens/<imagetitle>.png'"
                                                      ng-blur="ui.imageFormat= ''" placeholder="Image"
                                                      ng-model="event.image">{{ui.imageFormat}}</div>
             
             <div class="form-input">Link:<br><input type="text" required placeholder="Link" ng-model="event.link"></div>
-            <button type="submit">Submit</button>
+            <button type="submit" ng-disabled="eventForm.$invalid">Submit</button>
                 <div class="form-image" ng-show="eventForm.$invalid">
                     <img src="/images/xmark.png"></div>
                 <div class="form-image" ng-show="eventForm.$valid">

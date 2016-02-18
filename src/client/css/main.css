@@ -147,3 +147,5 @@ html {
   background-color: #FFF;
   opacity: .95;
   padding: 20px; }
+  .login-view .error-message {
+    color: red; }

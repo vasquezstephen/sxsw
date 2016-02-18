@@ -1,6 +1,7 @@
 
 <div class="rsvp-view">
 <div class="header-style1"> R&middot;S&middot;V&middot;P&middot; Links</div>
+    <div class="header-style2">Events by Date</div>
     <div class="header-style2">
         <a ng-click="rsvp.scrollTo(10)">March 10</a> &middot;
         <a ng-click="rsvp.scrollTo(11)">March 11</a> &middot;
@@ -15,7 +16,23 @@
         <a ng-click="rsvp.scrollTo(20)">March 20</a>
     </div>
     <div class="header-style1">Recently Added</div>
+    <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | orderBy: '-dateAdded' | limitTo: 8">
+        <div class="rsvp-gallery-item-container">
+            <div class="rsvp-gallery-item-title">{{item.title}}</div>
+            <a href="{{item.link}}">
+                <div class="rsvp-gallery-image">
 
+                    <img  src="{{item.image}}">
+
+
+                </div>
+            </a>
+            <div class="rsvp-gallery-description">
+                <!--<p>{{item.description}}</p>-->
+                <p>{{item.description}}</p>
+            </div>
+        </div>
+    </div>
     <div class="rsvp-gallery">
         <div id="10" class="header-style1">March 10</div>
         <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | filter: {date : 'March 10, 2016'}">
