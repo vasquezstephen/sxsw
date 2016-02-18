@@ -6,6 +6,13 @@ var sass		= require('gulp-sass');
 var config 		= require("./gulp.config")();
 var reload		= browserSync.stream;
 
+gulp.task('serveprod', function() {
+	connect.server({
+		root: ['src'],
+		port: process.env.PORT || 5000, // localhost:5000
+		livereload: false
+	});
+});
 // Compile Our Sass
 gulp.task('sass', function() {
 	return gulp.src(['src/client/**/*.scss', '!src/client/js/default/**'])

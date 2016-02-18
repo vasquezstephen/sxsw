@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3c165ac3-7d57-42ff-90c1-011aac772e93" name="cheatsheatatx" url="http://www.cheatsheetatx.com">
+        <fileTransfer host="ftp.cheatsheetatx.com" port="21" rootFolder="/home/steviedoes/public_html" password="dff9dfdedfcfdfdcdfcfdfd8dfcbdf92" username="steviedoes">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
