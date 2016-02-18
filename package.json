@@ -33,7 +33,6 @@
     "gulp-clean": "^0.3.1"
   },
   "dependencies": {
-    "assemble": "git://github.com/assemble/assemble#v0.6.0",
     "body-parser": "^1.15.0",
     "express": "^4.11.2",
     "gulp": "^3.8.10",
