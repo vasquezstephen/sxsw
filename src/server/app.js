@@ -15,6 +15,7 @@ var express 	 	= require('express'),
 var app = express();
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({extended: true}));
+app.set('port', (process.env.PORT || 5000));
 app.use(express.static(path.join(__dirname, '../client')));
 app.set('superSecret', config.secret);
 
@@ -105,7 +106,7 @@ db.on('open', startServer);
 
 function startServer(){
 
-	var server = app.listen(3000, function(){
+	var server = app.listen(app.get('port'), function(){
 		var port = server.address().port;
 		console.log('Listening on port ' + port);
 	});
