@@ -1,2063 +1,1509 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/bin/node',
 1 verbose cli   '/Users/stephenvasquez/.npm-packages/bin/npm',
-1 verbose cli   'install' ]
+1 verbose cli   'update',
+1 verbose cli   '-save' ]
 2 info using npm@3.6.0
 3 info using node@v5.4.1
-4 silly loadCurrentTree Starting
-5 silly install loadCurrentTree
-6 silly install readLocalPackageData
-7 silly install normalizeTree
-8 silly loadCurrentTree Finishing
-9 silly loadIdealTree Starting
-10 silly install loadIdealTree
-11 silly cloneCurrentTree Starting
-12 silly install cloneCurrentTreeToIdealTree
-13 silly cloneCurrentTree Finishing
-14 silly loadShrinkwrap Starting
-15 silly install loadShrinkwrap
-16 silly loadShrinkwrap Finishing
-17 silly loadAllDepsIntoIdealTree Starting
-18 silly install loadAllDepsIntoIdealTree
-19 silly fetchNamedPackageData express
-20 silly mapToRegistry name express
+4 silly mapToRegistry name body-parser
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+8 silly mapToRegistry name browser-sync
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+12 silly mapToRegistry name gulp
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/gulp
+16 silly mapToRegistry name gulp-concat
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+20 silly mapToRegistry name gulp-jshint
 21 silly mapToRegistry using default registry
 22 silly mapToRegistry registry https://registry.npmjs.org/
-23 silly mapToRegistry uri https://registry.npmjs.org/express
-24 silly fetchNamedPackageData mongoose
-25 silly mapToRegistry name mongoose
-26 silly mapToRegistry using default registry
-27 silly mapToRegistry registry https://registry.npmjs.org/
-28 silly mapToRegistry uri https://registry.npmjs.org/mongoose
-29 silly fetchNamedPackageData gulp-autoprefixer
-30 silly mapToRegistry name gulp-autoprefixer
-31 silly mapToRegistry using default registry
-32 silly mapToRegistry registry https://registry.npmjs.org/
-33 silly mapToRegistry uri https://registry.npmjs.org/gulp-autoprefixer
-34 silly fetchNamedPackageData gulp-connect
-35 silly mapToRegistry name gulp-connect
-36 silly mapToRegistry using default registry
-37 silly mapToRegistry registry https://registry.npmjs.org/
-38 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
-39 silly fetchNamedPackageData gulp-extname
-40 silly mapToRegistry name gulp-extname
+23 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+24 silly mapToRegistry name gulp-rename
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+28 silly mapToRegistry name gulp-sass
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+32 silly mapToRegistry name gulp-uglify
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+36 silly mapToRegistry name gulp-util
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+40 silly mapToRegistry name jshint
 41 silly mapToRegistry using default registry
 42 silly mapToRegistry registry https://registry.npmjs.org/
-43 silly mapToRegistry uri https://registry.npmjs.org/gulp-extname
-44 silly fetchNamedPackageData gulp-load-plugins
-45 silly mapToRegistry name gulp-load-plugins
-46 silly mapToRegistry using default registry
-47 silly mapToRegistry registry https://registry.npmjs.org/
-48 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
-49 silly fetchNamedPackageData gulp-minify-html
-50 silly mapToRegistry name gulp-minify-html
-51 silly mapToRegistry using default registry
-52 silly mapToRegistry registry https://registry.npmjs.org/
-53 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
-54 silly fetchNamedPackageData gulp-rev
-55 silly mapToRegistry name gulp-rev
-56 silly mapToRegistry using default registry
-57 silly mapToRegistry registry https://registry.npmjs.org/
-58 silly mapToRegistry uri https://registry.npmjs.org/gulp-rev
-59 silly fetchNamedPackageData gulp-sass
-60 silly mapToRegistry name gulp-sass
+43 silly mapToRegistry uri https://registry.npmjs.org/jshint
+44 silly mapToRegistry name jsonwebtoken
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+48 silly mapToRegistry name kerberos
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/kerberos
+52 silly mapToRegistry name ms
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/ms
+56 silly mapToRegistry name nodemon
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/nodemon
+60 silly mapToRegistry name path
 61 silly mapToRegistry using default registry
 62 silly mapToRegistry registry https://registry.npmjs.org/
-63 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
-64 silly fetchNamedPackageData gulp-template
-65 silly mapToRegistry name gulp-template
-66 silly mapToRegistry using default registry
-67 silly mapToRegistry registry https://registry.npmjs.org/
-68 silly mapToRegistry uri https://registry.npmjs.org/gulp-template
-69 silly fetchNamedPackageData gulp-usemin
-70 silly mapToRegistry name gulp-usemin
-71 silly mapToRegistry using default registry
-72 silly mapToRegistry registry https://registry.npmjs.org/
-73 silly mapToRegistry uri https://registry.npmjs.org/gulp-usemin
-74 silly fetchNamedPackageData lodash
-75 silly mapToRegistry name lodash
-76 silly mapToRegistry using default registry
-77 silly mapToRegistry registry https://registry.npmjs.org/
-78 silly mapToRegistry uri https://registry.npmjs.org/lodash
-79 silly fetchNamedPackageData marked
-80 silly mapToRegistry name marked
+63 silly mapToRegistry uri https://registry.npmjs.org/path
+64 silly mapToRegistry name sha1
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/sha1
+68 silly mapToRegistry name express
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/express
+72 silly mapToRegistry name gulp-autoprefixer
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/gulp-autoprefixer
+76 silly mapToRegistry name gulp-connect
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+80 silly mapToRegistry name gulp-extname
 81 silly mapToRegistry using default registry
 82 silly mapToRegistry registry https://registry.npmjs.org/
-83 silly mapToRegistry uri https://registry.npmjs.org/marked
-84 silly fetchOtherPackageData assemble@git://github.com/assemble/assemble.git#v0.6.0
-85 silly cache add args [ 'assemble@git://github.com/assemble/assemble.git#v0.6.0',
-85 silly cache add   null ]
-86 verbose cache add spec assemble@git://github.com/assemble/assemble.git#v0.6.0
-87 verbose request uri https://registry.npmjs.org/gulp-connect
-88 verbose request no auth needed
-89 info attempt registry request try #1 at 2:09:11 AM
-90 verbose request id 993437e0595eb129
-91 http request GET https://registry.npmjs.org/gulp-connect
-92 verbose request uri https://registry.npmjs.org/gulp-autoprefixer
-93 verbose request no auth needed
-94 info attempt registry request try #1 at 2:09:11 AM
-95 http request GET https://registry.npmjs.org/gulp-autoprefixer
-96 verbose request uri https://registry.npmjs.org/gulp-extname
-97 verbose request no auth needed
-98 info attempt registry request try #1 at 2:09:11 AM
-99 http request GET https://registry.npmjs.org/gulp-extname
-100 verbose request uri https://registry.npmjs.org/gulp-minify-html
-101 verbose request no auth needed
-102 info attempt registry request try #1 at 2:09:11 AM
-103 http request GET https://registry.npmjs.org/gulp-minify-html
-104 verbose request uri https://registry.npmjs.org/gulp-rev
-105 verbose request no auth needed
-106 info attempt registry request try #1 at 2:09:11 AM
-107 http request GET https://registry.npmjs.org/gulp-rev
-108 verbose request uri https://registry.npmjs.org/gulp-template
-109 verbose request no auth needed
-110 info attempt registry request try #1 at 2:09:11 AM
-111 http request GET https://registry.npmjs.org/gulp-template
-112 verbose request uri https://registry.npmjs.org/gulp-usemin
-113 verbose request no auth needed
-114 info attempt registry request try #1 at 2:09:11 AM
-115 http request GET https://registry.npmjs.org/gulp-usemin
-116 verbose request uri https://registry.npmjs.org/marked
-117 verbose request no auth needed
-118 info attempt registry request try #1 at 2:09:11 AM
-119 http request GET https://registry.npmjs.org/marked
-120 silly cache add parsed spec Result {
-120 silly cache add   raw: 'assemble@git://github.com/assemble/assemble.git#v0.6.0',
-120 silly cache add   scope: null,
-120 silly cache add   name: 'assemble',
-120 silly cache add   rawSpec: 'git://github.com/assemble/assemble.git#v0.6.0',
-120 silly cache add   spec: 'git://github.com/assemble/assemble.git#v0.6.0',
-120 silly cache add   type: 'hosted',
-120 silly cache add   hosted:
-120 silly cache add    { type: 'github',
-120 silly cache add      ssh: 'git@github.com:assemble/assemble.git#v0.6.0',
-120 silly cache add      sshUrl: 'git+ssh://git@github.com/assemble/assemble.git#v0.6.0',
-120 silly cache add      httpsUrl: 'git+https://github.com/assemble/assemble.git#v0.6.0',
-120 silly cache add      gitUrl: 'git://github.com/assemble/assemble.git#v0.6.0',
-120 silly cache add      shortcut: 'github:assemble/assemble#v0.6.0',
-120 silly cache add      directUrl: 'https://raw.githubusercontent.com/assemble/assemble/v0.6.0/package.json' } }
-121 verbose addRemoteGit caching git://github.com/assemble/assemble.git#v0.6.0
-122 verbose addRemoteGit git://github.com/assemble/assemble.git#v0.6.0 is a repository hosted by github
-123 silly tryClone cloning git://github.com/assemble/assemble.git#v0.6.0 via git://github.com/assemble/assemble.git#v0.6.0
-124 verbose tryClone git-github-com-assemble-assemble-git-v0-6-0-9e8b769b not in flight; caching
-125 verbose correctMkdir /Users/stephenvasquez/.npm/_git-remotes correctMkdir not in flight; initializing
-126 verbose makeDirectory /Users/stephenvasquez/.npm/_git-remotes creation not in flight; initializing
-127 silly makeDirectory /Users/stephenvasquez/.npm/_git-remotes uid: 501 gid: 20
-128 verbose request uri https://registry.npmjs.org/gulp-sass
-129 verbose request no auth needed
-130 info attempt registry request try #1 at 2:09:11 AM
-131 verbose etag "881YIXGJ1WXR9REHR8RVFXT69"
-132 http request GET https://registry.npmjs.org/gulp-sass
-133 verbose request uri https://registry.npmjs.org/gulp-load-plugins
-134 verbose request no auth needed
-135 info attempt registry request try #1 at 2:09:11 AM
-136 verbose etag "EN0OR22W8P0BM22EPTF31HSK9"
-137 http request GET https://registry.npmjs.org/gulp-load-plugins
-138 verbose request uri https://registry.npmjs.org/mongoose
-139 verbose request no auth needed
-140 info attempt registry request try #1 at 2:09:11 AM
-141 verbose etag "3Y0E94HUPKDITB01KD1A5GJZB"
-142 http request GET https://registry.npmjs.org/mongoose
-143 verbose request uri https://registry.npmjs.org/express
-144 verbose request no auth needed
-145 info attempt registry request try #1 at 2:09:11 AM
-146 verbose etag "8QQT9QRN8CZIE5CTKCQSED6VB"
-147 http request GET https://registry.npmjs.org/express
-148 verbose request uri https://registry.npmjs.org/lodash
-149 verbose request no auth needed
-150 info attempt registry request try #1 at 2:09:11 AM
-151 verbose etag "5QXCJJO375B1ITNJQLM4D0T3S"
-152 http request GET https://registry.npmjs.org/lodash
-153 info git [ 'clone',
-153 info git   '--template=/Users/stephenvasquez/.npm/_git-remotes/_templates',
-153 info git   '--mirror',
-153 info git   'git://github.com/assemble/assemble.git',
-153 info git   '/Users/stephenvasquez/.npm/_git-remotes/git-github-com-assemble-assemble-git-v0-6-0-9e8b769b' ]
-154 http 200 https://registry.npmjs.org/gulp-minify-html
-155 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-155 verbose headers   etag: '"4WT2HBQTSIVRA16OBJT0ED2IX"',
-155 verbose headers   'content-type': 'application/json',
-155 verbose headers   'cache-control': 'max-age=300',
-155 verbose headers   'content-length': '23160',
-155 verbose headers   'accept-ranges': 'bytes',
-155 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-155 verbose headers   via: '1.1 varnish',
-155 verbose headers   age: '133',
-155 verbose headers   connection: 'keep-alive',
-155 verbose headers   'x-served-by': 'cache-dfw1821-DFW',
-155 verbose headers   'x-cache': 'HIT',
-155 verbose headers   'x-cache-hits': '1',
-155 verbose headers   'x-timer': 'S1455782951.233842,VS0,VE0',
-155 verbose headers   vary: 'Accept' }
-156 silly get cb [ 200,
-156 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-156 silly get     etag: '"4WT2HBQTSIVRA16OBJT0ED2IX"',
-156 silly get     'content-type': 'application/json',
-156 silly get     'cache-control': 'max-age=300',
-156 silly get     'content-length': '23160',
-156 silly get     'accept-ranges': 'bytes',
-156 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-156 silly get     via: '1.1 varnish',
-156 silly get     age: '133',
-156 silly get     connection: 'keep-alive',
-156 silly get     'x-served-by': 'cache-dfw1821-DFW',
-156 silly get     'x-cache': 'HIT',
-156 silly get     'x-cache-hits': '1',
-156 silly get     'x-timer': 'S1455782951.233842,VS0,VE0',
-156 silly get     vary: 'Accept' } ]
-157 verbose get saving gulp-minify-html to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-minify-html/.cache.json
-158 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-159 silly resolveWithNewModule gulp-minify-html@0.1.8 checking installable status
-160 silly cache add args [ 'gulp-minify-html@^0.1.8', null ]
-161 verbose cache add spec gulp-minify-html@^0.1.8
-162 silly cache add parsed spec Result {
-162 silly cache add   raw: 'gulp-minify-html@^0.1.8',
-162 silly cache add   scope: null,
-162 silly cache add   name: 'gulp-minify-html',
-162 silly cache add   rawSpec: '^0.1.8',
-162 silly cache add   spec: '>=0.1.8 <0.2.0',
-162 silly cache add   type: 'range' }
-163 silly addNamed gulp-minify-html@>=0.1.8 <0.2.0
-164 verbose addNamed ">=0.1.8 <0.2.0" is a valid semver range for gulp-minify-html
-165 silly addNameRange { name: 'gulp-minify-html',
-165 silly addNameRange   range: '>=0.1.8 <0.2.0',
-165 silly addNameRange   hasData: false }
-166 silly mapToRegistry name gulp-minify-html
-167 silly mapToRegistry using default registry
-168 silly mapToRegistry registry https://registry.npmjs.org/
-169 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
-170 verbose addNameRange registry:https://registry.npmjs.org/gulp-minify-html not in flight; fetching
-171 verbose get https://registry.npmjs.org/gulp-minify-html not expired, no request
-172 silly addNameRange number 2 { name: 'gulp-minify-html',
-172 silly addNameRange   range: '>=0.1.8 <0.2.0',
-172 silly addNameRange   hasData: true }
-173 silly addNameRange versions [ 'gulp-minify-html',
-173 silly addNameRange   [ '0.0.1',
-173 silly addNameRange     '0.1.0',
-173 silly addNameRange     '0.1.1',
-173 silly addNameRange     '0.1.2',
-173 silly addNameRange     '0.1.3',
-173 silly addNameRange     '0.1.4',
-173 silly addNameRange     '0.1.5',
-173 silly addNameRange     '0.1.6',
-173 silly addNameRange     '0.1.7',
-173 silly addNameRange     '0.1.8',
-173 silly addNameRange     '1.0.0',
-173 silly addNameRange     '1.0.1',
-173 silly addNameRange     '1.0.2',
-173 silly addNameRange     '1.0.3',
-173 silly addNameRange     '1.0.4',
-173 silly addNameRange     '1.0.5' ] ]
-174 silly addNamed gulp-minify-html@0.1.8
-175 verbose addNamed "0.1.8" is a plain semver version for gulp-minify-html
-176 warn deprecated gulp-minify-html@0.1.8: Consider using gulp-htmlmin instead
-177 http 200 https://registry.npmjs.org/marked
-178 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-178 verbose headers   etag: '"B7H9TY6FW8WW00PPD6I6HNMC9"',
-178 verbose headers   'content-type': 'application/json',
-178 verbose headers   'cache-control': 'max-age=300',
-178 verbose headers   'content-length': '47595',
-178 verbose headers   'accept-ranges': 'bytes',
-178 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-178 verbose headers   via: '1.1 varnish',
-178 verbose headers   age: '41',
-178 verbose headers   connection: 'keep-alive',
-178 verbose headers   'x-served-by': 'cache-dfw1831-DFW',
-178 verbose headers   'x-cache': 'HIT',
-178 verbose headers   'x-cache-hits': '1',
-178 verbose headers   'x-timer': 'S1455782951.237655,VS0,VE0',
-178 verbose headers   vary: 'Accept' }
-179 silly get cb [ 200,
-179 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-179 silly get     etag: '"B7H9TY6FW8WW00PPD6I6HNMC9"',
-179 silly get     'content-type': 'application/json',
-179 silly get     'cache-control': 'max-age=300',
-179 silly get     'content-length': '47595',
-179 silly get     'accept-ranges': 'bytes',
-179 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-179 silly get     via: '1.1 varnish',
-179 silly get     age: '41',
-179 silly get     connection: 'keep-alive',
-179 silly get     'x-served-by': 'cache-dfw1831-DFW',
-179 silly get     'x-cache': 'HIT',
-179 silly get     'x-cache-hits': '1',
-179 silly get     'x-timer': 'S1455782951.237655,VS0,VE0',
-179 silly get     vary: 'Accept' } ]
-180 verbose get saving marked to /Users/stephenvasquez/.npm/registry.npmjs.org/marked/.cache.json
-181 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-182 http 200 https://registry.npmjs.org/gulp-load-plugins
-183 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-183 verbose headers   etag: '"DTE3HM054X2LI6NTA2GF37Z1R"',
-183 verbose headers   'content-type': 'application/json',
-183 verbose headers   'cache-control': 'max-age=300',
-183 verbose headers   'content-length': '36941',
-183 verbose headers   'accept-ranges': 'bytes',
-183 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-183 verbose headers   via: '1.1 varnish',
-183 verbose headers   age: '239',
-183 verbose headers   connection: 'keep-alive',
-183 verbose headers   'x-served-by': 'cache-dfw1828-DFW',
-183 verbose headers   'x-cache': 'HIT',
-183 verbose headers   'x-cache-hits': '1',
-183 verbose headers   'x-timer': 'S1455782951.262803,VS0,VE0',
-183 verbose headers   vary: 'Accept' }
-184 silly get cb [ 200,
-184 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-184 silly get     etag: '"DTE3HM054X2LI6NTA2GF37Z1R"',
-184 silly get     'content-type': 'application/json',
-184 silly get     'cache-control': 'max-age=300',
-184 silly get     'content-length': '36941',
-184 silly get     'accept-ranges': 'bytes',
-184 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-184 silly get     via: '1.1 varnish',
-184 silly get     age: '239',
-184 silly get     connection: 'keep-alive',
-184 silly get     'x-served-by': 'cache-dfw1828-DFW',
-184 silly get     'x-cache': 'HIT',
-184 silly get     'x-cache-hits': '1',
-184 silly get     'x-timer': 'S1455782951.262803,VS0,VE0',
-184 silly get     vary: 'Accept' } ]
-185 verbose get saving gulp-load-plugins to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-load-plugins/.cache.json
-186 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-187 silly mapToRegistry name gulp-minify-html
-188 silly mapToRegistry using default registry
-189 silly mapToRegistry registry https://registry.npmjs.org/
-190 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
-191 verbose addRemoteTarball https://registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-0.1.8.tgz not in flight; adding
-192 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-0.1.8.tgz',
-192 verbose addRemoteTarball   '642a41bf9d0ea10daef8eae5e9e4d4e6dc95fb4c' ]
-193 info retry fetch attempt 1 at 2:09:12 AM
-194 info attempt registry request try #1 at 2:09:12 AM
-195 http fetch GET https://registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-0.1.8.tgz
-196 silly resolveWithNewModule gulp-load-plugins@0.7.1 checking installable status
-197 silly cache add args [ 'gulp-load-plugins@^0.7.0', null ]
-198 verbose cache add spec gulp-load-plugins@^0.7.0
-199 silly cache add parsed spec Result {
-199 silly cache add   raw: 'gulp-load-plugins@^0.7.0',
-199 silly cache add   scope: null,
-199 silly cache add   name: 'gulp-load-plugins',
-199 silly cache add   rawSpec: '^0.7.0',
-199 silly cache add   spec: '>=0.7.0 <0.8.0',
-199 silly cache add   type: 'range' }
-200 silly addNamed gulp-load-plugins@>=0.7.0 <0.8.0
-201 verbose addNamed ">=0.7.0 <0.8.0" is a valid semver range for gulp-load-plugins
-202 silly addNameRange { name: 'gulp-load-plugins',
-202 silly addNameRange   range: '>=0.7.0 <0.8.0',
-202 silly addNameRange   hasData: false }
-203 silly mapToRegistry name gulp-load-plugins
-204 silly mapToRegistry using default registry
-205 silly mapToRegistry registry https://registry.npmjs.org/
-206 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
-207 verbose addNameRange registry:https://registry.npmjs.org/gulp-load-plugins not in flight; fetching
-208 silly resolveWithNewModule marked@0.3.5 checking installable status
-209 silly cache add args [ 'marked@^0.3.2', null ]
-210 verbose cache add spec marked@^0.3.2
-211 silly cache add parsed spec Result {
-211 silly cache add   raw: 'marked@^0.3.2',
-211 silly cache add   scope: null,
-211 silly cache add   name: 'marked',
-211 silly cache add   rawSpec: '^0.3.2',
-211 silly cache add   spec: '>=0.3.2 <0.4.0',
-211 silly cache add   type: 'range' }
-212 silly addNamed marked@>=0.3.2 <0.4.0
-213 verbose addNamed ">=0.3.2 <0.4.0" is a valid semver range for marked
-214 silly addNameRange { name: 'marked', range: '>=0.3.2 <0.4.0', hasData: false }
-215 silly mapToRegistry name marked
-216 silly mapToRegistry using default registry
-217 silly mapToRegistry registry https://registry.npmjs.org/
-218 silly mapToRegistry uri https://registry.npmjs.org/marked
-219 verbose addNameRange registry:https://registry.npmjs.org/marked not in flight; fetching
-220 verbose get https://registry.npmjs.org/gulp-load-plugins not expired, no request
-221 silly addNameRange number 2 { name: 'gulp-load-plugins',
-221 silly addNameRange   range: '>=0.7.0 <0.8.0',
-221 silly addNameRange   hasData: true }
-222 silly addNameRange versions [ 'gulp-load-plugins',
-222 silly addNameRange   [ '0.2.0',
-222 silly addNameRange     '0.3.0',
-222 silly addNameRange     '0.4.0',
-222 silly addNameRange     '0.5.0',
-222 silly addNameRange     '0.5.1',
-222 silly addNameRange     '0.6.0-beta',
-222 silly addNameRange     '0.5.2',
-222 silly addNameRange     '0.5.3',
-222 silly addNameRange     '0.6.0',
-222 silly addNameRange     '0.7.0',
-222 silly addNameRange     '0.7.1',
-222 silly addNameRange     '0.8.0',
-222 silly addNameRange     '0.8.1',
-222 silly addNameRange     '0.9.0',
-222 silly addNameRange     '0.10.0',
-222 silly addNameRange     '1.0.0-rc.1',
-222 silly addNameRange     '1.0.0',
-222 silly addNameRange     '1.1.0',
-222 silly addNameRange     '1.2.0' ] ]
-223 silly addNamed gulp-load-plugins@0.7.1
-224 verbose addNamed "0.7.1" is a plain semver version for gulp-load-plugins
-225 verbose get https://registry.npmjs.org/marked not expired, no request
-226 silly addNameRange number 2 { name: 'marked', range: '>=0.3.2 <0.4.0', hasData: true }
-227 silly addNameRange versions [ 'marked',
-227 silly addNameRange   [ '0.0.1',
-227 silly addNameRange     '0.0.2',
-227 silly addNameRange     '0.0.3',
-227 silly addNameRange     '0.0.4',
-227 silly addNameRange     '0.0.5',
-227 silly addNameRange     '0.0.6',
-227 silly addNameRange     '0.0.7',
-227 silly addNameRange     '0.0.8',
-227 silly addNameRange     '0.0.9',
-227 silly addNameRange     '0.1.0',
-227 silly addNameRange     '0.1.1',
-227 silly addNameRange     '0.1.2',
-227 silly addNameRange     '0.1.3',
-227 silly addNameRange     '0.1.4',
-227 silly addNameRange     '0.1.5',
-227 silly addNameRange     '0.1.6',
-227 silly addNameRange     '0.1.7',
-227 silly addNameRange     '0.1.8',
-227 silly addNameRange     '0.1.9',
-227 silly addNameRange     '0.2.0',
-227 silly addNameRange     '0.2.1',
-227 silly addNameRange     '0.2.2',
-227 silly addNameRange     '0.2.2-1',
-227 silly addNameRange     '0.2.3',
-227 silly addNameRange     '0.2.4',
-227 silly addNameRange     '0.2.4-1',
-227 silly addNameRange     '0.2.5',
-227 silly addNameRange     '0.2.6',
-227 silly addNameRange     '0.2.7',
-227 silly addNameRange     '0.2.8',
-227 silly addNameRange     '0.2.9',
-227 silly addNameRange     '0.2.10',
-227 silly addNameRange     '0.3.0',
-227 silly addNameRange     '0.3.1',
-227 silly addNameRange     '0.3.2',
-227 silly addNameRange     '0.3.3',
-227 silly addNameRange     '0.3.4',
-227 silly addNameRange     '0.3.5' ] ]
-228 silly addNamed marked@0.3.5
-229 verbose addNamed "0.3.5" is a plain semver version for marked
-230 silly mapToRegistry name gulp-load-plugins
-231 silly mapToRegistry using default registry
-232 silly mapToRegistry registry https://registry.npmjs.org/
-233 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
-234 verbose addRemoteTarball https://registry.npmjs.org/gulp-load-plugins/-/gulp-load-plugins-0.7.1.tgz not in flight; adding
-235 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-load-plugins/-/gulp-load-plugins-0.7.1.tgz',
-235 verbose addRemoteTarball   '42aef1ef8f4c1ccba864fe28948be7adef6e661e' ]
-236 silly mapToRegistry name marked
-237 silly mapToRegistry using default registry
-238 silly mapToRegistry registry https://registry.npmjs.org/
-239 silly mapToRegistry uri https://registry.npmjs.org/marked
-240 verbose addRemoteTarball https://registry.npmjs.org/marked/-/marked-0.3.5.tgz not in flight; adding
-241 verbose addRemoteTarball [ 'https://registry.npmjs.org/marked/-/marked-0.3.5.tgz',
-241 verbose addRemoteTarball   '4113a15ac5d7bca158a5aae07224587b9fa15b94' ]
-242 info retry fetch attempt 1 at 2:09:12 AM
-243 info attempt registry request try #1 at 2:09:12 AM
-244 http fetch GET https://registry.npmjs.org/gulp-load-plugins/-/gulp-load-plugins-0.7.1.tgz
-245 info retry fetch attempt 1 at 2:09:12 AM
-246 info attempt registry request try #1 at 2:09:12 AM
-247 http fetch GET https://registry.npmjs.org/marked/-/marked-0.3.5.tgz
-248 http 200 https://registry.npmjs.org/gulp-sass
-249 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-249 verbose headers   etag: '"12HA99Y5H4JZ9L4DRXZPPE35T"',
-249 verbose headers   'content-type': 'application/json',
-249 verbose headers   'cache-control': 'max-age=300',
-249 verbose headers   'content-length': '48852',
-249 verbose headers   'accept-ranges': 'bytes',
-249 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-249 verbose headers   via: '1.1 varnish',
-249 verbose headers   age: '86',
-249 verbose headers   connection: 'keep-alive',
-249 verbose headers   'x-served-by': 'cache-dfw1826-DFW',
-249 verbose headers   'x-cache': 'HIT',
-249 verbose headers   'x-cache-hits': '1',
-249 verbose headers   'x-timer': 'S1455782951.265434,VS0,VE0',
-249 verbose headers   vary: 'Accept' }
-250 silly get cb [ 200,
-250 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-250 silly get     etag: '"12HA99Y5H4JZ9L4DRXZPPE35T"',
-250 silly get     'content-type': 'application/json',
-250 silly get     'cache-control': 'max-age=300',
-250 silly get     'content-length': '48852',
-250 silly get     'accept-ranges': 'bytes',
-250 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-250 silly get     via: '1.1 varnish',
-250 silly get     age: '86',
-250 silly get     connection: 'keep-alive',
-250 silly get     'x-served-by': 'cache-dfw1826-DFW',
-250 silly get     'x-cache': 'HIT',
-250 silly get     'x-cache-hits': '1',
-250 silly get     'x-timer': 'S1455782951.265434,VS0,VE0',
-250 silly get     vary: 'Accept' } ]
-251 verbose get saving gulp-sass to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-sass/.cache.json
-252 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-253 silly resolveWithNewModule gulp-sass@1.3.3 checking installable status
-254 silly cache add args [ 'gulp-sass@^1.2.2', null ]
-255 verbose cache add spec gulp-sass@^1.2.2
-256 silly cache add parsed spec Result {
-256 silly cache add   raw: 'gulp-sass@^1.2.2',
-256 silly cache add   scope: null,
-256 silly cache add   name: 'gulp-sass',
-256 silly cache add   rawSpec: '^1.2.2',
-256 silly cache add   spec: '>=1.2.2 <2.0.0',
-256 silly cache add   type: 'range' }
-257 silly addNamed gulp-sass@>=1.2.2 <2.0.0
-258 verbose addNamed ">=1.2.2 <2.0.0" is a valid semver range for gulp-sass
-259 silly addNameRange { name: 'gulp-sass', range: '>=1.2.2 <2.0.0', hasData: false }
-260 silly mapToRegistry name gulp-sass
-261 silly mapToRegistry using default registry
-262 silly mapToRegistry registry https://registry.npmjs.org/
-263 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
-264 verbose addNameRange registry:https://registry.npmjs.org/gulp-sass not in flight; fetching
-265 verbose get https://registry.npmjs.org/gulp-sass not expired, no request
-266 silly addNameRange number 2 { name: 'gulp-sass', range: '>=1.2.2 <2.0.0', hasData: true }
-267 silly addNameRange versions [ 'gulp-sass',
-267 silly addNameRange   [ '0.1.0',
-267 silly addNameRange     '0.2.1',
-267 silly addNameRange     '0.2.2',
-267 silly addNameRange     '0.2.3',
-267 silly addNameRange     '0.3.0',
-267 silly addNameRange     '0.4.0',
-267 silly addNameRange     '0.4.1',
-267 silly addNameRange     '0.5.0',
-267 silly addNameRange     '0.5.1',
-267 silly addNameRange     '0.5.2',
-267 silly addNameRange     '0.6.0',
-267 silly addNameRange     '0.7.0',
-267 silly addNameRange     '0.7.1',
-267 silly addNameRange     '0.7.2',
-267 silly addNameRange     '0.7.3',
-267 silly addNameRange     '1.0.0',
-267 silly addNameRange     '1.1.0',
-267 silly addNameRange     '1.2.0',
-267 silly addNameRange     '1.2.1',
-267 silly addNameRange     '1.2.2',
-267 silly addNameRange     '1.2.3',
-267 silly addNameRange     '1.2.4',
-267 silly addNameRange     '1.3.0',
-267 silly addNameRange     '1.3.1',
-267 silly addNameRange     '1.3.2',
-267 silly addNameRange     '1.3.3',
-267 silly addNameRange     '2.0.0-alpha.1',
-267 silly addNameRange     '2.0.0',
-267 silly addNameRange     '2.0.2',
-267 silly addNameRange     '2.0.3',
-267 silly addNameRange     '2.0.4',
-267 silly addNameRange     '2.1.0-beta',
-267 silly addNameRange     '2.1.0',
-267 silly addNameRange     '2.1.1',
-267 silly addNameRange     '2.2.0',
-267 silly addNameRange     '2.3.0-beta.1' ] ]
-268 silly addNamed gulp-sass@1.3.3
-269 verbose addNamed "1.3.3" is a plain semver version for gulp-sass
-270 silly mapToRegistry name gulp-sass
-271 silly mapToRegistry using default registry
-272 silly mapToRegistry registry https://registry.npmjs.org/
-273 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
-274 verbose addRemoteTarball https://registry.npmjs.org/gulp-sass/-/gulp-sass-1.3.3.tgz not in flight; adding
-275 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-1.3.3.tgz',
-275 verbose addRemoteTarball   '66da87646bbfd299988c8ebbe94cefaff50e5662' ]
-276 info retry fetch attempt 1 at 2:09:12 AM
-277 info attempt registry request try #1 at 2:09:12 AM
-278 http fetch GET https://registry.npmjs.org/gulp-sass/-/gulp-sass-1.3.3.tgz
-279 http 200 https://registry.npmjs.org/gulp-connect
-280 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-280 verbose headers   etag: '"YL8F7ZSC8H0QKQIOZM9RIQIR"',
-280 verbose headers   'content-type': 'application/json',
-280 verbose headers   'cache-control': 'max-age=300',
-280 verbose headers   'content-length': '50359',
-280 verbose headers   'accept-ranges': 'bytes',
-280 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-280 verbose headers   via: '1.1 varnish',
-280 verbose headers   age: '0',
-280 verbose headers   connection: 'keep-alive',
-280 verbose headers   'x-served-by': 'cache-dfw1824-DFW',
-280 verbose headers   'x-cache': 'HIT',
-280 verbose headers   'x-cache-hits': '1',
-280 verbose headers   'x-timer': 'S1455782951.232384,VS0,VE54',
-280 verbose headers   vary: 'Accept' }
-281 silly get cb [ 200,
-281 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-281 silly get     etag: '"YL8F7ZSC8H0QKQIOZM9RIQIR"',
-281 silly get     'content-type': 'application/json',
-281 silly get     'cache-control': 'max-age=300',
-281 silly get     'content-length': '50359',
-281 silly get     'accept-ranges': 'bytes',
-281 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-281 silly get     via: '1.1 varnish',
-281 silly get     age: '0',
-281 silly get     connection: 'keep-alive',
-281 silly get     'x-served-by': 'cache-dfw1824-DFW',
-281 silly get     'x-cache': 'HIT',
-281 silly get     'x-cache-hits': '1',
-281 silly get     'x-timer': 'S1455782951.232384,VS0,VE54',
-281 silly get     vary: 'Accept' } ]
-282 verbose get saving gulp-connect to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-connect/.cache.json
-283 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-284 silly resolveWithNewModule gulp-connect@2.3.1 checking installable status
-285 silly cache add args [ 'gulp-connect@^2.0.6', null ]
-286 verbose cache add spec gulp-connect@^2.0.6
-287 silly cache add parsed spec Result {
-287 silly cache add   raw: 'gulp-connect@^2.0.6',
-287 silly cache add   scope: null,
-287 silly cache add   name: 'gulp-connect',
-287 silly cache add   rawSpec: '^2.0.6',
-287 silly cache add   spec: '>=2.0.6 <3.0.0',
-287 silly cache add   type: 'range' }
-288 silly addNamed gulp-connect@>=2.0.6 <3.0.0
-289 verbose addNamed ">=2.0.6 <3.0.0" is a valid semver range for gulp-connect
-290 silly addNameRange { name: 'gulp-connect', range: '>=2.0.6 <3.0.0', hasData: false }
-291 silly mapToRegistry name gulp-connect
-292 silly mapToRegistry using default registry
-293 silly mapToRegistry registry https://registry.npmjs.org/
-294 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
-295 verbose addNameRange registry:https://registry.npmjs.org/gulp-connect not in flight; fetching
-296 verbose get https://registry.npmjs.org/gulp-connect not expired, no request
-297 silly addNameRange number 2 { name: 'gulp-connect', range: '>=2.0.6 <3.0.0', hasData: true }
-298 silly addNameRange versions [ 'gulp-connect',
-298 silly addNameRange   [ '0.0.1',
-298 silly addNameRange     '0.1.1',
-298 silly addNameRange     '0.1.2',
-298 silly addNameRange     '0.1.3',
-298 silly addNameRange     '0.1.4',
-298 silly addNameRange     '0.1.5',
-298 silly addNameRange     '0.1.6',
-298 silly addNameRange     '0.2.0',
-298 silly addNameRange     '0.3.0',
-298 silly addNameRange     '0.3.1',
-298 silly addNameRange     '0.4.0',
-298 silly addNameRange     '0.5.0',
-298 silly addNameRange     '0.6.0',
-298 silly addNameRange     '0.7.0',
-298 silly addNameRange     '0.8.0',
-298 silly addNameRange     '0.9.0',
-298 silly addNameRange     '1.0.0',
-298 silly addNameRange     '1.0.1',
-298 silly addNameRange     '1.0.2',
-298 silly addNameRange     '1.0.3',
-298 silly addNameRange     '1.0.4',
-298 silly addNameRange     '1.0.5',
-298 silly addNameRange     '1.0.6',
-298 silly addNameRange     '1.0.7',
-298 silly addNameRange     '1.0.9',
-298 silly addNameRange     '1.0.10',
-298 silly addNameRange     '1.1.0',
-298 silly addNameRange     '1.1.1',
-298 silly addNameRange     '2.0.0',
-298 silly addNameRange     '2.0.1',
-298 silly addNameRange     '2.0.2',
-298 silly addNameRange     '2.0.3',
-298 silly addNameRange     '2.0.4',
-298 silly addNameRange     '2.0.5',
-298 silly addNameRange     '2.0.6',
-298 silly addNameRange     '2.1.0',
-298 silly addNameRange     '2.2.0',
-298 silly addNameRange     '2.3.0',
-298 silly addNameRange     '2.3.1' ] ]
-299 silly addNamed gulp-connect@2.3.1
-300 verbose addNamed "2.3.1" is a plain semver version for gulp-connect
-301 silly mapToRegistry name gulp-connect
-302 silly mapToRegistry using default registry
-303 silly mapToRegistry registry https://registry.npmjs.org/
-304 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
-305 verbose addRemoteTarball https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz not in flight; adding
-306 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz',
-306 verbose addRemoteTarball   '14ae7173328b691252b01fc1930a39cbb24fb33c' ]
-307 info retry fetch attempt 1 at 2:09:12 AM
-308 info attempt registry request try #1 at 2:09:12 AM
-309 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
-310 http 200 https://registry.npmjs.org/lodash
-311 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-311 verbose headers   etag: '"B9PP0PA64C6FJAPH01TBIOZI8"',
-311 verbose headers   'content-type': 'application/json',
-311 verbose headers   'cache-control': 'max-age=300',
-311 verbose headers   'content-length': '118880',
-311 verbose headers   'accept-ranges': 'bytes',
-311 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-311 verbose headers   via: '1.1 varnish',
-311 verbose headers   age: '237',
-311 verbose headers   connection: 'keep-alive',
-311 verbose headers   'x-served-by': 'cache-dfw1824-DFW',
-311 verbose headers   'x-cache': 'HIT',
-311 verbose headers   'x-cache-hits': '10',
-311 verbose headers   'x-timer': 'S1455782951.298421,VS0,VE0',
-311 verbose headers   vary: 'Accept' }
-312 silly get cb [ 200,
-312 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-312 silly get     etag: '"B9PP0PA64C6FJAPH01TBIOZI8"',
-312 silly get     'content-type': 'application/json',
-312 silly get     'cache-control': 'max-age=300',
-312 silly get     'content-length': '118880',
-312 silly get     'accept-ranges': 'bytes',
-312 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-312 silly get     via: '1.1 varnish',
-312 silly get     age: '237',
-312 silly get     connection: 'keep-alive',
-312 silly get     'x-served-by': 'cache-dfw1824-DFW',
-312 silly get     'x-cache': 'HIT',
-312 silly get     'x-cache-hits': '10',
-312 silly get     'x-timer': 'S1455782951.298421,VS0,VE0',
-312 silly get     vary: 'Accept' } ]
-313 verbose get saving lodash to /Users/stephenvasquez/.npm/registry.npmjs.org/lodash/.cache.json
-314 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-315 silly resolveWithNewModule lodash@2.4.2 checking installable status
-316 silly cache add args [ 'lodash@^2.4.1', null ]
-317 verbose cache add spec lodash@^2.4.1
-318 silly cache add parsed spec Result {
-318 silly cache add   raw: 'lodash@^2.4.1',
-318 silly cache add   scope: null,
-318 silly cache add   name: 'lodash',
-318 silly cache add   rawSpec: '^2.4.1',
-318 silly cache add   spec: '>=2.4.1 <3.0.0',
-318 silly cache add   type: 'range' }
-319 silly addNamed lodash@>=2.4.1 <3.0.0
-320 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for lodash
-321 silly addNameRange { name: 'lodash', range: '>=2.4.1 <3.0.0', hasData: false }
-322 silly mapToRegistry name lodash
-323 silly mapToRegistry using default registry
-324 silly mapToRegistry registry https://registry.npmjs.org/
-325 silly mapToRegistry uri https://registry.npmjs.org/lodash
-326 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
-327 verbose get https://registry.npmjs.org/lodash not expired, no request
-328 silly addNameRange number 2 { name: 'lodash', range: '>=2.4.1 <3.0.0', hasData: true }
-329 silly addNameRange versions [ 'lodash',
-329 silly addNameRange   [ '0.1.0',
-329 silly addNameRange     '0.2.0',
-329 silly addNameRange     '0.2.1',
-329 silly addNameRange     '0.2.2',
-329 silly addNameRange     '0.3.0',
-329 silly addNameRange     '0.3.1',
-329 silly addNameRange     '0.3.2',
-329 silly addNameRange     '0.4.0',
-329 silly addNameRange     '0.4.1',
-329 silly addNameRange     '0.4.2',
-329 silly addNameRange     '0.5.0-rc.1',
-329 silly addNameRange     '0.5.0',
-329 silly addNameRange     '0.5.1',
-329 silly addNameRange     '0.5.2',
-329 silly addNameRange     '0.6.0',
-329 silly addNameRange     '0.6.1',
-329 silly addNameRange     '0.7.0',
-329 silly addNameRange     '0.8.0',
-329 silly addNameRange     '0.8.1',
-329 silly addNameRange     '0.8.2',
-329 silly addNameRange     '0.9.0',
-329 silly addNameRange     '0.9.1',
-329 silly addNameRange     '0.9.2',
-329 silly addNameRange     '0.10.0',
-329 silly addNameRange     '1.0.0-rc.1',
-329 silly addNameRange     '1.0.0-rc.2',
-329 silly addNameRange     '1.0.0-rc.3',
-329 silly addNameRange     '1.0.0',
-329 silly addNameRange     '1.0.1',
-329 silly addNameRange     '1.1.0',
-329 silly addNameRange     '1.1.1',
-329 silly addNameRange     '1.2.0',
-329 silly addNameRange     '1.2.1',
-329 silly addNameRange     '1.3.0',
-329 silly addNameRange     '1.3.1',
-329 silly addNameRange     '2.0.0',
-329 silly addNameRange     '2.1.0',
-329 silly addNameRange     '2.2.0',
-329 silly addNameRange     '2.2.1',
-329 silly addNameRange     '2.3.0',
-329 silly addNameRange     '2.4.0',
-329 silly addNameRange     '2.4.1',
-329 silly addNameRange     '3.0.0',
-329 silly addNameRange     '3.0.1',
-329 silly addNameRange     '3.1.0',
-329 silly addNameRange     '3.2.0',
-329 silly addNameRange     '3.3.0',
-329 silly addNameRange     '3.3.1',
-329 silly addNameRange     '3.4.0',
-329 silly addNameRange     '3.5.0',
-329 silly addNameRange     '3.6.0',
-329 silly addNameRange     '1.0.2',
-329 silly addNameRange     '3.7.0',
-329 silly addNameRange     '2.4.2',
-329 silly addNameRange     '3.8.0',
-329 silly addNameRange     '3.9.0',
-329 silly addNameRange     '3.9.1',
-329 silly addNameRange     '3.9.2',
-329 silly addNameRange     '3.9.3',
-329 silly addNameRange     '3.10.0',
-329 silly addNameRange     '3.10.1',
-329 silly addNameRange     '4.0.0',
-329 silly addNameRange     '4.0.1',
-329 silly addNameRange     '4.1.0',
-329 silly addNameRange     '4.2.0',
-329 silly addNameRange     '4.2.1',
-329 silly addNameRange     '4.3.0',
-329 silly addNameRange     '4.4.0',
-329 silly addNameRange     '4.5.0' ] ]
-330 silly addNamed lodash@2.4.2
-331 verbose addNamed "2.4.2" is a plain semver version for lodash
-332 silly cache afterAdd lodash@2.4.2
-333 verbose afterAdd /Users/stephenvasquez/.npm/lodash/2.4.2/package/package.json not in flight; writing
-334 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-335 verbose afterAdd /Users/stephenvasquez/.npm/lodash/2.4.2/package/package.json written
-336 http fetch 200 https://registry.npmjs.org/gulp-load-plugins/-/gulp-load-plugins-0.7.1.tgz
-337 http 200 https://registry.npmjs.org/express
-338 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-338 verbose headers   etag: '"3LXBYX5M7E7OTSL8X3LNTM7RC"',
-338 verbose headers   'content-type': 'application/json',
-338 verbose headers   'cache-control': 'max-age=300',
-338 verbose headers   'content-length': '533676',
-338 verbose headers   'accept-ranges': 'bytes',
-338 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-338 verbose headers   via: '1.1 varnish',
-338 verbose headers   age: '31',
-338 verbose headers   connection: 'keep-alive',
-338 verbose headers   'x-served-by': 'cache-dfw1825-DFW',
-338 verbose headers   'x-cache': 'HIT',
-338 verbose headers   'x-cache-hits': '2',
-338 verbose headers   'x-timer': 'S1455782951.277540,VS0,VE0',
-338 verbose headers   vary: 'Accept' }
-339 silly get cb [ 200,
-339 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-339 silly get     etag: '"3LXBYX5M7E7OTSL8X3LNTM7RC"',
-339 silly get     'content-type': 'application/json',
-339 silly get     'cache-control': 'max-age=300',
-339 silly get     'content-length': '533676',
-339 silly get     'accept-ranges': 'bytes',
-339 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-339 silly get     via: '1.1 varnish',
-339 silly get     age: '31',
-339 silly get     connection: 'keep-alive',
-339 silly get     'x-served-by': 'cache-dfw1825-DFW',
-339 silly get     'x-cache': 'HIT',
-339 silly get     'x-cache-hits': '2',
-339 silly get     'x-timer': 'S1455782951.277540,VS0,VE0',
-339 silly get     vary: 'Accept' } ]
-340 verbose get saving express to /Users/stephenvasquez/.npm/registry.npmjs.org/express/.cache.json
-341 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-342 http 200 https://registry.npmjs.org/mongoose
-343 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-343 verbose headers   etag: '"5689GVIXYUVVMH4R377J591H5"',
-343 verbose headers   'content-type': 'application/json',
-343 verbose headers   'cache-control': 'max-age=300',
-343 verbose headers   'content-length': '432388',
-343 verbose headers   'accept-ranges': 'bytes',
-343 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-343 verbose headers   via: '1.1 varnish',
-343 verbose headers   age: '193',
-343 verbose headers   connection: 'keep-alive',
-343 verbose headers   'x-served-by': 'cache-dfw1830-DFW',
-343 verbose headers   'x-cache': 'HIT',
-343 verbose headers   'x-cache-hits': '1',
-343 verbose headers   'x-timer': 'S1455782951.277498,VS0,VE0',
-343 verbose headers   vary: 'Accept' }
-344 silly get cb [ 200,
-344 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-344 silly get     etag: '"5689GVIXYUVVMH4R377J591H5"',
-344 silly get     'content-type': 'application/json',
-344 silly get     'cache-control': 'max-age=300',
-344 silly get     'content-length': '432388',
-344 silly get     'accept-ranges': 'bytes',
-344 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-344 silly get     via: '1.1 varnish',
-344 silly get     age: '193',
-344 silly get     connection: 'keep-alive',
-344 silly get     'x-served-by': 'cache-dfw1830-DFW',
-344 silly get     'x-cache': 'HIT',
-344 silly get     'x-cache-hits': '1',
-344 silly get     'x-timer': 'S1455782951.277498,VS0,VE0',
-344 silly get     vary: 'Accept' } ]
-345 verbose get saving mongoose to /Users/stephenvasquez/.npm/registry.npmjs.org/mongoose/.cache.json
-346 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-347 http fetch 200 https://registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-0.1.8.tgz
-348 http 200 https://registry.npmjs.org/gulp-autoprefixer
-349 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-349 verbose headers   etag: '"952T9OWVHH3224D47A8N5WGFP"',
-349 verbose headers   'content-type': 'application/json',
-349 verbose headers   'cache-control': 'max-age=300',
-349 verbose headers   'content-length': '31757',
-349 verbose headers   'accept-ranges': 'bytes',
-349 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-349 verbose headers   via: '1.1 varnish',
-349 verbose headers   age: '0',
-349 verbose headers   connection: 'keep-alive',
-349 verbose headers   'x-served-by': 'cache-dfw1829-DFW',
-349 verbose headers   'x-cache': 'HIT',
-349 verbose headers   'x-cache-hits': '1',
-349 verbose headers   'x-timer': 'S1455782951.232536,VS0,VE262',
-349 verbose headers   vary: 'Accept' }
-350 silly get cb [ 200,
-350 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-350 silly get     etag: '"952T9OWVHH3224D47A8N5WGFP"',
-350 silly get     'content-type': 'application/json',
-350 silly get     'cache-control': 'max-age=300',
-350 silly get     'content-length': '31757',
-350 silly get     'accept-ranges': 'bytes',
-350 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-350 silly get     via: '1.1 varnish',
-350 silly get     age: '0',
-350 silly get     connection: 'keep-alive',
-350 silly get     'x-served-by': 'cache-dfw1829-DFW',
-350 silly get     'x-cache': 'HIT',
-350 silly get     'x-cache-hits': '1',
-350 silly get     'x-timer': 'S1455782951.232536,VS0,VE262',
-350 silly get     vary: 'Accept' } ]
-351 verbose get saving gulp-autoprefixer to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-autoprefixer/.cache.json
-352 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-353 http fetch 200 https://registry.npmjs.org/marked/-/marked-0.3.5.tgz
-354 http 200 https://registry.npmjs.org/gulp-rev
-355 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-355 verbose headers   etag: '"1TZ8WZZ8G32UCE5VBXXBWQH5T"',
-355 verbose headers   'content-type': 'application/json',
-355 verbose headers   'cache-control': 'max-age=300',
-355 verbose headers   'content-length': '36429',
-355 verbose headers   'accept-ranges': 'bytes',
-355 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-355 verbose headers   via: '1.1 varnish',
-355 verbose headers   age: '0',
-355 verbose headers   connection: 'keep-alive',
-355 verbose headers   'x-served-by': 'cache-dfw1834-DFW',
-355 verbose headers   'x-cache': 'HIT',
-355 verbose headers   'x-cache-hits': '1',
-355 verbose headers   'x-timer': 'S1455782951.231573,VS0,VE207',
-355 verbose headers   vary: 'Accept' }
-356 silly get cb [ 200,
-356 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-356 silly get     etag: '"1TZ8WZZ8G32UCE5VBXXBWQH5T"',
-356 silly get     'content-type': 'application/json',
-356 silly get     'cache-control': 'max-age=300',
-356 silly get     'content-length': '36429',
-356 silly get     'accept-ranges': 'bytes',
-356 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-356 silly get     via: '1.1 varnish',
-356 silly get     age: '0',
-356 silly get     connection: 'keep-alive',
-356 silly get     'x-served-by': 'cache-dfw1834-DFW',
-356 silly get     'x-cache': 'HIT',
-356 silly get     'x-cache-hits': '1',
-356 silly get     'x-timer': 'S1455782951.231573,VS0,VE207',
-356 silly get     vary: 'Accept' } ]
-357 verbose get saving gulp-rev to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-rev/.cache.json
-358 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-359 http 200 https://registry.npmjs.org/gulp-usemin
-360 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-360 verbose headers   etag: '"48JP6QH3NAH558QT7LED85ENY"',
-360 verbose headers   'content-type': 'application/json',
-360 verbose headers   'cache-control': 'max-age=300',
-360 verbose headers   'content-length': '51454',
-360 verbose headers   'accept-ranges': 'bytes',
-360 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-360 verbose headers   via: '1.1 varnish',
-360 verbose headers   age: '0',
-360 verbose headers   connection: 'keep-alive',
-360 verbose headers   'x-served-by': 'cache-dfw1832-DFW',
-360 verbose headers   'x-cache': 'HIT',
-360 verbose headers   'x-cache-hits': '1',
-360 verbose headers   'x-timer': 'S1455782951.240255,VS0,VE179',
-360 verbose headers   vary: 'Accept' }
-361 silly get cb [ 200,
-361 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-361 silly get     etag: '"48JP6QH3NAH558QT7LED85ENY"',
-361 silly get     'content-type': 'application/json',
-361 silly get     'cache-control': 'max-age=300',
-361 silly get     'content-length': '51454',
-361 silly get     'accept-ranges': 'bytes',
-361 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-361 silly get     via: '1.1 varnish',
-361 silly get     age: '0',
-361 silly get     connection: 'keep-alive',
-361 silly get     'x-served-by': 'cache-dfw1832-DFW',
-361 silly get     'x-cache': 'HIT',
-361 silly get     'x-cache-hits': '1',
-361 silly get     'x-timer': 'S1455782951.240255,VS0,VE179',
-361 silly get     vary: 'Accept' } ]
-362 verbose get saving gulp-usemin to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-usemin/.cache.json
-363 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-364 http 200 https://registry.npmjs.org/gulp-extname
-365 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-365 verbose headers   etag: '"8W8CO0C6X0TIRPVN1UET4JHW4"',
-365 verbose headers   'content-type': 'application/json',
-365 verbose headers   'cache-control': 'max-age=300',
-365 verbose headers   'content-length': '9773',
-365 verbose headers   'accept-ranges': 'bytes',
-365 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-365 verbose headers   via: '1.1 varnish',
-365 verbose headers   age: '0',
-365 verbose headers   connection: 'keep-alive',
-365 verbose headers   'x-served-by': 'cache-dfw1821-DFW',
-365 verbose headers   'x-cache': 'MISS',
-365 verbose headers   'x-cache-hits': '0',
-365 verbose headers   'x-timer': 'S1455782951.234120,VS0,VE287',
-365 verbose headers   vary: 'Accept' }
-366 silly get cb [ 200,
-366 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-366 silly get     etag: '"8W8CO0C6X0TIRPVN1UET4JHW4"',
-366 silly get     'content-type': 'application/json',
-366 silly get     'cache-control': 'max-age=300',
-366 silly get     'content-length': '9773',
-366 silly get     'accept-ranges': 'bytes',
-366 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-366 silly get     via: '1.1 varnish',
-366 silly get     age: '0',
-366 silly get     connection: 'keep-alive',
-366 silly get     'x-served-by': 'cache-dfw1821-DFW',
-366 silly get     'x-cache': 'MISS',
-366 silly get     'x-cache-hits': '0',
-366 silly get     'x-timer': 'S1455782951.234120,VS0,VE287',
-366 silly get     vary: 'Accept' } ]
-367 verbose get saving gulp-extname to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-extname/.cache.json
-368 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-369 http 200 https://registry.npmjs.org/gulp-template
-370 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-370 verbose headers   etag: '"EZVO4KH2LV6TMN407RZWHQBIM"',
-370 verbose headers   'content-type': 'application/json',
-370 verbose headers   'cache-control': 'max-age=300',
-370 verbose headers   'content-length': '17586',
-370 verbose headers   'accept-ranges': 'bytes',
-370 verbose headers   date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-370 verbose headers   via: '1.1 varnish',
-370 verbose headers   age: '0',
-370 verbose headers   connection: 'keep-alive',
-370 verbose headers   'x-served-by': 'cache-dfw1824-DFW',
-370 verbose headers   'x-cache': 'HIT',
-370 verbose headers   'x-cache-hits': '1',
-370 verbose headers   'x-timer': 'S1455782951.238475,VS0,VE209',
-370 verbose headers   vary: 'Accept' }
-371 silly get cb [ 200,
-371 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-371 silly get     etag: '"EZVO4KH2LV6TMN407RZWHQBIM"',
-371 silly get     'content-type': 'application/json',
-371 silly get     'cache-control': 'max-age=300',
-371 silly get     'content-length': '17586',
-371 silly get     'accept-ranges': 'bytes',
-371 silly get     date: 'Thu, 18 Feb 2016 08:09:11 GMT',
-371 silly get     via: '1.1 varnish',
-371 silly get     age: '0',
-371 silly get     connection: 'keep-alive',
-371 silly get     'x-served-by': 'cache-dfw1824-DFW',
-371 silly get     'x-cache': 'HIT',
-371 silly get     'x-cache-hits': '1',
-371 silly get     'x-timer': 'S1455782951.238475,VS0,VE209',
-371 silly get     vary: 'Accept' } ]
-372 verbose get saving gulp-template to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-template/.cache.json
+83 silly mapToRegistry uri https://registry.npmjs.org/gulp-extname
+84 silly mapToRegistry name gulp-load-plugins
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
+88 silly mapToRegistry name gulp-minify-html
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+92 silly mapToRegistry name gulp-rev
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/gulp-rev
+96 silly mapToRegistry name gulp-sass
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+100 silly mapToRegistry name gulp-template
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/gulp-template
+104 silly mapToRegistry name gulp-usemin
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/gulp-usemin
+108 silly mapToRegistry name lodash
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/lodash
+112 silly mapToRegistry name marked
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/marked
+116 silly mapToRegistry name mongoose
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+120 verbose request uri https://registry.npmjs.org/body-parser
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 2:16:19 AM
+123 verbose request id f27ac376796a2524
+124 verbose etag "AVE9JOD91Q3ZGQLDUWUPXJQAO"
+125 http request GET https://registry.npmjs.org/body-parser
+126 verbose request uri https://registry.npmjs.org/gulp-concat
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 2:16:19 AM
+129 verbose etag "CBU18C8RCTTY6HY1U22AN9KT"
+130 http request GET https://registry.npmjs.org/gulp-concat
+131 verbose request uri https://registry.npmjs.org/gulp-rename
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 2:16:19 AM
+134 verbose etag "75098GQLPCGBIVFGCYW2ZBDF4"
+135 http request GET https://registry.npmjs.org/gulp-rename
+136 verbose request uri https://registry.npmjs.org/gulp-jshint
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 2:16:19 AM
+139 verbose etag "886Y74SSK6NKJRA2E02T5BMMK"
+140 http request GET https://registry.npmjs.org/gulp-jshint
+141 verbose request uri https://registry.npmjs.org/gulp
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 2:16:19 AM
+144 verbose etag "9008G24ZHE1VPOX10DXOIOKH4"
+145 http request GET https://registry.npmjs.org/gulp
+146 verbose request uri https://registry.npmjs.org/gulp-uglify
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 2:16:19 AM
+149 verbose etag "9G4RUSXR26YCU6F5EM05NU2UQ"
+150 http request GET https://registry.npmjs.org/gulp-uglify
+151 verbose request uri https://registry.npmjs.org/gulp-sass
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 2:16:19 AM
+154 verbose etag "12HA99Y5H4JZ9L4DRXZPPE35T"
+155 http request GET https://registry.npmjs.org/gulp-sass
+156 verbose request uri https://registry.npmjs.org/gulp-util
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 2:16:19 AM
+159 verbose etag "A0OE0XQN16ME0J1WSUOZWYAGI"
+160 http request GET https://registry.npmjs.org/gulp-util
+161 verbose request uri https://registry.npmjs.org/ms
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 2:16:19 AM
+164 verbose etag "2UZ98MMYFLZX8X4JBFM7FZFW4"
+165 http request GET https://registry.npmjs.org/ms
+166 verbose request uri https://registry.npmjs.org/kerberos
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 2:16:19 AM
+169 verbose etag "CZ5T9RBE7Z587BN5ULUSZY6XP"
+170 http request GET https://registry.npmjs.org/kerberos
+171 verbose request uri https://registry.npmjs.org/jshint
+172 verbose request no auth needed
+173 info attempt registry request try #1 at 2:16:19 AM
+174 verbose etag "82J5YFJG7PBJ8FAII2JJ179C7"
+175 http request GET https://registry.npmjs.org/jshint
+176 verbose request uri https://registry.npmjs.org/path
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 2:16:19 AM
+179 verbose etag "F2VAABR10L4FY4KW2HO6CFL0R"
+180 http request GET https://registry.npmjs.org/path
+181 verbose request uri https://registry.npmjs.org/sha1
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 2:16:19 AM
+184 verbose etag "5FYGHADXYAZGWE7W6DT1G4VOK"
+185 http request GET https://registry.npmjs.org/sha1
+186 verbose request uri https://registry.npmjs.org/browser-sync
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 2:16:19 AM
+189 verbose etag "DK4BTJZYIKJJSWBMTDM8SYE0Y"
+190 http request GET https://registry.npmjs.org/browser-sync
+191 verbose request uri https://registry.npmjs.org/nodemon
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 2:16:19 AM
+194 verbose etag "C0KX0273JPYA7IYNLM2SXJ8VP"
+195 http request GET https://registry.npmjs.org/nodemon
+196 verbose request uri https://registry.npmjs.org/jsonwebtoken
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 2:16:19 AM
+199 verbose etag "QF9P766NFHHKQUCG0KKQAVKZ"
+200 http request GET https://registry.npmjs.org/jsonwebtoken
+201 verbose request uri https://registry.npmjs.org/gulp-extname
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 2:16:19 AM
+204 verbose etag "8W8CO0C6X0TIRPVN1UET4JHW4"
+205 http request GET https://registry.npmjs.org/gulp-extname
+206 verbose request uri https://registry.npmjs.org/gulp-autoprefixer
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 2:16:19 AM
+209 verbose etag "952T9OWVHH3224D47A8N5WGFP"
+210 http request GET https://registry.npmjs.org/gulp-autoprefixer
+211 verbose request uri https://registry.npmjs.org/gulp-load-plugins
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 2:16:19 AM
+214 verbose etag "DTE3HM054X2LI6NTA2GF37Z1R"
+215 http request GET https://registry.npmjs.org/gulp-load-plugins
+216 verbose request uri https://registry.npmjs.org/gulp-connect
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 2:16:19 AM
+219 verbose etag "YL8F7ZSC8H0QKQIOZM9RIQIR"
+220 http request GET https://registry.npmjs.org/gulp-connect
+221 verbose request uri https://registry.npmjs.org/gulp-minify-html
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 2:16:19 AM
+224 verbose etag "4WT2HBQTSIVRA16OBJT0ED2IX"
+225 http request GET https://registry.npmjs.org/gulp-minify-html
+226 verbose request uri https://registry.npmjs.org/express
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 2:16:19 AM
+229 verbose etag "3LXBYX5M7E7OTSL8X3LNTM7RC"
+230 http request GET https://registry.npmjs.org/express
+231 verbose request uri https://registry.npmjs.org/gulp-rev
+232 verbose request no auth needed
+233 info attempt registry request try #1 at 2:16:19 AM
+234 verbose etag "1TZ8WZZ8G32UCE5VBXXBWQH5T"
+235 http request GET https://registry.npmjs.org/gulp-rev
+236 verbose request uri https://registry.npmjs.org/gulp-template
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 2:16:19 AM
+239 verbose etag "EZVO4KH2LV6TMN407RZWHQBIM"
+240 http request GET https://registry.npmjs.org/gulp-template
+241 verbose request uri https://registry.npmjs.org/gulp-usemin
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 2:16:19 AM
+244 verbose etag "48JP6QH3NAH558QT7LED85ENY"
+245 http request GET https://registry.npmjs.org/gulp-usemin
+246 verbose request uri https://registry.npmjs.org/marked
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 2:16:19 AM
+249 verbose etag "B7H9TY6FW8WW00PPD6I6HNMC9"
+250 http request GET https://registry.npmjs.org/marked
+251 verbose request uri https://registry.npmjs.org/gulp-sass
+252 verbose request no auth needed
+253 info attempt registry request try #1 at 2:16:19 AM
+254 verbose etag "12HA99Y5H4JZ9L4DRXZPPE35T"
+255 http request GET https://registry.npmjs.org/gulp-sass
+256 verbose request uri https://registry.npmjs.org/lodash
+257 verbose request no auth needed
+258 info attempt registry request try #1 at 2:16:19 AM
+259 verbose etag "B9PP0PA64C6FJAPH01TBIOZI8"
+260 http request GET https://registry.npmjs.org/lodash
+261 verbose request uri https://registry.npmjs.org/mongoose
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 2:16:19 AM
+264 verbose etag "5689GVIXYUVVMH4R377J591H5"
+265 http request GET https://registry.npmjs.org/mongoose
+266 http 304 https://registry.npmjs.org/gulp-jshint
+267 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+267 verbose headers   via: '1.1 varnish',
+267 verbose headers   'cache-control': 'max-age=300',
+267 verbose headers   etag: '"886Y74SSK6NKJRA2E02T5BMMK"',
+267 verbose headers   age: '259',
+267 verbose headers   connection: 'keep-alive',
+267 verbose headers   'x-served-by': 'cache-dfw1831-DFW',
+267 verbose headers   'x-cache': 'HIT',
+267 verbose headers   'x-cache-hits': '1',
+267 verbose headers   'x-timer': 'S1455783379.485493,VS0,VE0',
+267 verbose headers   vary: 'Accept' }
+268 silly get cb [ 304,
+268 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+268 silly get     via: '1.1 varnish',
+268 silly get     'cache-control': 'max-age=300',
+268 silly get     etag: '"886Y74SSK6NKJRA2E02T5BMMK"',
+268 silly get     age: '259',
+268 silly get     connection: 'keep-alive',
+268 silly get     'x-served-by': 'cache-dfw1831-DFW',
+268 silly get     'x-cache': 'HIT',
+268 silly get     'x-cache-hits': '1',
+268 silly get     'x-timer': 'S1455783379.485493,VS0,VE0',
+268 silly get     vary: 'Accept' } ]
+269 verbose etag https://registry.npmjs.org/gulp-jshint from cache
+270 verbose get saving gulp-jshint to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-jshint/.cache.json
+271 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+272 http 304 https://registry.npmjs.org/gulp-concat
+273 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+273 verbose headers   via: '1.1 varnish',
+273 verbose headers   'cache-control': 'max-age=300',
+273 verbose headers   etag: '"CBU18C8RCTTY6HY1U22AN9KT"',
+273 verbose headers   age: '266',
+273 verbose headers   connection: 'keep-alive',
+273 verbose headers   'x-served-by': 'cache-dfw1823-DFW',
+273 verbose headers   'x-cache': 'HIT',
+273 verbose headers   'x-cache-hits': '111',
+273 verbose headers   'x-timer': 'S1455783379.493148,VS0,VE0',
+273 verbose headers   vary: 'Accept' }
+274 silly get cb [ 304,
+274 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+274 silly get     via: '1.1 varnish',
+274 silly get     'cache-control': 'max-age=300',
+274 silly get     etag: '"CBU18C8RCTTY6HY1U22AN9KT"',
+274 silly get     age: '266',
+274 silly get     connection: 'keep-alive',
+274 silly get     'x-served-by': 'cache-dfw1823-DFW',
+274 silly get     'x-cache': 'HIT',
+274 silly get     'x-cache-hits': '111',
+274 silly get     'x-timer': 'S1455783379.493148,VS0,VE0',
+274 silly get     vary: 'Accept' } ]
+275 verbose etag https://registry.npmjs.org/gulp-concat from cache
+276 verbose get saving gulp-concat to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-concat/.cache.json
+277 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir already in flight; waiting
+278 http 304 https://registry.npmjs.org/gulp-sass
+279 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+279 verbose headers   via: '1.1 varnish',
+279 verbose headers   'cache-control': 'max-age=300',
+279 verbose headers   etag: '"12HA99Y5H4JZ9L4DRXZPPE35T"',
+279 verbose headers   age: '189',
+279 verbose headers   connection: 'keep-alive',
+279 verbose headers   'x-served-by': 'cache-dfw1833-DFW',
+279 verbose headers   'x-cache': 'HIT',
+279 verbose headers   'x-cache-hits': '1',
+279 verbose headers   'x-timer': 'S1455783379.501928,VS0,VE0',
+279 verbose headers   vary: 'Accept' }
+280 silly get cb [ 304,
+280 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+280 silly get     via: '1.1 varnish',
+280 silly get     'cache-control': 'max-age=300',
+280 silly get     etag: '"12HA99Y5H4JZ9L4DRXZPPE35T"',
+280 silly get     age: '189',
+280 silly get     connection: 'keep-alive',
+280 silly get     'x-served-by': 'cache-dfw1833-DFW',
+280 silly get     'x-cache': 'HIT',
+280 silly get     'x-cache-hits': '1',
+280 silly get     'x-timer': 'S1455783379.501928,VS0,VE0',
+280 silly get     vary: 'Accept' } ]
+281 verbose etag https://registry.npmjs.org/gulp-sass from cache
+282 verbose get saving gulp-sass to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-sass/.cache.json
+283 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir already in flight; waiting
+284 http 304 https://registry.npmjs.org/gulp-rename
+285 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+285 verbose headers   via: '1.1 varnish',
+285 verbose headers   'cache-control': 'max-age=300',
+285 verbose headers   etag: '"75098GQLPCGBIVFGCYW2ZBDF4"',
+285 verbose headers   age: '33',
+285 verbose headers   connection: 'keep-alive',
+285 verbose headers   'x-served-by': 'cache-dfw1832-DFW',
+285 verbose headers   'x-cache': 'HIT',
+285 verbose headers   'x-cache-hits': '1',
+285 verbose headers   'x-timer': 'S1455783379.505228,VS0,VE0',
+285 verbose headers   vary: 'Accept' }
+286 silly get cb [ 304,
+286 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+286 silly get     via: '1.1 varnish',
+286 silly get     'cache-control': 'max-age=300',
+286 silly get     etag: '"75098GQLPCGBIVFGCYW2ZBDF4"',
+286 silly get     age: '33',
+286 silly get     connection: 'keep-alive',
+286 silly get     'x-served-by': 'cache-dfw1832-DFW',
+286 silly get     'x-cache': 'HIT',
+286 silly get     'x-cache-hits': '1',
+286 silly get     'x-timer': 'S1455783379.505228,VS0,VE0',
+286 silly get     vary: 'Accept' } ]
+287 verbose etag https://registry.npmjs.org/gulp-rename from cache
+288 verbose get saving gulp-rename to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-rename/.cache.json
+289 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir already in flight; waiting
+290 http 304 https://registry.npmjs.org/gulp-util
+291 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+291 verbose headers   via: '1.1 varnish',
+291 verbose headers   'cache-control': 'max-age=300',
+291 verbose headers   etag: '"A0OE0XQN16ME0J1WSUOZWYAGI"',
+291 verbose headers   age: '15',
+291 verbose headers   connection: 'keep-alive',
+291 verbose headers   'x-served-by': 'cache-dfw1823-DFW',
+291 verbose headers   'x-cache': 'HIT',
+291 verbose headers   'x-cache-hits': '1',
+291 verbose headers   'x-timer': 'S1455783379.504159,VS0,VE0',
+291 verbose headers   vary: 'Accept' }
+292 silly get cb [ 304,
+292 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+292 silly get     via: '1.1 varnish',
+292 silly get     'cache-control': 'max-age=300',
+292 silly get     etag: '"A0OE0XQN16ME0J1WSUOZWYAGI"',
+292 silly get     age: '15',
+292 silly get     connection: 'keep-alive',
+292 silly get     'x-served-by': 'cache-dfw1823-DFW',
+292 silly get     'x-cache': 'HIT',
+292 silly get     'x-cache-hits': '1',
+292 silly get     'x-timer': 'S1455783379.504159,VS0,VE0',
+292 silly get     vary: 'Accept' } ]
+293 verbose etag https://registry.npmjs.org/gulp-util from cache
+294 verbose get saving gulp-util to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-util/.cache.json
+295 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir already in flight; waiting
+296 http 304 https://registry.npmjs.org/gulp-uglify
+297 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+297 verbose headers   via: '1.1 varnish',
+297 verbose headers   'cache-control': 'max-age=300',
+297 verbose headers   etag: '"9G4RUSXR26YCU6F5EM05NU2UQ"',
+297 verbose headers   age: '162',
+297 verbose headers   connection: 'keep-alive',
+297 verbose headers   'x-served-by': 'cache-dfw1834-DFW',
+297 verbose headers   'x-cache': 'HIT',
+297 verbose headers   'x-cache-hits': '1',
+297 verbose headers   'x-timer': 'S1455783379.502380,VS0,VE0',
+297 verbose headers   vary: 'Accept' }
+298 silly get cb [ 304,
+298 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+298 silly get     via: '1.1 varnish',
+298 silly get     'cache-control': 'max-age=300',
+298 silly get     etag: '"9G4RUSXR26YCU6F5EM05NU2UQ"',
+298 silly get     age: '162',
+298 silly get     connection: 'keep-alive',
+298 silly get     'x-served-by': 'cache-dfw1834-DFW',
+298 silly get     'x-cache': 'HIT',
+298 silly get     'x-cache-hits': '1',
+298 silly get     'x-timer': 'S1455783379.502380,VS0,VE0',
+298 silly get     vary: 'Accept' } ]
+299 verbose etag https://registry.npmjs.org/gulp-uglify from cache
+300 verbose get saving gulp-uglify to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-uglify/.cache.json
+301 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir already in flight; waiting
+302 http 304 https://registry.npmjs.org/body-parser
+303 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+303 verbose headers   via: '1.1 varnish',
+303 verbose headers   'cache-control': 'max-age=300',
+303 verbose headers   etag: '"AVE9JOD91Q3ZGQLDUWUPXJQAO"',
+303 verbose headers   age: '64',
+303 verbose headers   connection: 'keep-alive',
+303 verbose headers   'x-served-by': 'cache-dfw1832-DFW',
+303 verbose headers   'x-cache': 'HIT',
+303 verbose headers   'x-cache-hits': '1',
+303 verbose headers   'x-timer': 'S1455783379.507077,VS0,VE0',
+303 verbose headers   vary: 'Accept' }
+304 silly get cb [ 304,
+304 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+304 silly get     via: '1.1 varnish',
+304 silly get     'cache-control': 'max-age=300',
+304 silly get     etag: '"AVE9JOD91Q3ZGQLDUWUPXJQAO"',
+304 silly get     age: '64',
+304 silly get     connection: 'keep-alive',
+304 silly get     'x-served-by': 'cache-dfw1832-DFW',
+304 silly get     'x-cache': 'HIT',
+304 silly get     'x-cache-hits': '1',
+304 silly get     'x-timer': 'S1455783379.507077,VS0,VE0',
+304 silly get     vary: 'Accept' } ]
+305 verbose etag https://registry.npmjs.org/body-parser from cache
+306 verbose get saving body-parser to /Users/stephenvasquez/.npm/registry.npmjs.org/body-parser/.cache.json
+307 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+308 http 304 https://registry.npmjs.org/gulp
+309 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+309 verbose headers   via: '1.1 varnish',
+309 verbose headers   'cache-control': 'max-age=300',
+309 verbose headers   etag: '"9008G24ZHE1VPOX10DXOIOKH4"',
+309 verbose headers   age: '54',
+309 verbose headers   connection: 'keep-alive',
+309 verbose headers   'x-served-by': 'cache-dfw1820-DFW',
+309 verbose headers   'x-cache': 'HIT',
+309 verbose headers   'x-cache-hits': '1',
+309 verbose headers   'x-timer': 'S1455783379.504739,VS0,VE0',
+309 verbose headers   vary: 'Accept' }
+310 silly get cb [ 304,
+310 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+310 silly get     via: '1.1 varnish',
+310 silly get     'cache-control': 'max-age=300',
+310 silly get     etag: '"9008G24ZHE1VPOX10DXOIOKH4"',
+310 silly get     age: '54',
+310 silly get     connection: 'keep-alive',
+310 silly get     'x-served-by': 'cache-dfw1820-DFW',
+310 silly get     'x-cache': 'HIT',
+310 silly get     'x-cache-hits': '1',
+310 silly get     'x-timer': 'S1455783379.504739,VS0,VE0',
+310 silly get     vary: 'Accept' } ]
+311 verbose etag https://registry.npmjs.org/gulp from cache
+312 verbose get saving gulp to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp/.cache.json
+313 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+314 http 304 https://registry.npmjs.org/jshint
+315 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+315 verbose headers   via: '1.1 varnish',
+315 verbose headers   'cache-control': 'max-age=300',
+315 verbose headers   etag: '"82J5YFJG7PBJ8FAII2JJ179C7"',
+315 verbose headers   age: '200',
+315 verbose headers   connection: 'keep-alive',
+315 verbose headers   'x-served-by': 'cache-dfw1820-DFW',
+315 verbose headers   'x-cache': 'HIT',
+315 verbose headers   'x-cache-hits': '2',
+315 verbose headers   'x-timer': 'S1455783379.547579,VS0,VE0',
+315 verbose headers   vary: 'Accept' }
+316 silly get cb [ 304,
+316 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+316 silly get     via: '1.1 varnish',
+316 silly get     'cache-control': 'max-age=300',
+316 silly get     etag: '"82J5YFJG7PBJ8FAII2JJ179C7"',
+316 silly get     age: '200',
+316 silly get     connection: 'keep-alive',
+316 silly get     'x-served-by': 'cache-dfw1820-DFW',
+316 silly get     'x-cache': 'HIT',
+316 silly get     'x-cache-hits': '2',
+316 silly get     'x-timer': 'S1455783379.547579,VS0,VE0',
+316 silly get     vary: 'Accept' } ]
+317 verbose etag https://registry.npmjs.org/jshint from cache
+318 verbose get saving jshint to /Users/stephenvasquez/.npm/registry.npmjs.org/jshint/.cache.json
+319 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+320 http 304 https://registry.npmjs.org/nodemon
+321 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+321 verbose headers   via: '1.1 varnish',
+321 verbose headers   'cache-control': 'max-age=300',
+321 verbose headers   etag: '"C0KX0273JPYA7IYNLM2SXJ8VP"',
+321 verbose headers   age: '33',
+321 verbose headers   connection: 'keep-alive',
+321 verbose headers   'x-served-by': 'cache-dfw1827-DFW',
+321 verbose headers   'x-cache': 'HIT',
+321 verbose headers   'x-cache-hits': '1',
+321 verbose headers   'x-timer': 'S1455783379.549061,VS0,VE0',
+321 verbose headers   vary: 'Accept' }
+322 silly get cb [ 304,
+322 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+322 silly get     via: '1.1 varnish',
+322 silly get     'cache-control': 'max-age=300',
+322 silly get     etag: '"C0KX0273JPYA7IYNLM2SXJ8VP"',
+322 silly get     age: '33',
+322 silly get     connection: 'keep-alive',
+322 silly get     'x-served-by': 'cache-dfw1827-DFW',
+322 silly get     'x-cache': 'HIT',
+322 silly get     'x-cache-hits': '1',
+322 silly get     'x-timer': 'S1455783379.549061,VS0,VE0',
+322 silly get     vary: 'Accept' } ]
+323 verbose etag https://registry.npmjs.org/nodemon from cache
+324 verbose get saving nodemon to /Users/stephenvasquez/.npm/registry.npmjs.org/nodemon/.cache.json
+325 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+326 http 304 https://registry.npmjs.org/ms
+327 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+327 verbose headers   via: '1.1 varnish',
+327 verbose headers   'cache-control': 'max-age=300',
+327 verbose headers   etag: '"2UZ98MMYFLZX8X4JBFM7FZFW4"',
+327 verbose headers   age: '191',
+327 verbose headers   connection: 'keep-alive',
+327 verbose headers   'x-served-by': 'cache-dfw1823-DFW',
+327 verbose headers   'x-cache': 'HIT',
+327 verbose headers   'x-cache-hits': '1016',
+327 verbose headers   'x-timer': 'S1455783379.548761,VS0,VE0',
+327 verbose headers   vary: 'Accept' }
+328 silly get cb [ 304,
+328 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+328 silly get     via: '1.1 varnish',
+328 silly get     'cache-control': 'max-age=300',
+328 silly get     etag: '"2UZ98MMYFLZX8X4JBFM7FZFW4"',
+328 silly get     age: '191',
+328 silly get     connection: 'keep-alive',
+328 silly get     'x-served-by': 'cache-dfw1823-DFW',
+328 silly get     'x-cache': 'HIT',
+328 silly get     'x-cache-hits': '1016',
+328 silly get     'x-timer': 'S1455783379.548761,VS0,VE0',
+328 silly get     vary: 'Accept' } ]
+329 verbose etag https://registry.npmjs.org/ms from cache
+330 verbose get saving ms to /Users/stephenvasquez/.npm/registry.npmjs.org/ms/.cache.json
+331 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+332 http 304 https://registry.npmjs.org/path
+333 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+333 verbose headers   via: '1.1 varnish',
+333 verbose headers   'cache-control': 'max-age=300',
+333 verbose headers   etag: '"F2VAABR10L4FY4KW2HO6CFL0R"',
+333 verbose headers   age: '273',
+333 verbose headers   connection: 'keep-alive',
+333 verbose headers   'x-served-by': 'cache-dfw1824-DFW',
+333 verbose headers   'x-cache': 'HIT',
+333 verbose headers   'x-cache-hits': '1',
+333 verbose headers   'x-timer': 'S1455783379.554607,VS0,VE0',
+333 verbose headers   vary: 'Accept' }
+334 silly get cb [ 304,
+334 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+334 silly get     via: '1.1 varnish',
+334 silly get     'cache-control': 'max-age=300',
+334 silly get     etag: '"F2VAABR10L4FY4KW2HO6CFL0R"',
+334 silly get     age: '273',
+334 silly get     connection: 'keep-alive',
+334 silly get     'x-served-by': 'cache-dfw1824-DFW',
+334 silly get     'x-cache': 'HIT',
+334 silly get     'x-cache-hits': '1',
+334 silly get     'x-timer': 'S1455783379.554607,VS0,VE0',
+334 silly get     vary: 'Accept' } ]
+335 verbose etag https://registry.npmjs.org/path from cache
+336 verbose get saving path to /Users/stephenvasquez/.npm/registry.npmjs.org/path/.cache.json
+337 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+338 http 304 https://registry.npmjs.org/sha1
+339 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+339 verbose headers   via: '1.1 varnish',
+339 verbose headers   'cache-control': 'max-age=300',
+339 verbose headers   etag: '"5FYGHADXYAZGWE7W6DT1G4VOK"',
+339 verbose headers   age: '33',
+339 verbose headers   connection: 'keep-alive',
+339 verbose headers   'x-served-by': 'cache-dfw1834-DFW',
+339 verbose headers   'x-cache': 'HIT',
+339 verbose headers   'x-cache-hits': '1',
+339 verbose headers   'x-timer': 'S1455783379.566128,VS0,VE0',
+339 verbose headers   vary: 'Accept' }
+340 silly get cb [ 304,
+340 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+340 silly get     via: '1.1 varnish',
+340 silly get     'cache-control': 'max-age=300',
+340 silly get     etag: '"5FYGHADXYAZGWE7W6DT1G4VOK"',
+340 silly get     age: '33',
+340 silly get     connection: 'keep-alive',
+340 silly get     'x-served-by': 'cache-dfw1834-DFW',
+340 silly get     'x-cache': 'HIT',
+340 silly get     'x-cache-hits': '1',
+340 silly get     'x-timer': 'S1455783379.566128,VS0,VE0',
+340 silly get     vary: 'Accept' } ]
+341 verbose etag https://registry.npmjs.org/sha1 from cache
+342 verbose get saving sha1 to /Users/stephenvasquez/.npm/registry.npmjs.org/sha1/.cache.json
+343 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+344 http 304 https://registry.npmjs.org/browser-sync
+345 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+345 verbose headers   via: '1.1 varnish',
+345 verbose headers   'cache-control': 'max-age=300',
+345 verbose headers   etag: '"DK4BTJZYIKJJSWBMTDM8SYE0Y"',
+345 verbose headers   age: '33',
+345 verbose headers   connection: 'keep-alive',
+345 verbose headers   'x-served-by': 'cache-dfw1830-DFW',
+345 verbose headers   'x-cache': 'HIT',
+345 verbose headers   'x-cache-hits': '1',
+345 verbose headers   'x-timer': 'S1455783379.569091,VS0,VE1',
+345 verbose headers   vary: 'Accept' }
+346 silly get cb [ 304,
+346 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+346 silly get     via: '1.1 varnish',
+346 silly get     'cache-control': 'max-age=300',
+346 silly get     etag: '"DK4BTJZYIKJJSWBMTDM8SYE0Y"',
+346 silly get     age: '33',
+346 silly get     connection: 'keep-alive',
+346 silly get     'x-served-by': 'cache-dfw1830-DFW',
+346 silly get     'x-cache': 'HIT',
+346 silly get     'x-cache-hits': '1',
+346 silly get     'x-timer': 'S1455783379.569091,VS0,VE1',
+346 silly get     vary: 'Accept' } ]
+347 verbose etag https://registry.npmjs.org/browser-sync from cache
+348 verbose get saving browser-sync to /Users/stephenvasquez/.npm/registry.npmjs.org/browser-sync/.cache.json
+349 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+350 http 304 https://registry.npmjs.org/gulp-minify-html
+351 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+351 verbose headers   via: '1.1 varnish',
+351 verbose headers   'cache-control': 'max-age=300',
+351 verbose headers   etag: '"4WT2HBQTSIVRA16OBJT0ED2IX"',
+351 verbose headers   age: '163',
+351 verbose headers   connection: 'keep-alive',
+351 verbose headers   'x-served-by': 'cache-dfw1822-DFW',
+351 verbose headers   'x-cache': 'HIT',
+351 verbose headers   'x-cache-hits': '2',
+351 verbose headers   'x-timer': 'S1455783379.608286,VS0,VE0',
+351 verbose headers   vary: 'Accept' }
+352 silly get cb [ 304,
+352 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+352 silly get     via: '1.1 varnish',
+352 silly get     'cache-control': 'max-age=300',
+352 silly get     etag: '"4WT2HBQTSIVRA16OBJT0ED2IX"',
+352 silly get     age: '163',
+352 silly get     connection: 'keep-alive',
+352 silly get     'x-served-by': 'cache-dfw1822-DFW',
+352 silly get     'x-cache': 'HIT',
+352 silly get     'x-cache-hits': '2',
+352 silly get     'x-timer': 'S1455783379.608286,VS0,VE0',
+352 silly get     vary: 'Accept' } ]
+353 verbose etag https://registry.npmjs.org/gulp-minify-html from cache
+354 verbose get saving gulp-minify-html to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-minify-html/.cache.json
+355 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+356 http 304 https://registry.npmjs.org/gulp-autoprefixer
+357 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+357 verbose headers   via: '1.1 varnish',
+357 verbose headers   'cache-control': 'max-age=300',
+357 verbose headers   etag: '"952T9OWVHH3224D47A8N5WGFP"',
+357 verbose headers   age: '81',
+357 verbose headers   connection: 'keep-alive',
+357 verbose headers   'x-served-by': 'cache-dfw1822-DFW',
+357 verbose headers   'x-cache': 'HIT',
+357 verbose headers   'x-cache-hits': '1',
+357 verbose headers   'x-timer': 'S1455783379.608277,VS0,VE0',
+357 verbose headers   vary: 'Accept' }
+358 silly get cb [ 304,
+358 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+358 silly get     via: '1.1 varnish',
+358 silly get     'cache-control': 'max-age=300',
+358 silly get     etag: '"952T9OWVHH3224D47A8N5WGFP"',
+358 silly get     age: '81',
+358 silly get     connection: 'keep-alive',
+358 silly get     'x-served-by': 'cache-dfw1822-DFW',
+358 silly get     'x-cache': 'HIT',
+358 silly get     'x-cache-hits': '1',
+358 silly get     'x-timer': 'S1455783379.608277,VS0,VE0',
+358 silly get     vary: 'Accept' } ]
+359 verbose etag https://registry.npmjs.org/gulp-autoprefixer from cache
+360 verbose get saving gulp-autoprefixer to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-autoprefixer/.cache.json
+361 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+362 http 304 https://registry.npmjs.org/gulp-load-plugins
+363 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+363 verbose headers   via: '1.1 varnish',
+363 verbose headers   'cache-control': 'max-age=300',
+363 verbose headers   etag: '"DTE3HM054X2LI6NTA2GF37Z1R"',
+363 verbose headers   age: '163',
+363 verbose headers   connection: 'keep-alive',
+363 verbose headers   'x-served-by': 'cache-dfw1821-DFW',
+363 verbose headers   'x-cache': 'HIT',
+363 verbose headers   'x-cache-hits': '1',
+363 verbose headers   'x-timer': 'S1455783379.610324,VS0,VE0',
+363 verbose headers   vary: 'Accept' }
+364 silly get cb [ 304,
+364 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+364 silly get     via: '1.1 varnish',
+364 silly get     'cache-control': 'max-age=300',
+364 silly get     etag: '"DTE3HM054X2LI6NTA2GF37Z1R"',
+364 silly get     age: '163',
+364 silly get     connection: 'keep-alive',
+364 silly get     'x-served-by': 'cache-dfw1821-DFW',
+364 silly get     'x-cache': 'HIT',
+364 silly get     'x-cache-hits': '1',
+364 silly get     'x-timer': 'S1455783379.610324,VS0,VE0',
+364 silly get     vary: 'Accept' } ]
+365 verbose etag https://registry.npmjs.org/gulp-load-plugins from cache
+366 verbose get saving gulp-load-plugins to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-load-plugins/.cache.json
+367 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+368 http 304 https://registry.npmjs.org/jsonwebtoken
+369 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+369 verbose headers   via: '1.1 varnish',
+369 verbose headers   'cache-control': 'max-age=300',
+369 verbose headers   etag: '"QF9P766NFHHKQUCG0KKQAVKZ"',
+369 verbose headers   age: '33',
+369 verbose headers   connection: 'keep-alive',
+369 verbose headers   'x-served-by': 'cache-dfw1834-DFW',
+369 verbose headers   'x-cache': 'HIT',
+369 verbose headers   'x-cache-hits': '1',
+369 verbose headers   'x-timer': 'S1455783379.606482,VS0,VE0',
+369 verbose headers   vary: 'Accept' }
+370 silly get cb [ 304,
+370 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+370 silly get     via: '1.1 varnish',
+370 silly get     'cache-control': 'max-age=300',
+370 silly get     etag: '"QF9P766NFHHKQUCG0KKQAVKZ"',
+370 silly get     age: '33',
+370 silly get     connection: 'keep-alive',
+370 silly get     'x-served-by': 'cache-dfw1834-DFW',
+370 silly get     'x-cache': 'HIT',
+370 silly get     'x-cache-hits': '1',
+370 silly get     'x-timer': 'S1455783379.606482,VS0,VE0',
+370 silly get     vary: 'Accept' } ]
+371 verbose etag https://registry.npmjs.org/jsonwebtoken from cache
+372 verbose get saving jsonwebtoken to /Users/stephenvasquez/.npm/registry.npmjs.org/jsonwebtoken/.cache.json
 373 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-374 http fetch 200 https://registry.npmjs.org/gulp-sass/-/gulp-sass-1.3.3.tgz
-375 silly fetchAndShaCheck shasum 42aef1ef8f4c1ccba864fe28948be7adef6e661e
-376 silly fetchAndShaCheck shasum 642a41bf9d0ea10daef8eae5e9e4d4e6dc95fb4c
-377 http fetch 200 https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
-378 silly fetchAndShaCheck shasum 4113a15ac5d7bca158a5aae07224587b9fa15b94
-379 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-load-plugins/-/gulp-load-plugins-0.7.1.tgz not in flight; adding
-380 verbose addTmpTarball already have metadata; skipping unpack for gulp-load-plugins@0.7.1
-381 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-382 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-minify-html/-/gulp-minify-html-0.1.8.tgz not in flight; adding
-383 verbose addTmpTarball already have metadata; skipping unpack for gulp-minify-html@0.1.8
-384 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-385 silly fetchAndShaCheck shasum 66da87646bbfd299988c8ebbe94cefaff50e5662
-386 silly resolveWithNewModule mongoose@4.4.4 checking installable status
-387 silly cache add args [ 'mongoose@^4.4.2', null ]
-388 verbose cache add spec mongoose@^4.4.2
-389 silly cache add parsed spec Result {
-389 silly cache add   raw: 'mongoose@^4.4.2',
-389 silly cache add   scope: null,
-389 silly cache add   name: 'mongoose',
-389 silly cache add   rawSpec: '^4.4.2',
-389 silly cache add   spec: '>=4.4.2 <5.0.0',
-389 silly cache add   type: 'range' }
-390 silly addNamed mongoose@>=4.4.2 <5.0.0
-391 verbose addNamed ">=4.4.2 <5.0.0" is a valid semver range for mongoose
-392 silly addNameRange { name: 'mongoose', range: '>=4.4.2 <5.0.0', hasData: false }
-393 silly mapToRegistry name mongoose
-394 silly mapToRegistry using default registry
-395 silly mapToRegistry registry https://registry.npmjs.org/
-396 silly mapToRegistry uri https://registry.npmjs.org/mongoose
-397 verbose addNameRange registry:https://registry.npmjs.org/mongoose not in flight; fetching
-398 silly resolveWithNewModule express@4.13.4 checking installable status
-399 silly cache add args [ 'express@^4.11.2', null ]
-400 verbose cache add spec express@^4.11.2
-401 silly cache add parsed spec Result {
-401 silly cache add   raw: 'express@^4.11.2',
-401 silly cache add   scope: null,
-401 silly cache add   name: 'express',
-401 silly cache add   rawSpec: '^4.11.2',
-401 silly cache add   spec: '>=4.11.2 <5.0.0',
-401 silly cache add   type: 'range' }
-402 silly addNamed express@>=4.11.2 <5.0.0
-403 verbose addNamed ">=4.11.2 <5.0.0" is a valid semver range for express
-404 silly addNameRange { name: 'express', range: '>=4.11.2 <5.0.0', hasData: false }
-405 silly mapToRegistry name express
-406 silly mapToRegistry using default registry
-407 silly mapToRegistry registry https://registry.npmjs.org/
-408 silly mapToRegistry uri https://registry.npmjs.org/express
-409 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
-410 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/marked/-/marked-0.3.5.tgz not in flight; adding
-411 verbose addTmpTarball already have metadata; skipping unpack for marked@0.3.5
-412 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-413 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-sass/-/gulp-sass-1.3.3.tgz not in flight; adding
-414 verbose addTmpTarball already have metadata; skipping unpack for gulp-sass@1.3.3
+374 http 304 https://registry.npmjs.org/gulp-usemin
+375 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+375 verbose headers   via: '1.1 varnish',
+375 verbose headers   'cache-control': 'max-age=300',
+375 verbose headers   etag: '"48JP6QH3NAH558QT7LED85ENY"',
+375 verbose headers   age: '33',
+375 verbose headers   connection: 'keep-alive',
+375 verbose headers   'x-served-by': 'cache-dfw1833-DFW',
+375 verbose headers   'x-cache': 'HIT',
+375 verbose headers   'x-cache-hits': '1',
+375 verbose headers   'x-timer': 'S1455783379.610099,VS0,VE0',
+375 verbose headers   vary: 'Accept' }
+376 silly get cb [ 304,
+376 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+376 silly get     via: '1.1 varnish',
+376 silly get     'cache-control': 'max-age=300',
+376 silly get     etag: '"48JP6QH3NAH558QT7LED85ENY"',
+376 silly get     age: '33',
+376 silly get     connection: 'keep-alive',
+376 silly get     'x-served-by': 'cache-dfw1833-DFW',
+376 silly get     'x-cache': 'HIT',
+376 silly get     'x-cache-hits': '1',
+376 silly get     'x-timer': 'S1455783379.610099,VS0,VE0',
+376 silly get     vary: 'Accept' } ]
+377 verbose etag https://registry.npmjs.org/gulp-usemin from cache
+378 verbose get saving gulp-usemin to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-usemin/.cache.json
+379 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+380 http 304 https://registry.npmjs.org/gulp-connect
+381 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+381 verbose headers   via: '1.1 varnish',
+381 verbose headers   'cache-control': 'max-age=300',
+381 verbose headers   etag: '"YL8F7ZSC8H0QKQIOZM9RIQIR"',
+381 verbose headers   age: '33',
+381 verbose headers   connection: 'keep-alive',
+381 verbose headers   'x-served-by': 'cache-dfw1830-DFW',
+381 verbose headers   'x-cache': 'HIT',
+381 verbose headers   'x-cache-hits': '1',
+381 verbose headers   'x-timer': 'S1455783379.611308,VS0,VE0',
+381 verbose headers   vary: 'Accept' }
+382 silly get cb [ 304,
+382 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+382 silly get     via: '1.1 varnish',
+382 silly get     'cache-control': 'max-age=300',
+382 silly get     etag: '"YL8F7ZSC8H0QKQIOZM9RIQIR"',
+382 silly get     age: '33',
+382 silly get     connection: 'keep-alive',
+382 silly get     'x-served-by': 'cache-dfw1830-DFW',
+382 silly get     'x-cache': 'HIT',
+382 silly get     'x-cache-hits': '1',
+382 silly get     'x-timer': 'S1455783379.611308,VS0,VE0',
+382 silly get     vary: 'Accept' } ]
+383 verbose etag https://registry.npmjs.org/gulp-connect from cache
+384 verbose get saving gulp-connect to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-connect/.cache.json
+385 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+386 http 304 https://registry.npmjs.org/gulp-template
+387 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+387 verbose headers   via: '1.1 varnish',
+387 verbose headers   'cache-control': 'max-age=300',
+387 verbose headers   etag: '"EZVO4KH2LV6TMN407RZWHQBIM"',
+387 verbose headers   age: '33',
+387 verbose headers   connection: 'keep-alive',
+387 verbose headers   'x-served-by': 'cache-dfw1820-DFW',
+387 verbose headers   'x-cache': 'HIT',
+387 verbose headers   'x-cache-hits': '1',
+387 verbose headers   'x-timer': 'S1455783379.608908,VS0,VE0',
+387 verbose headers   vary: 'Accept' }
+388 silly get cb [ 304,
+388 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+388 silly get     via: '1.1 varnish',
+388 silly get     'cache-control': 'max-age=300',
+388 silly get     etag: '"EZVO4KH2LV6TMN407RZWHQBIM"',
+388 silly get     age: '33',
+388 silly get     connection: 'keep-alive',
+388 silly get     'x-served-by': 'cache-dfw1820-DFW',
+388 silly get     'x-cache': 'HIT',
+388 silly get     'x-cache-hits': '1',
+388 silly get     'x-timer': 'S1455783379.608908,VS0,VE0',
+388 silly get     vary: 'Accept' } ]
+389 verbose etag https://registry.npmjs.org/gulp-template from cache
+390 verbose get saving gulp-template to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-template/.cache.json
+391 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+392 http 304 https://registry.npmjs.org/express
+393 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+393 verbose headers   via: '1.1 varnish',
+393 verbose headers   'cache-control': 'max-age=300',
+393 verbose headers   etag: '"3LXBYX5M7E7OTSL8X3LNTM7RC"',
+393 verbose headers   age: '158',
+393 verbose headers   connection: 'keep-alive',
+393 verbose headers   'x-served-by': 'cache-dfw1822-DFW',
+393 verbose headers   'x-cache': 'HIT',
+393 verbose headers   'x-cache-hits': '276',
+393 verbose headers   'x-timer': 'S1455783379.610201,VS0,VE0',
+393 verbose headers   vary: 'Accept' }
+394 silly get cb [ 304,
+394 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+394 silly get     via: '1.1 varnish',
+394 silly get     'cache-control': 'max-age=300',
+394 silly get     etag: '"3LXBYX5M7E7OTSL8X3LNTM7RC"',
+394 silly get     age: '158',
+394 silly get     connection: 'keep-alive',
+394 silly get     'x-served-by': 'cache-dfw1822-DFW',
+394 silly get     'x-cache': 'HIT',
+394 silly get     'x-cache-hits': '276',
+394 silly get     'x-timer': 'S1455783379.610201,VS0,VE0',
+394 silly get     vary: 'Accept' } ]
+395 verbose etag https://registry.npmjs.org/express from cache
+396 verbose get saving express to /Users/stephenvasquez/.npm/registry.npmjs.org/express/.cache.json
+397 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+398 http 304 https://registry.npmjs.org/gulp-sass
+399 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+399 verbose headers   via: '1.1 varnish',
+399 verbose headers   'cache-control': 'max-age=300',
+399 verbose headers   etag: '"12HA99Y5H4JZ9L4DRXZPPE35T"',
+399 verbose headers   age: '189',
+399 verbose headers   connection: 'keep-alive',
+399 verbose headers   'x-served-by': 'cache-dfw1830-DFW',
+399 verbose headers   'x-cache': 'HIT',
+399 verbose headers   'x-cache-hits': '1',
+399 verbose headers   'x-timer': 'S1455783379.612529,VS0,VE0',
+399 verbose headers   vary: 'Accept' }
+400 silly get cb [ 304,
+400 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+400 silly get     via: '1.1 varnish',
+400 silly get     'cache-control': 'max-age=300',
+400 silly get     etag: '"12HA99Y5H4JZ9L4DRXZPPE35T"',
+400 silly get     age: '189',
+400 silly get     connection: 'keep-alive',
+400 silly get     'x-served-by': 'cache-dfw1830-DFW',
+400 silly get     'x-cache': 'HIT',
+400 silly get     'x-cache-hits': '1',
+400 silly get     'x-timer': 'S1455783379.612529,VS0,VE0',
+400 silly get     vary: 'Accept' } ]
+401 verbose etag https://registry.npmjs.org/gulp-sass from cache
+402 verbose get saving gulp-sass to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-sass/.cache.json
+403 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+404 http 304 https://registry.npmjs.org/marked
+405 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+405 verbose headers   via: '1.1 varnish',
+405 verbose headers   'cache-control': 'max-age=300',
+405 verbose headers   etag: '"B7H9TY6FW8WW00PPD6I6HNMC9"',
+405 verbose headers   age: '157',
+405 verbose headers   connection: 'keep-alive',
+405 verbose headers   'x-served-by': 'cache-dfw1830-DFW',
+405 verbose headers   'x-cache': 'HIT',
+405 verbose headers   'x-cache-hits': '2',
+405 verbose headers   'x-timer': 'S1455783379.612551,VS0,VE0',
+405 verbose headers   vary: 'Accept' }
+406 silly get cb [ 304,
+406 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+406 silly get     via: '1.1 varnish',
+406 silly get     'cache-control': 'max-age=300',
+406 silly get     etag: '"B7H9TY6FW8WW00PPD6I6HNMC9"',
+406 silly get     age: '157',
+406 silly get     connection: 'keep-alive',
+406 silly get     'x-served-by': 'cache-dfw1830-DFW',
+406 silly get     'x-cache': 'HIT',
+406 silly get     'x-cache-hits': '2',
+406 silly get     'x-timer': 'S1455783379.612551,VS0,VE0',
+406 silly get     vary: 'Accept' } ]
+407 verbose etag https://registry.npmjs.org/marked from cache
+408 verbose get saving marked to /Users/stephenvasquez/.npm/registry.npmjs.org/marked/.cache.json
+409 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+410 http 304 https://registry.npmjs.org/gulp-extname
+411 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+411 verbose headers   via: '1.1 varnish',
+411 verbose headers   'cache-control': 'max-age=300',
+411 verbose headers   etag: '"8W8CO0C6X0TIRPVN1UET4JHW4"',
+411 verbose headers   age: '33',
+411 verbose headers   connection: 'keep-alive',
+411 verbose headers   'x-served-by': 'cache-dfw1820-DFW',
+411 verbose headers   'x-cache': 'HIT',
+411 verbose headers   'x-cache-hits': '1',
+411 verbose headers   'x-timer': 'S1455783379.610078,VS0,VE0',
+411 verbose headers   vary: 'Accept' }
+412 silly get cb [ 304,
+412 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+412 silly get     via: '1.1 varnish',
+412 silly get     'cache-control': 'max-age=300',
+412 silly get     etag: '"8W8CO0C6X0TIRPVN1UET4JHW4"',
+412 silly get     age: '33',
+412 silly get     connection: 'keep-alive',
+412 silly get     'x-served-by': 'cache-dfw1820-DFW',
+412 silly get     'x-cache': 'HIT',
+412 silly get     'x-cache-hits': '1',
+412 silly get     'x-timer': 'S1455783379.610078,VS0,VE0',
+412 silly get     vary: 'Accept' } ]
+413 verbose etag https://registry.npmjs.org/gulp-extname from cache
+414 verbose get saving gulp-extname to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-extname/.cache.json
 415 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-416 silly resolveWithNewModule gulp-autoprefixer@1.0.1 checking installable status
-417 silly cache add args [ 'gulp-autoprefixer@^1.0.1', null ]
-418 verbose cache add spec gulp-autoprefixer@^1.0.1
-419 silly cache add parsed spec Result {
-419 silly cache add   raw: 'gulp-autoprefixer@^1.0.1',
-419 silly cache add   scope: null,
-419 silly cache add   name: 'gulp-autoprefixer',
-419 silly cache add   rawSpec: '^1.0.1',
-419 silly cache add   spec: '>=1.0.1 <2.0.0',
-419 silly cache add   type: 'range' }
-420 silly addNamed gulp-autoprefixer@>=1.0.1 <2.0.0
-421 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for gulp-autoprefixer
-422 silly addNameRange { name: 'gulp-autoprefixer',
-422 silly addNameRange   range: '>=1.0.1 <2.0.0',
-422 silly addNameRange   hasData: false }
-423 silly mapToRegistry name gulp-autoprefixer
-424 silly mapToRegistry using default registry
-425 silly mapToRegistry registry https://registry.npmjs.org/
-426 silly mapToRegistry uri https://registry.npmjs.org/gulp-autoprefixer
-427 verbose addNameRange registry:https://registry.npmjs.org/gulp-autoprefixer not in flight; fetching
-428 silly resolveWithNewModule gulp-rev@2.0.1 checking installable status
-429 silly cache add args [ 'gulp-rev@^2.0.1', null ]
-430 verbose cache add spec gulp-rev@^2.0.1
-431 silly cache add parsed spec Result {
-431 silly cache add   raw: 'gulp-rev@^2.0.1',
-431 silly cache add   scope: null,
-431 silly cache add   name: 'gulp-rev',
-431 silly cache add   rawSpec: '^2.0.1',
-431 silly cache add   spec: '>=2.0.1 <3.0.0',
-431 silly cache add   type: 'range' }
-432 silly addNamed gulp-rev@>=2.0.1 <3.0.0
-433 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for gulp-rev
-434 silly addNameRange { name: 'gulp-rev', range: '>=2.0.1 <3.0.0', hasData: false }
-435 silly mapToRegistry name gulp-rev
-436 silly mapToRegistry using default registry
-437 silly mapToRegistry registry https://registry.npmjs.org/
-438 silly mapToRegistry uri https://registry.npmjs.org/gulp-rev
-439 verbose addNameRange registry:https://registry.npmjs.org/gulp-rev not in flight; fetching
-440 silly resolveWithNewModule gulp-usemin@0.3.21 checking installable status
-441 silly cache add args [ 'gulp-usemin@^0.3.8', null ]
-442 verbose cache add spec gulp-usemin@^0.3.8
-443 silly cache add parsed spec Result {
-443 silly cache add   raw: 'gulp-usemin@^0.3.8',
-443 silly cache add   scope: null,
-443 silly cache add   name: 'gulp-usemin',
-443 silly cache add   rawSpec: '^0.3.8',
-443 silly cache add   spec: '>=0.3.8 <0.4.0',
-443 silly cache add   type: 'range' }
-444 silly addNamed gulp-usemin@>=0.3.8 <0.4.0
-445 verbose addNamed ">=0.3.8 <0.4.0" is a valid semver range for gulp-usemin
-446 silly addNameRange { name: 'gulp-usemin', range: '>=0.3.8 <0.4.0', hasData: false }
-447 silly mapToRegistry name gulp-usemin
-448 silly mapToRegistry using default registry
-449 silly mapToRegistry registry https://registry.npmjs.org/
-450 silly mapToRegistry uri https://registry.npmjs.org/gulp-usemin
-451 verbose addNameRange registry:https://registry.npmjs.org/gulp-usemin not in flight; fetching
-452 silly resolveWithNewModule gulp-extname@0.2.2 checking installable status
-453 silly cache add args [ 'gulp-extname@^0.2.0', null ]
-454 verbose cache add spec gulp-extname@^0.2.0
-455 silly cache add parsed spec Result {
-455 silly cache add   raw: 'gulp-extname@^0.2.0',
-455 silly cache add   scope: null,
-455 silly cache add   name: 'gulp-extname',
-455 silly cache add   rawSpec: '^0.2.0',
-455 silly cache add   spec: '>=0.2.0 <0.3.0',
-455 silly cache add   type: 'range' }
-456 silly addNamed gulp-extname@>=0.2.0 <0.3.0
-457 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for gulp-extname
-458 silly addNameRange { name: 'gulp-extname', range: '>=0.2.0 <0.3.0', hasData: false }
-459 silly mapToRegistry name gulp-extname
-460 silly mapToRegistry using default registry
-461 silly mapToRegistry registry https://registry.npmjs.org/
-462 silly mapToRegistry uri https://registry.npmjs.org/gulp-extname
-463 verbose addNameRange registry:https://registry.npmjs.org/gulp-extname not in flight; fetching
-464 silly resolveWithNewModule gulp-template@1.1.1 checking installable status
-465 silly cache add args [ 'gulp-template@^1.1.1', null ]
-466 verbose cache add spec gulp-template@^1.1.1
-467 silly cache add parsed spec Result {
-467 silly cache add   raw: 'gulp-template@^1.1.1',
-467 silly cache add   scope: null,
-467 silly cache add   name: 'gulp-template',
-467 silly cache add   rawSpec: '^1.1.1',
-467 silly cache add   spec: '>=1.1.1 <2.0.0',
-467 silly cache add   type: 'range' }
-468 silly addNamed gulp-template@>=1.1.1 <2.0.0
-469 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for gulp-template
-470 silly addNameRange { name: 'gulp-template',
-470 silly addNameRange   range: '>=1.1.1 <2.0.0',
-470 silly addNameRange   hasData: false }
-471 silly mapToRegistry name gulp-template
-472 silly mapToRegistry using default registry
-473 silly mapToRegistry registry https://registry.npmjs.org/
-474 silly mapToRegistry uri https://registry.npmjs.org/gulp-template
-475 verbose addNameRange registry:https://registry.npmjs.org/gulp-template not in flight; fetching
-476 silly fetchAndShaCheck shasum 14ae7173328b691252b01fc1930a39cbb24fb33c
-477 verbose get https://registry.npmjs.org/express not expired, no request
-478 silly addNameRange number 2 { name: 'express', range: '>=4.11.2 <5.0.0', hasData: true }
-479 silly addNameRange versions [ 'express',
-479 silly addNameRange   [ '0.14.0',
-479 silly addNameRange     '0.14.1',
-479 silly addNameRange     '1.0.0',
-479 silly addNameRange     '1.0.1',
-479 silly addNameRange     '1.0.2',
-479 silly addNameRange     '1.0.3',
-479 silly addNameRange     '1.0.4',
-479 silly addNameRange     '1.0.5',
-479 silly addNameRange     '1.0.6',
-479 silly addNameRange     '1.0.7',
-479 silly addNameRange     '1.0.8',
-479 silly addNameRange     '2.0.0',
-479 silly addNameRange     '2.1.0',
-479 silly addNameRange     '2.1.1',
-479 silly addNameRange     '2.2.0',
-479 silly addNameRange     '2.2.1',
-479 silly addNameRange     '2.2.2',
-479 silly addNameRange     '2.3.0',
-479 silly addNameRange     '2.3.1',
-479 silly addNameRange     '2.3.2',
-479 silly addNameRange     '2.3.3',
-479 silly addNameRange     '2.3.4',
-479 silly addNameRange     '2.3.5',
-479 silly addNameRange     '2.3.6',
-479 silly addNameRange     '2.3.7',
-479 silly addNameRange     '2.3.8',
-479 silly addNameRange     '2.3.9',
-479 silly addNameRange     '2.3.10',
-479 silly addNameRange     '2.3.11',
-479 silly addNameRange     '2.3.12',
-479 silly addNameRange     '2.4.0',
-479 silly addNameRange     '2.4.1',
-479 silly addNameRange     '2.4.2',
-479 silly addNameRange     '2.4.3',
-479 silly addNameRange     '2.4.4',
-479 silly addNameRange     '2.4.5',
-479 silly addNameRange     '2.4.6',
-479 silly addNameRange     '2.4.7',
-479 silly addNameRange     '2.5.0',
-479 silly addNameRange     '2.5.1',
-479 silly addNameRange     '2.5.2',
-479 silly addNameRange     '2.5.3',
-479 silly addNameRange     '2.5.4',
-479 silly addNameRange     '2.5.5',
-479 silly addNameRange     '2.5.6',
-479 silly addNameRange     '2.5.7',
-479 silly addNameRange     '2.5.8',
-479 silly addNameRange     '2.5.9',
-479 silly addNameRange     '2.5.10',
-479 silly addNameRange     '2.5.11',
-479 silly addNameRange     '3.0.0',
-479 silly addNameRange     '3.0.1',
-479 silly addNameRange     '3.0.2',
-479 silly addNameRange     '3.0.3',
-479 silly addNameRange     '3.0.4',
-479 silly addNameRange     '3.0.5',
-479 silly addNameRange     '3.0.6',
-479 silly addNameRange     '3.1.0',
-479 silly addNameRange     '3.1.1',
-479 silly addNameRange     '3.1.2',
-479 silly addNameRange     '3.2.0',
-479 silly addNameRange     '3.2.1',
-479 silly addNameRange     '3.2.2',
-479 silly addNameRange     '3.2.3',
-479 silly addNameRange     '3.2.4',
-479 silly addNameRange     '3.2.5',
-479 silly addNameRange     '3.2.6',
-479 silly addNameRange     '3.3.0',
-479 silly addNameRange     '3.3.1',
-479 silly addNameRange     '3.3.2',
-479 silly addNameRange     '3.3.3',
-479 silly addNameRange     '3.3.4',
-479 silly addNameRange     '3.3.5',
-479 silly addNameRange     '3.3.6',
-479 silly addNameRange     '1.0.0-beta',
-479 silly addNameRange     '1.0.0-beta2',
-479 silly addNameRange     '1.0.0-rc',
-479 silly addNameRange     '1.0.0-rc2',
-479 silly addNameRange     '1.0.0-rc3',
-479 silly addNameRange     '1.0.0-rc4',
-479 silly addNameRange     '2.0.0-beta',
-479 silly addNameRange     '2.0.0-beta2',
-479 silly addNameRange     '2.0.0-beta3',
-479 silly addNameRange     '2.0.0-rc',
-479 silly addNameRange     '2.0.0-rc2',
-479 silly addNameRange     '2.0.0-rc3',
-479 silly addNameRange     '3.0.0-alpha1',
-479 silly addNameRange     '3.0.0-alpha2',
-479 silly addNameRange     '3.0.0-alpha3',
-479 silly addNameRange     '3.0.0-alpha4',
-479 silly addNameRange     '3.0.0-alpha5',
-479 silly addNameRange     '3.0.0-beta1',
-479 silly addNameRange     '3.0.0-beta2',
-479 silly addNameRange     '3.0.0-beta3',
-479 silly addNameRange     '3.0.0-beta4',
-479 silly addNameRange     '3.0.0-beta6',
-479 silly addNameRange     '3.0.0-beta7',
-479 silly addNameRange     '3.0.0-rc1',
-479 silly addNameRange     '3.0.0-rc2',
-479 silly addNameRange     '3.0.0-rc3',
-479 silly addNameRange     '3.0.0-rc4',
-479 silly addNameRange     '3.0.0-rc5',
-479 silly addNameRange     '3.3.7',
-479 silly addNameRange     '3.3.8',
-479 silly addNameRange     '3.4.0',
-479 silly addNameRange     '3.4.1',
-479 silly addNameRange     '3.4.2',
-479 silly addNameRange     '3.4.3',
-479 silly addNameRange     '3.4.4',
-479 silly addNameRange     '3.4.5',
-479 silly addNameRange     '3.4.6',
-479 silly addNameRange     '3.4.7',
-479 silly addNameRange     '3.4.8',
-479 silly addNameRange     '4.0.0-rc1',
-479 silly addNameRange     '4.0.0-rc2',
-479 silly addNameRange     '3.5.0',
-479 silly addNameRange     '4.0.0-rc3',
-479 silly addNameRange     '4.0.0-rc4',
-479 silly addNameRange     '3.5.1',
-479 silly addNameRange     '4.0.0',
-479 silly addNameRange     '3.5.2',
-479 silly addNameRange     '4.1.0',
-479 silly addNameRange     '4.1.1',
-479 silly addNameRange     '3.5.3',
-479 silly addNameRange     '4.1.2',
-479 silly addNameRange     '3.6.0',
-479 silly addNameRange     '4.2.0',
-479 silly addNameRange     '3.7.0',
-479 silly addNameRange     '3.8.0',
-479 silly addNameRange     '4.3.0',
-479 silly addNameRange     '4.3.1',
-479 silly addNameRange     '3.8.1',
-479 silly addNameRange     '4.3.2',
-479 silly addNameRange     '3.9.0',
-479 silly addNameRange     '4.4.0',
-479 silly addNameRange     '4.4.1',
-479 silly addNameRange     '3.10.0',
-479 silly addNameRange     '3.10.1',
-479 silly addNameRange     '3.10.2',
-479 silly addNameRange     '3.10.3',
-479 silly addNameRange     '3.10.4',
-479 silly addNameRange     '4.4.2',
-479 silly addNameRange     '3.10.5',
-479 silly addNameRange     '4.4.3',
-479 silly addNameRange     '3.11.0',
-479 silly addNameRange     '4.4.4',
-479 silly addNameRange     '3.12.0',
-479 silly addNameRange     '3.12.1',
-479 silly addNameRange     '4.4.5',
-479 silly addNameRange     '3.13.0',
-479 silly addNameRange     '4.5.0',
-479 silly addNameRange     '4.5.1',
-479 silly addNameRange     '3.14.0',
-479 silly addNameRange     '4.6.0',
-479 silly addNameRange     '4.6.1',
-479 silly addNameRange     '3.15.0',
-479 silly addNameRange     '4.7.0',
-479 silly addNameRange     '3.15.1',
-479 silly addNameRange     '4.7.1',
-479 silly addNameRange     '3.15.2',
-479 silly addNameRange     '4.7.2',
-479 silly addNameRange     '4.7.3',
-479 silly addNameRange     '3.15.3',
-479 silly addNameRange     '4.7.4',
-479 silly addNameRange     '3.16.0',
-479 silly addNameRange     '4.8.0',
-479 silly addNameRange     '3.16.1',
-479 silly addNameRange     '4.8.1',
-479 silly addNameRange     '3.16.2',
-479 silly addNameRange     '4.8.2',
-479 silly addNameRange     '3.16.3',
-479 silly addNameRange     '3.16.4',
-479 silly addNameRange     '4.8.3',
-479 silly addNameRange     '3.16.5',
-479 silly addNameRange     '3.16.6',
-479 silly addNameRange     '4.8.4',
-479 silly addNameRange     '3.16.7',
-479 silly addNameRange     '4.8.5',
-479 silly addNameRange     '3.16.8',
-479 silly addNameRange     '4.8.6',
-479 silly addNameRange     '3.16.9',
-479 silly addNameRange     '4.8.7',
-479 silly addNameRange     '3.16.10',
-479 silly addNameRange     '4.8.8',
-479 silly addNameRange     '3.17.0',
-479 silly addNameRange     '3.17.1',
-479 silly addNameRange     '4.9.0',
-479 silly addNameRange     '3.17.2',
-479 silly addNameRange     '4.9.1',
-479 silly addNameRange     '4.9.2',
-479 silly addNameRange     '3.17.3',
-479 silly addNameRange     '4.9.3',
-479 silly addNameRange     '3.17.4',
-479 silly addNameRange     '4.9.4',
-479 silly addNameRange     '3.17.5',
-479 silly addNameRange     '4.9.5',
-479 silly addNameRange     '3.17.6',
-479 silly addNameRange     '3.17.7',
-479 silly addNameRange     '4.9.6',
-479 silly addNameRange     '4.9.7',
-479 silly addNameRange     '3.17.8',
-479 silly addNameRange     '4.9.8',
-479 silly addNameRange     '3.18.0',
-479 silly addNameRange     '3.18.1',
-479 silly addNameRange     '4.10.0',
-479 silly addNameRange     '3.18.2',
-479 silly addNameRange     '4.10.1',
-479 silly addNameRange     '5.0.0-alpha.1',
-479 silly addNameRange     '3.18.3',
-479 silly addNameRange     '4.10.2',
-479 silly addNameRange     '3.18.4',
-479 silly addNameRange     '4.10.3',
-479 silly addNameRange     '4.10.4',
-479 silly addNameRange     '4.10.5',
-479 silly addNameRange     '3.18.5',
-479 silly addNameRange     '3.18.6',
-479 silly addNameRange     '4.10.6',
-479 silly addNameRange     '4.10.7',
-479 silly addNameRange     '3.19.0',
-479 silly addNameRange     '4.10.8',
-479 silly addNameRange     '4.11.0',
-479 silly addNameRange     '3.19.1',
-479 silly addNameRange     '4.11.1',
-479 silly addNameRange     '3.19.2',
-479 silly addNameRange     '4.11.2',
-479 silly addNameRange     '3.20.0',
-479 silly addNameRange     '4.12.0',
-479 silly addNameRange     '3.20.1',
-479 silly addNameRange     '4.12.1',
-479 silly addNameRange     '4.12.2',
-479 silly addNameRange     '3.20.2',
-479 silly addNameRange     '4.12.3',
-479 silly addNameRange     '3.20.3',
-479 silly addNameRange     '4.12.4',
-479 silly addNameRange     '3.21.0',
-479 silly addNameRange     '4.13.0',
-479 silly addNameRange     '3.21.1',
-479 silly addNameRange     '4.13.1',
-479 silly addNameRange     '5.0.0-alpha.2',
-479 silly addNameRange     '3.21.2',
-479 silly addNameRange     '4.13.2',
-479 silly addNameRange     '4.13.3',
-479 silly addNameRange     '4.13.4' ] ]
-480 silly addNamed express@4.13.4
-481 verbose addNamed "4.13.4" is a plain semver version for express
-482 verbose get https://registry.npmjs.org/mongoose not expired, no request
-483 silly addNameRange number 2 { name: 'mongoose', range: '>=4.4.2 <5.0.0', hasData: true }
-484 silly addNameRange versions [ 'mongoose',
-484 silly addNameRange   [ '0.0.1',
-484 silly addNameRange     '0.0.2',
-484 silly addNameRange     '0.0.3',
-484 silly addNameRange     '0.0.4',
-484 silly addNameRange     '0.0.5',
-484 silly addNameRange     '1.0.0',
-484 silly addNameRange     '1.0.1',
-484 silly addNameRange     '1.0.2',
-484 silly addNameRange     '0.0.6',
-484 silly addNameRange     '1.0.3',
-484 silly addNameRange     '1.0.4',
-484 silly addNameRange     '1.0.5',
-484 silly addNameRange     '1.0.6',
-484 silly addNameRange     '1.0.7',
-484 silly addNameRange     '1.0.8',
-484 silly addNameRange     '1.0.10',
-484 silly addNameRange     '1.0.11',
-484 silly addNameRange     '1.0.12',
-484 silly addNameRange     '1.0.13',
-484 silly addNameRange     '1.0.14',
-484 silly addNameRange     '1.0.15',
-484 silly addNameRange     '1.0.16',
-484 silly addNameRange     '1.1.0',
-484 silly addNameRange     '1.1.1',
-484 silly addNameRange     '1.1.2',
-484 silly addNameRange     '1.1.3',
-484 silly addNameRange     '1.1.4',
-484 silly addNameRange     '1.1.5',
-484 silly addNameRange     '1.1.6',
-484 silly addNameRange     '1.1.7',
-484 silly addNameRange     '1.1.8',
-484 silly addNameRange     '1.1.9',
-484 silly addNameRange     '1.1.10',
-484 silly addNameRange     '1.1.11',
-484 silly addNameRange     '1.1.12',
-484 silly addNameRange     '1.1.13',
-484 silly addNameRange     '1.1.14',
-484 silly addNameRange     '1.1.15',
-484 silly addNameRange     '1.1.16',
-484 silly addNameRange     '1.1.17',
-484 silly addNameRange     '1.1.18',
-484 silly addNameRange     '1.1.19',
-484 silly addNameRange     '1.1.20',
-484 silly addNameRange     '1.1.21',
-484 silly addNameRange     '1.1.22',
-484 silly addNameRange     '1.1.23',
-484 silly addNameRange     '1.1.24',
-484 silly addNameRange     '1.1.25',
-484 silly addNameRange     '1.2.0',
-484 silly addNameRange     '1.3.0',
-484 silly addNameRange     '1.3.1',
-484 silly addNameRange     '1.3.2',
-484 silly addNameRange     '1.3.3',
-484 silly addNameRange     '1.3.4',
-484 silly addNameRange     '1.3.5',
-484 silly addNameRange     '1.3.6',
-484 silly addNameRange     '1.3.7',
-484 silly addNameRange     '1.4.0',
-484 silly addNameRange     '1.5.0',
-484 silly addNameRange     '1.6.0',
-484 silly addNameRange     '1.7.2',
-484 silly addNameRange     '1.7.3',
-484 silly addNameRange     '1.7.4',
-484 silly addNameRange     '1.8.0',
-484 silly addNameRange     '1.8.1',
-484 silly addNameRange     '1.8.2',
-484 silly addNameRange     '1.8.3',
-484 silly addNameRange     '1.8.4',
-484 silly addNameRange     '2.0.0',
-484 silly addNameRange     '2.0.1',
-484 silly addNameRange     '2.0.2',
-484 silly addNameRange     '2.0.3',
-484 silly addNameRange     '2.0.4',
-484 silly addNameRange     '2.1.0',
-484 silly addNameRange     '2.1.1',
-484 silly addNameRange     '2.1.2',
-484 silly addNameRange     '2.1.3',
-484 silly addNameRange     '2.1.4',
-484 silly addNameRange     '2.2.0',
-484 silly addNameRange     '2.2.1',
-484 silly addNameRange     '2.2.2',
-484 silly addNameRange     '2.2.3',
-484 silly addNameRange     '2.2.4',
-484 silly addNameRange     '2.3.0',
-484 silly addNameRange     '2.3.1',
-484 silly addNameRange     '2.3.2',
-484 silly addNameRange     '2.3.3',
-484 silly addNameRange     '2.3.4',
-484 silly addNameRange     '2.3.5',
-484 silly addNameRange     '2.3.6',
-484 silly addNameRange     '2.3.7',
-484 silly addNameRange     '2.3.8',
-484 silly addNameRange     '2.3.9',
-484 silly addNameRange     '2.3.10',
-484 silly addNameRange     '2.3.11',
-484 silly addNameRange     '2.3.12',
-484 silly addNameRange     '2.3.13',
-484 silly addNameRange     '2.4.0',
-484 silly addNameRange     '2.4.1',
-484 silly addNameRange     '2.4.2',
-484 silly addNameRange     '2.4.3',
-484 silly addNameRange     '2.4.4',
-484 silly addNameRange     '2.4.5',
-484 silly addNameRange     '2.4.6',
-484 silly addNameRange     '2.4.7',
-484 silly addNameRange     '2.4.8',
-484 silly addNameRange     '2.4.9',
-484 silly addNameRange     '2.4.10',
-484 silly addNameRange     '2.5.0',
-484 silly addNameRange     '2.5.1',
-484 silly addNameRange     '2.5.2',
-484 silly addNameRange     '2.5.3',
-484 silly addNameRange     '2.5.4',
-484 silly addNameRange     '2.5.5',
-484 silly addNameRange     '2.5.6',
-484 silly addNameRange     '2.5.7',
-484 silly addNameRange     '2.5.8',
-484 silly addNameRange     '2.5.9',
-484 silly addNameRange     '2.5.10',
-484 silly addNameRange     '2.5.11',
-484 silly addNameRange     '2.5.12',
-484 silly addNameRange     '2.5.13',
-484 silly addNameRange     '2.5.14',
-484 silly addNameRange     '2.6.0',
-484 silly addNameRange     '2.6.1',
-484 silly addNameRange     '2.6.2',
-484 silly addNameRange     '2.6.3',
-484 silly addNameRange     '2.6.4',
-484 silly addNameRange     '2.6.5',
-484 silly addNameRange     '2.6.6',
-484 silly addNameRange     '2.6.7',
-484 silly addNameRange     '2.6.8',
-484 silly addNameRange     '2.7.0',
-484 silly addNameRange     '2.7.1',
-484 silly addNameRange     '2.7.2',
-484 silly addNameRange     '2.7.4',
-484 silly addNameRange     '2.7.3',
-484 silly addNameRange     '3.0.0',
-484 silly addNameRange     '3.0.1',
-484 silly addNameRange     '3.0.2',
-484 silly addNameRange     '2.8.0',
-484 silly addNameRange     '3.0.3',
-484 silly addNameRange     '3.1.0',
-484 silly addNameRange     '2.8.1',
-484 silly addNameRange     '3.1.1',
-484 silly addNameRange     '2.8.2',
-484 silly addNameRange     '2.8.3',
-484 silly addNameRange     '2.9.0',
-484 silly addNameRange     '3.2.0',
-484 silly addNameRange     '2.9.1',
-484 silly addNameRange     '3.2.1',
-484 silly addNameRange     '2.9.2',
-484 silly addNameRange     '3.2.2',
-484 silly addNameRange     '3.3.0',
-484 silly addNameRange     '3.3.1',
-484 silly addNameRange     '2.9.3',
-484 silly addNameRange     '3.4.0',
-484 silly addNameRange     '2.9.4',
-484 silly addNameRange     '2.9.5',
-484 silly addNameRange     '3.5.0',
-484 silly addNameRange     '3.5.1',
-484 silly addNameRange     '3.5.2',
-484 silly addNameRange     '3.5.3',
-484 silly addNameRange     '2.9.6',
-484 silly addNameRange     '2.9.7',
-484 silly addNameRange     '3.5.4',
-484 silly addNameRange     '3.5.5',
-484 silly addNameRange     '2.9.8',
-484 silly addNameRange     '2.9.9',
-484 silly addNameRange     '3.5.6',
-484 silly addNameRange     '3.5.7',
-484 silly addNameRange     '3.5.8',
-484 silly addNameRange     '2.9.10',
-484 silly addNameRange     '3.5.9',
-484 silly addNameRange     '3.6.2',
-484 silly addNameRange     '3.5.10',
-484 silly addNameRange     '3.6.3',
-484 silly addNameRange     '3.5.11',
-484 silly addNameRange     '3.6.4',
-484 silly addNameRange     '3.6.5',
-484 silly addNameRange     '3.6.6',
-484 silly addNameRange     '3.6.7',
-484 silly addNameRange     '3.5.12',
-484 silly addNameRange     '3.6.8',
-484 silly addNameRange     '3.6.9',
-484 silly addNameRange     '3.6.10',
-484 silly addNameRange     '3.5.13',
-484 silly addNameRange     '3.5.14',
-484 silly addNameRange     '3.6.11',
-484 silly addNameRange     '3.6.12',
-484 silly addNameRange     '3.6.13',
-484 silly addNameRange     '3.6.14',
-484 silly addNameRange     '3.6.15',
-484 silly addNameRange     '3.5.15',
-484 silly addNameRange     '3.7.0',
-484 silly addNameRange     '3.6.16',
-484 silly addNameRange     '3.5.16',
-484 silly addNameRange     '3.6.17',
-484 silly addNameRange     '3.7.2',
-484 silly addNameRange     '3.0.0-alpha1',
-484 silly addNameRange     '3.0.0-alpha2',
-484 silly addNameRange     '3.0.0-rc0',
-484 silly addNameRange     '3.6.0-rc0',
-484 silly addNameRange     '3.6.0-rc1',
-484 silly addNameRange     '3.6.18',
-484 silly addNameRange     '3.7.3',
-484 silly addNameRange     '3.6.19',
-484 silly addNameRange     '3.6.20',
-484 silly addNameRange     '3.7.4',
-484 silly addNameRange     '3.8.0',
-484 silly addNameRange     '3.8.1',
-484 silly addNameRange     '3.8.2',
-484 silly addNameRange     '3.8.3',
-484 silly addNameRange     '3.8.4',
-484 silly addNameRange     '3.8.5',
-484 silly addNameRange     '3.8.6',
-484 silly addNameRange     '3.8.7',
-484 silly addNameRange     '3.8.8',
-484 silly addNameRange     '3.8.9',
-484 silly addNameRange     '3.8.10',
-484 silly addNameRange     '3.8.11',
-484 silly addNameRange     '3.9.0',
-484 silly addNameRange     '3.8.12',
-484 silly addNameRange     '3.8.13',
-484 silly addNameRange     '3.8.14',
-484 silly addNameRange     '3.8.15',
-484 silly addNameRange     '3.9.1',
-484 silly addNameRange     '3.8.16',
-484 silly addNameRange     '3.9.2',
-484 silly addNameRange     '3.8.17',
-484 silly addNameRange     '3.9.3',
-484 silly addNameRange     '3.8.18',
-484 silly addNameRange     '3.9.4',
-484 silly addNameRange     '3.8.19',
-484 silly addNameRange     '3.9.5',
-484 silly addNameRange     '3.8.20',
-484 silly addNameRange     '3.9.6',
-484 silly addNameRange     '3.8.21',
-484 silly addNameRange     '3.9.7',
-484 silly addNameRange     '3.8.22',
-484 silly addNameRange     '4.0.0-rc0',
-484 silly addNameRange     '4.0.0-rc1',
-484 silly addNameRange     '3.8.23',
-484 silly addNameRange     '4.0.0-rc2',
-484 silly addNameRange     '3.8.24',
-484 silly addNameRange     '4.0.0-rc3',
-484 silly addNameRange     '3.8.25',
-484 silly addNameRange     '4.0.0-rc4',
-484 silly addNameRange     '4.0.0',
-484 silly addNameRange     '4.0.1',
-484 silly addNameRange     '3.8.26',
-484 silly addNameRange     '3.8.27',
-484 silly addNameRange     '4.0.2',
-484 silly addNameRange     '3.8.28',
-484 silly addNameRange     '4.0.3',
-484 silly addNameRange     '3.8.29',
-484 silly addNameRange     '4.0.4',
-484 silly addNameRange     '3.8.30',
-484 silly addNameRange     '4.0.5',
-484 silly addNameRange     '3.8.31',
-484 silly addNameRange     '4.0.6',
-484 silly addNameRange     '3.8.33',
-484 silly addNameRange     '4.0.7',
-484 silly addNameRange     '3.8.34',
-484 silly addNameRange     '4.0.8',
-484 silly addNameRange     '4.1.0',
-484 silly addNameRange     '4.1.1',
-484 silly addNameRange     '4.1.2',
-484 silly addNameRange     '3.8.35',
-484 silly addNameRange     '4.1.3',
-484 silly addNameRange     '4.1.5',
-484 silly addNameRange     '4.1.6',
-484 silly addNameRange     '4.1.7',
-484 silly addNameRange     '4.1.8',
-484 silly addNameRange     '4.1.9',
-484 silly addNameRange     '4.1.10',
-484 silly addNameRange     '4.1.11',
-484 silly addNameRange     '3.8.36',
-484 silly addNameRange     '4.1.12',
-484 silly addNameRange     '4.2.0',
-484 silly addNameRange     '4.2.1',
-484 silly addNameRange     '4.2.2',
-484 silly addNameRange     '4.2.3',
-484 silly addNameRange     '4.2.4',
-484 silly addNameRange     '4.2.5',
-484 silly addNameRange     '3.8.37',
-484 silly addNameRange     '4.2.6',
-484 silly addNameRange     '4.2.7',
-484 silly addNameRange     '4.2.8',
-484 silly addNameRange     '4.2.9',
-484 silly addNameRange     '4.2.10',
-484 silly addNameRange     '4.3.0',
-484 silly addNameRange     '4.3.1',
-484 silly addNameRange     '4.3.2',
-484 silly addNameRange     '4.3.3',
-484 silly addNameRange     '4.3.4',
-484 silly addNameRange     '3.8.38',
-484 silly addNameRange     '4.3.5',
-484 silly addNameRange     '4.3.6',
-484 silly addNameRange     '3.8.39',
-484 silly addNameRange     '4.3.7',
-484 silly addNameRange     '4.4.0',
-484 silly addNameRange     '4.4.1',
-484 silly addNameRange     '4.4.2',
-484 silly addNameRange     '4.4.3',
-484 silly addNameRange     '4.4.4' ] ]
-485 silly addNamed mongoose@4.4.4
-486 verbose addNamed "4.4.4" is a plain semver version for mongoose
-487 verbose get https://registry.npmjs.org/gulp-autoprefixer not expired, no request
-488 silly addNameRange number 2 { name: 'gulp-autoprefixer',
-488 silly addNameRange   range: '>=1.0.1 <2.0.0',
-488 silly addNameRange   hasData: true }
-489 silly addNameRange versions [ 'gulp-autoprefixer',
-489 silly addNameRange   [ '0.0.1',
-489 silly addNameRange     '0.0.2',
-489 silly addNameRange     '0.0.3',
-489 silly addNameRange     '0.0.4',
-489 silly addNameRange     '0.0.5',
-489 silly addNameRange     '0.0.6',
-489 silly addNameRange     '0.0.7',
-489 silly addNameRange     '0.0.8',
-489 silly addNameRange     '0.0.9',
-489 silly addNameRange     '0.0.10',
-489 silly addNameRange     '1.0.0',
-489 silly addNameRange     '1.0.1',
-489 silly addNameRange     '2.0.0',
-489 silly addNameRange     '2.1.0',
-489 silly addNameRange     '2.2.0',
-489 silly addNameRange     '2.3.0',
-489 silly addNameRange     '2.3.1',
-489 silly addNameRange     '3.0.0',
-489 silly addNameRange     '3.0.1',
-489 silly addNameRange     '3.0.2',
-489 silly addNameRange     '3.1.0' ] ]
-490 silly addNamed gulp-autoprefixer@1.0.1
-491 verbose addNamed "1.0.1" is a plain semver version for gulp-autoprefixer
-492 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz not in flight; adding
-493 verbose addTmpTarball already have metadata; skipping unpack for gulp-connect@2.3.1
-494 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-495 silly mapToRegistry name mongoose
-496 silly mapToRegistry using default registry
-497 silly mapToRegistry registry https://registry.npmjs.org/
-498 silly mapToRegistry uri https://registry.npmjs.org/mongoose
-499 verbose addRemoteTarball https://registry.npmjs.org/mongoose/-/mongoose-4.4.4.tgz not in flight; adding
-500 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-4.4.4.tgz',
-500 verbose addRemoteTarball   'd3a2d966d77c4c9808fec66d569e2b883c586b54' ]
-501 silly mapToRegistry name gulp-autoprefixer
-502 silly mapToRegistry using default registry
-503 silly mapToRegistry registry https://registry.npmjs.org/
-504 silly mapToRegistry uri https://registry.npmjs.org/gulp-autoprefixer
-505 verbose addRemoteTarball https://registry.npmjs.org/gulp-autoprefixer/-/gulp-autoprefixer-1.0.1.tgz not in flight; adding
-506 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-autoprefixer/-/gulp-autoprefixer-1.0.1.tgz',
-506 verbose addRemoteTarball   'e42b00d59733dda44c3f201dd21e4dcb4da84733' ]
-507 verbose get https://registry.npmjs.org/gulp-rev not expired, no request
-508 silly addNameRange number 2 { name: 'gulp-rev', range: '>=2.0.1 <3.0.0', hasData: true }
-509 silly addNameRange versions [ 'gulp-rev',
-509 silly addNameRange   [ '0.1.0',
-509 silly addNameRange     '0.2.0',
-509 silly addNameRange     '0.2.1',
-509 silly addNameRange     '0.3.0',
-509 silly addNameRange     '0.3.1',
-509 silly addNameRange     '0.3.2',
-509 silly addNameRange     '0.4.0',
-509 silly addNameRange     '0.4.1',
-509 silly addNameRange     '0.4.2',
-509 silly addNameRange     '1.0.0',
-509 silly addNameRange     '1.1.0',
-509 silly addNameRange     '2.0.0',
-509 silly addNameRange     '2.0.1',
-509 silly addNameRange     '3.0.0',
-509 silly addNameRange     '3.0.1',
-509 silly addNameRange     '4.0.0',
-509 silly addNameRange     '5.0.0',
-509 silly addNameRange     '5.0.1',
-509 silly addNameRange     '5.1.0',
-509 silly addNameRange     '6.0.0',
-509 silly addNameRange     '6.0.1',
-509 silly addNameRange     '7.0.0' ] ]
-510 silly addNamed gulp-rev@2.0.1
-511 verbose addNamed "2.0.1" is a plain semver version for gulp-rev
-512 verbose get https://registry.npmjs.org/gulp-usemin not expired, no request
-513 silly addNameRange number 2 { name: 'gulp-usemin', range: '>=0.3.8 <0.4.0', hasData: true }
-514 silly addNameRange versions [ 'gulp-usemin',
-514 silly addNameRange   [ '0.0.1',
-514 silly addNameRange     '0.0.2',
-514 silly addNameRange     '0.1.0',
-514 silly addNameRange     '0.1.1',
-514 silly addNameRange     '0.1.2',
-514 silly addNameRange     '0.1.3',
-514 silly addNameRange     '0.1.4',
-514 silly addNameRange     '0.2.0',
-514 silly addNameRange     '0.2.1',
-514 silly addNameRange     '0.2.2',
-514 silly addNameRange     '0.2.3',
-514 silly addNameRange     '0.3.0',
-514 silly addNameRange     '0.3.1',
-514 silly addNameRange     '0.3.2',
-514 silly addNameRange     '0.3.3',
-514 silly addNameRange     '0.3.4',
-514 silly addNameRange     '0.3.5',
-514 silly addNameRange     '0.3.6',
-514 silly addNameRange     '0.3.7',
-514 silly addNameRange     '0.3.8',
-514 silly addNameRange     '0.3.9',
-514 silly addNameRange     '0.3.10',
-514 silly addNameRange     '0.3.11',
-514 silly addNameRange     '0.3.12',
-514 silly addNameRange     '0.3.13',
-514 silly addNameRange     '0.3.14',
-514 silly addNameRange     '0.3.15',
-514 silly addNameRange     '0.3.16',
-514 silly addNameRange     '0.3.17',
-514 silly addNameRange     '0.3.18',
-514 silly addNameRange     '0.3.19',
-514 silly addNameRange     '0.3.20',
-514 silly addNameRange     '0.3.21' ] ]
-515 silly addNamed gulp-usemin@0.3.21
-516 verbose addNamed "0.3.21" is a plain semver version for gulp-usemin
-517 verbose get https://registry.npmjs.org/gulp-extname not expired, no request
-518 silly addNameRange number 2 { name: 'gulp-extname', range: '>=0.2.0 <0.3.0', hasData: true }
-519 silly addNameRange versions [ 'gulp-extname', [ '0.1.0', '0.1.1', '0.2.0', '0.2.2' ] ]
-520 silly addNamed gulp-extname@0.2.2
-521 verbose addNamed "0.2.2" is a plain semver version for gulp-extname
-522 verbose get https://registry.npmjs.org/gulp-template not expired, no request
-523 silly addNameRange number 2 { name: 'gulp-template', range: '>=1.1.1 <2.0.0', hasData: true }
-524 silly addNameRange versions [ 'gulp-template',
-524 silly addNameRange   [ '0.1.0',
-524 silly addNameRange     '0.1.1',
-524 silly addNameRange     '0.1.2',
-524 silly addNameRange     '1.0.0',
-524 silly addNameRange     '1.0.1',
-524 silly addNameRange     '1.1.0',
-524 silly addNameRange     '1.1.1',
-524 silly addNameRange     '2.0.0',
-524 silly addNameRange     '2.1.0',
-524 silly addNameRange     '2.1.1',
-524 silly addNameRange     '3.0.0',
-524 silly addNameRange     '3.1.0' ] ]
-525 silly addNamed gulp-template@1.1.1
-526 verbose addNamed "1.1.1" is a plain semver version for gulp-template
-527 silly mapToRegistry name gulp-rev
-528 silly mapToRegistry using default registry
-529 silly mapToRegistry registry https://registry.npmjs.org/
-530 silly mapToRegistry uri https://registry.npmjs.org/gulp-rev
-531 verbose addRemoteTarball https://registry.npmjs.org/gulp-rev/-/gulp-rev-2.0.1.tgz not in flight; adding
-532 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-rev/-/gulp-rev-2.0.1.tgz',
-532 verbose addRemoteTarball   '0e50ad1bcffdafe2b9bf469e6c40201e8068e4a6' ]
-533 silly mapToRegistry name gulp-usemin
+416 http 304 https://registry.npmjs.org/gulp-rev
+417 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+417 verbose headers   via: '1.1 varnish',
+417 verbose headers   'cache-control': 'max-age=300',
+417 verbose headers   etag: '"1TZ8WZZ8G32UCE5VBXXBWQH5T"',
+417 verbose headers   age: '33',
+417 verbose headers   connection: 'keep-alive',
+417 verbose headers   'x-served-by': 'cache-dfw1825-DFW',
+417 verbose headers   'x-cache': 'HIT',
+417 verbose headers   'x-cache-hits': '1',
+417 verbose headers   'x-timer': 'S1455783379.612466,VS0,VE0',
+417 verbose headers   vary: 'Accept' }
+418 silly get cb [ 304,
+418 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+418 silly get     via: '1.1 varnish',
+418 silly get     'cache-control': 'max-age=300',
+418 silly get     etag: '"1TZ8WZZ8G32UCE5VBXXBWQH5T"',
+418 silly get     age: '33',
+418 silly get     connection: 'keep-alive',
+418 silly get     'x-served-by': 'cache-dfw1825-DFW',
+418 silly get     'x-cache': 'HIT',
+418 silly get     'x-cache-hits': '1',
+418 silly get     'x-timer': 'S1455783379.612466,VS0,VE0',
+418 silly get     vary: 'Accept' } ]
+419 verbose etag https://registry.npmjs.org/gulp-rev from cache
+420 verbose get saving gulp-rev to /Users/stephenvasquez/.npm/registry.npmjs.org/gulp-rev/.cache.json
+421 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+422 http 304 https://registry.npmjs.org/lodash
+423 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+423 verbose headers   via: '1.1 varnish',
+423 verbose headers   'cache-control': 'max-age=300',
+423 verbose headers   etag: '"B9PP0PA64C6FJAPH01TBIOZI8"',
+423 verbose headers   age: '59',
+423 verbose headers   connection: 'keep-alive',
+423 verbose headers   'x-served-by': 'cache-dfw1828-DFW',
+423 verbose headers   'x-cache': 'HIT',
+423 verbose headers   'x-cache-hits': '2',
+423 verbose headers   'x-timer': 'S1455783379.621273,VS0,VE0',
+423 verbose headers   vary: 'Accept' }
+424 silly get cb [ 304,
+424 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+424 silly get     via: '1.1 varnish',
+424 silly get     'cache-control': 'max-age=300',
+424 silly get     etag: '"B9PP0PA64C6FJAPH01TBIOZI8"',
+424 silly get     age: '59',
+424 silly get     connection: 'keep-alive',
+424 silly get     'x-served-by': 'cache-dfw1828-DFW',
+424 silly get     'x-cache': 'HIT',
+424 silly get     'x-cache-hits': '2',
+424 silly get     'x-timer': 'S1455783379.621273,VS0,VE0',
+424 silly get     vary: 'Accept' } ]
+425 verbose etag https://registry.npmjs.org/lodash from cache
+426 verbose get saving lodash to /Users/stephenvasquez/.npm/registry.npmjs.org/lodash/.cache.json
+427 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+428 http 304 https://registry.npmjs.org/mongoose
+429 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+429 verbose headers   via: '1.1 varnish',
+429 verbose headers   'cache-control': 'max-age=300',
+429 verbose headers   etag: '"5689GVIXYUVVMH4R377J591H5"',
+429 verbose headers   age: '12',
+429 verbose headers   connection: 'keep-alive',
+429 verbose headers   'x-served-by': 'cache-dfw1825-DFW',
+429 verbose headers   'x-cache': 'HIT',
+429 verbose headers   'x-cache-hits': '4',
+429 verbose headers   'x-timer': 'S1455783379.622585,VS0,VE0',
+429 verbose headers   vary: 'Accept' }
+430 silly get cb [ 304,
+430 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+430 silly get     via: '1.1 varnish',
+430 silly get     'cache-control': 'max-age=300',
+430 silly get     etag: '"5689GVIXYUVVMH4R377J591H5"',
+430 silly get     age: '12',
+430 silly get     connection: 'keep-alive',
+430 silly get     'x-served-by': 'cache-dfw1825-DFW',
+430 silly get     'x-cache': 'HIT',
+430 silly get     'x-cache-hits': '4',
+430 silly get     'x-timer': 'S1455783379.622585,VS0,VE0',
+430 silly get     vary: 'Accept' } ]
+431 verbose etag https://registry.npmjs.org/mongoose from cache
+432 verbose get saving mongoose to /Users/stephenvasquez/.npm/registry.npmjs.org/mongoose/.cache.json
+433 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+434 http 304 https://registry.npmjs.org/kerberos
+435 verbose headers { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+435 verbose headers   via: '1.1 varnish',
+435 verbose headers   'cache-control': 'max-age=300',
+435 verbose headers   etag: '"CZ5T9RBE7Z587BN5ULUSZY6XP"',
+435 verbose headers   age: '0',
+435 verbose headers   connection: 'keep-alive',
+435 verbose headers   'x-served-by': 'cache-dfw1822-DFW',
+435 verbose headers   'x-cache': 'HIT',
+435 verbose headers   'x-cache-hits': '1',
+435 verbose headers   'x-timer': 'S1455783379.504216,VS0,VE250',
+435 verbose headers   vary: 'Accept' }
+436 silly get cb [ 304,
+436 silly get   { date: 'Thu, 18 Feb 2016 08:16:19 GMT',
+436 silly get     via: '1.1 varnish',
+436 silly get     'cache-control': 'max-age=300',
+436 silly get     etag: '"CZ5T9RBE7Z587BN5ULUSZY6XP"',
+436 silly get     age: '0',
+436 silly get     connection: 'keep-alive',
+436 silly get     'x-served-by': 'cache-dfw1822-DFW',
+436 silly get     'x-cache': 'HIT',
+436 silly get     'x-cache-hits': '1',
+436 silly get     'x-timer': 'S1455783379.504216,VS0,VE250',
+436 silly get     vary: 'Accept' } ]
+437 verbose etag https://registry.npmjs.org/kerberos from cache
+438 verbose get saving kerberos to /Users/stephenvasquez/.npm/registry.npmjs.org/kerberos/.cache.json
+439 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
+440 info outdated updating [ { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'assemble',
+440 info outdated     current: undefined,
+440 info outdated     wanted: 'git',
+440 info outdated     latest: 'git',
+440 info outdated     req: 'git://github.com/assemble/assemble.git#v0.6.0',
+440 info outdated     what: 'assemble@git' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'express',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '4.13.4',
+440 info outdated     latest: '4.13.4',
+440 info outdated     req: '^4.11.2',
+440 info outdated     what: 'express@4.13.4' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-autoprefixer',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '1.0.1',
+440 info outdated     latest: '3.1.0',
+440 info outdated     req: '^1.0.1',
+440 info outdated     what: 'gulp-autoprefixer@1.0.1' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-connect',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '2.3.1',
+440 info outdated     latest: '2.3.1',
+440 info outdated     req: '^2.0.6',
+440 info outdated     what: 'gulp-connect@2.3.1' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-extname',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '0.2.2',
+440 info outdated     latest: '0.2.2',
+440 info outdated     req: '^0.2.0',
+440 info outdated     what: 'gulp-extname@0.2.2' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-load-plugins',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '0.7.1',
+440 info outdated     latest: '1.2.0',
+440 info outdated     req: '^0.7.0',
+440 info outdated     what: 'gulp-load-plugins@0.7.1' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-minify-html',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '0.1.8',
+440 info outdated     latest: '1.0.5',
+440 info outdated     req: '^0.1.8',
+440 info outdated     what: 'gulp-minify-html@0.1.8' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-rev',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '2.0.1',
+440 info outdated     latest: '7.0.0',
+440 info outdated     req: '^2.0.1',
+440 info outdated     what: 'gulp-rev@2.0.1' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-sass',
+440 info outdated     current: '2.2.0',
+440 info outdated     wanted: '1.3.3',
+440 info outdated     latest: '2.2.0',
+440 info outdated     req: '^1.2.2',
+440 info outdated     what: 'gulp-sass@1.3.3' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-template',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '1.1.1',
+440 info outdated     latest: '3.1.0',
+440 info outdated     req: '^1.1.1',
+440 info outdated     what: 'gulp-template@1.1.1' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'gulp-usemin',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '0.3.21',
+440 info outdated     latest: '0.3.21',
+440 info outdated     req: '^0.3.8',
+440 info outdated     what: 'gulp-usemin@0.3.21' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'lodash',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '2.4.2',
+440 info outdated     latest: '4.5.0',
+440 info outdated     req: '^2.4.1',
+440 info outdated     what: 'lodash@2.4.2' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'marked',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '0.3.5',
+440 info outdated     latest: '0.3.5',
+440 info outdated     req: '^0.3.2',
+440 info outdated     what: 'marked@0.3.5' },
+440 info outdated   { dep:
+440 info outdated      { package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw',
+440 info outdated        parent: [Object],
+440 info outdated        isMissing: true },
+440 info outdated     depname: 'mongoose',
+440 info outdated     current: undefined,
+440 info outdated     wanted: '4.4.4',
+440 info outdated     latest: '4.4.4',
+440 info outdated     req: '^4.4.2',
+440 info outdated     what: 'mongoose@4.4.4' },
+440 info outdated   { dep:
+440 info outdated      Node {
+440 info outdated        id: 449,
+440 info outdated        package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw/node_modules/gulp',
+440 info outdated        realpath: '/Users/stephenvasquez/sxsw/node_modules/gulp',
+440 info outdated        parent: [Object],
+440 info outdated        isLink: false,
+440 info outdated        children: [Object],
+440 info outdated        error: null,
+440 info outdated        loaded: false,
+440 info outdated        requiredBy: [Object],
+440 info outdated        requires: [Object],
+440 info outdated        missingDeps: {},
+440 info outdated        missingDevDeps: {},
+440 info outdated        userRequired: false,
+440 info outdated        existing: false },
+440 info outdated     depname: 'gulp',
+440 info outdated     current: '3.9.0',
+440 info outdated     wanted: '3.9.1',
+440 info outdated     latest: '3.9.1',
+440 info outdated     req: '^3.8.10',
+440 info outdated     what: 'gulp@3.9.1' },
+440 info outdated   { dep:
+440 info outdated      Node {
+440 info outdated        id: 168,
+440 info outdated        package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw/node_modules/gulp-sass',
+440 info outdated        realpath: '/Users/stephenvasquez/sxsw/node_modules/gulp-sass',
+440 info outdated        parent: [Object],
+440 info outdated        isLink: false,
+440 info outdated        children: [Object],
+440 info outdated        error: null,
+440 info outdated        loaded: false,
+440 info outdated        requiredBy: [Object],
+440 info outdated        requires: [Object],
+440 info outdated        missingDeps: {},
+440 info outdated        missingDevDeps: {},
+440 info outdated        userRequired: false,
+440 info outdated        existing: false },
+440 info outdated     depname: 'gulp-sass',
+440 info outdated     current: '2.2.0',
+440 info outdated     wanted: '1.3.3',
+440 info outdated     latest: '2.2.0',
+440 info outdated     req: '^1.2.2',
+440 info outdated     what: 'gulp-sass@1.3.3' },
+440 info outdated   { dep:
+440 info outdated      Node {
+440 info outdated        id: 169,
+440 info outdated        package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw/node_modules/gulp-uglify',
+440 info outdated        realpath: '/Users/stephenvasquez/sxsw/node_modules/gulp-uglify',
+440 info outdated        parent: [Object],
+440 info outdated        isLink: false,
+440 info outdated        children: [Object],
+440 info outdated        error: null,
+440 info outdated        loaded: false,
+440 info outdated        requiredBy: [Object],
+440 info outdated        requires: [Object],
+440 info outdated        missingDeps: {},
+440 info outdated        missingDevDeps: {},
+440 info outdated        userRequired: false,
+440 info outdated        existing: false },
+440 info outdated     depname: 'gulp-uglify',
+440 info outdated     current: '1.5.1',
+440 info outdated     wanted: '1.5.2',
+440 info outdated     latest: '1.5.2',
+440 info outdated     req: '^1.0.1',
+440 info outdated     what: 'gulp-uglify@1.5.2' },
+440 info outdated   { dep:
+440 info outdated      Node {
+440 info outdated        id: 225,
+440 info outdated        package: [Object],
+440 info outdated        path: '/Users/stephenvasquez/sxsw/node_modules/jsonwebtoken',
+440 info outdated        realpath: '/Users/stephenvasquez/sxsw/node_modules/jsonwebtoken',
+440 info outdated        parent: [Object],
+440 info outdated        isLink: false,
+440 info outdated        children: [Object],
+440 info outdated        error: null,
+440 info outdated        loaded: false,
+440 info outdated        requiredBy: [Object],
+440 info outdated        requires: [Object],
+440 info outdated        missingDeps: {},
+440 info outdated        missingDevDeps: {},
+440 info outdated        userRequired: false,
+440 info outdated        existing: false },
+440 info outdated     depname: 'jsonwebtoken',
+440 info outdated     current: '5.5.4',
+440 info outdated     wanted: '5.7.0',
+440 info outdated     latest: '5.7.0',
+440 info outdated     req: '^5.5.4',
+440 info outdated     what: 'jsonwebtoken@5.7.0' } ]
+441 silly loadCurrentTree Starting
+442 silly install loadCurrentTree
+443 silly install readLocalPackageData
+444 silly fetchPackageMetaData git://github.com/assemble/assemble.git#v0.6.0
+445 silly fetchPackageMetaData express@4.13.4
+446 silly fetchPackageMetaData gulp-autoprefixer@1.0.1
+447 silly fetchPackageMetaData gulp-connect@2.3.1
+448 silly fetchPackageMetaData gulp-extname@0.2.2
+449 silly fetchPackageMetaData gulp-load-plugins@0.7.1
+450 silly fetchPackageMetaData gulp-minify-html@0.1.8
+451 silly fetchPackageMetaData gulp-rev@2.0.1
+452 silly fetchPackageMetaData gulp-sass@1.3.3
+453 silly fetchPackageMetaData gulp-template@1.1.1
+454 silly fetchPackageMetaData gulp-usemin@0.3.21
+455 silly fetchPackageMetaData lodash@2.4.2
+456 silly fetchPackageMetaData marked@0.3.5
+457 silly fetchPackageMetaData mongoose@4.4.4
+458 silly fetchPackageMetaData gulp@3.9.1
+459 silly fetchPackageMetaData gulp-sass@1.3.3
+460 silly fetchPackageMetaData gulp-uglify@1.5.2
+461 silly fetchPackageMetaData jsonwebtoken@5.7.0
+462 silly fetchNamedPackageData express
+463 silly mapToRegistry name express
+464 silly mapToRegistry using default registry
+465 silly mapToRegistry registry https://registry.npmjs.org/
+466 silly mapToRegistry uri https://registry.npmjs.org/express
+467 silly fetchNamedPackageData gulp-autoprefixer
+468 silly mapToRegistry name gulp-autoprefixer
+469 silly mapToRegistry using default registry
+470 silly mapToRegistry registry https://registry.npmjs.org/
+471 silly mapToRegistry uri https://registry.npmjs.org/gulp-autoprefixer
+472 silly fetchNamedPackageData gulp-connect
+473 silly mapToRegistry name gulp-connect
+474 silly mapToRegistry using default registry
+475 silly mapToRegistry registry https://registry.npmjs.org/
+476 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+477 silly fetchNamedPackageData gulp-extname
+478 silly mapToRegistry name gulp-extname
+479 silly mapToRegistry using default registry
+480 silly mapToRegistry registry https://registry.npmjs.org/
+481 silly mapToRegistry uri https://registry.npmjs.org/gulp-extname
+482 silly fetchNamedPackageData gulp-load-plugins
+483 silly mapToRegistry name gulp-load-plugins
+484 silly mapToRegistry using default registry
+485 silly mapToRegistry registry https://registry.npmjs.org/
+486 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
+487 silly fetchNamedPackageData gulp-minify-html
+488 silly mapToRegistry name gulp-minify-html
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry https://registry.npmjs.org/
+491 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+492 silly fetchNamedPackageData gulp-rev
+493 silly mapToRegistry name gulp-rev
+494 silly mapToRegistry using default registry
+495 silly mapToRegistry registry https://registry.npmjs.org/
+496 silly mapToRegistry uri https://registry.npmjs.org/gulp-rev
+497 silly fetchNamedPackageData gulp-sass
+498 silly mapToRegistry name gulp-sass
+499 silly mapToRegistry using default registry
+500 silly mapToRegistry registry https://registry.npmjs.org/
+501 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+502 silly fetchNamedPackageData gulp-template
+503 silly mapToRegistry name gulp-template
+504 silly mapToRegistry using default registry
+505 silly mapToRegistry registry https://registry.npmjs.org/
+506 silly mapToRegistry uri https://registry.npmjs.org/gulp-template
+507 silly fetchNamedPackageData gulp-usemin
+508 silly mapToRegistry name gulp-usemin
+509 silly mapToRegistry using default registry
+510 silly mapToRegistry registry https://registry.npmjs.org/
+511 silly mapToRegistry uri https://registry.npmjs.org/gulp-usemin
+512 silly fetchNamedPackageData lodash
+513 silly mapToRegistry name lodash
+514 silly mapToRegistry using default registry
+515 silly mapToRegistry registry https://registry.npmjs.org/
+516 silly mapToRegistry uri https://registry.npmjs.org/lodash
+517 silly fetchNamedPackageData marked
+518 silly mapToRegistry name marked
+519 silly mapToRegistry using default registry
+520 silly mapToRegistry registry https://registry.npmjs.org/
+521 silly mapToRegistry uri https://registry.npmjs.org/marked
+522 silly fetchNamedPackageData mongoose
+523 silly mapToRegistry name mongoose
+524 silly mapToRegistry using default registry
+525 silly mapToRegistry registry https://registry.npmjs.org/
+526 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+527 silly fetchNamedPackageData gulp
+528 silly mapToRegistry name gulp
+529 silly mapToRegistry using default registry
+530 silly mapToRegistry registry https://registry.npmjs.org/
+531 silly mapToRegistry uri https://registry.npmjs.org/gulp
+532 silly fetchNamedPackageData gulp-sass
+533 silly mapToRegistry name gulp-sass
 534 silly mapToRegistry using default registry
 535 silly mapToRegistry registry https://registry.npmjs.org/
-536 silly mapToRegistry uri https://registry.npmjs.org/gulp-usemin
-537 verbose addRemoteTarball https://registry.npmjs.org/gulp-usemin/-/gulp-usemin-0.3.21.tgz not in flight; adding
-538 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-usemin/-/gulp-usemin-0.3.21.tgz',
-538 verbose addRemoteTarball   '1fe9bbb5a33d71474b795cd0eaf87af63bfdcb73' ]
-539 silly mapToRegistry name gulp-extname
-540 silly mapToRegistry using default registry
-541 silly mapToRegistry registry https://registry.npmjs.org/
-542 silly mapToRegistry uri https://registry.npmjs.org/gulp-extname
-543 verbose addRemoteTarball https://registry.npmjs.org/gulp-extname/-/gulp-extname-0.2.2.tgz not in flight; adding
-544 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-extname/-/gulp-extname-0.2.2.tgz',
-544 verbose addRemoteTarball   '344981172c57523d8781a3c5bc2c8cbacb07aeab' ]
-545 silly mapToRegistry name gulp-template
-546 silly mapToRegistry using default registry
-547 silly mapToRegistry registry https://registry.npmjs.org/
-548 silly mapToRegistry uri https://registry.npmjs.org/gulp-template
-549 verbose addRemoteTarball https://registry.npmjs.org/gulp-template/-/gulp-template-1.1.1.tgz not in flight; adding
-550 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-template/-/gulp-template-1.1.1.tgz',
-550 verbose addRemoteTarball   'f7701c659e42e1622bfda0e3db652b03276f8c78' ]
-551 info retry fetch attempt 1 at 2:09:12 AM
-552 info attempt registry request try #1 at 2:09:12 AM
-553 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-4.4.4.tgz
-554 info retry fetch attempt 1 at 2:09:12 AM
-555 info attempt registry request try #1 at 2:09:12 AM
-556 http fetch GET https://registry.npmjs.org/gulp-autoprefixer/-/gulp-autoprefixer-1.0.1.tgz
-557 silly cache afterAdd express@4.13.4
-558 verbose afterAdd /Users/stephenvasquez/.npm/express/4.13.4/package/package.json not in flight; writing
-559 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-560 info retry fetch attempt 1 at 2:09:12 AM
-561 info attempt registry request try #1 at 2:09:12 AM
-562 http fetch GET https://registry.npmjs.org/gulp-rev/-/gulp-rev-2.0.1.tgz
-563 info retry fetch attempt 1 at 2:09:12 AM
-564 info attempt registry request try #1 at 2:09:12 AM
-565 http fetch GET https://registry.npmjs.org/gulp-usemin/-/gulp-usemin-0.3.21.tgz
-566 info retry fetch attempt 1 at 2:09:12 AM
-567 info attempt registry request try #1 at 2:09:12 AM
-568 http fetch GET https://registry.npmjs.org/gulp-extname/-/gulp-extname-0.2.2.tgz
-569 info retry fetch attempt 1 at 2:09:12 AM
-570 info attempt registry request try #1 at 2:09:12 AM
-571 http fetch GET https://registry.npmjs.org/gulp-template/-/gulp-template-1.1.1.tgz
-572 silly cache afterAdd gulp-load-plugins@0.7.1
-573 verbose afterAdd /Users/stephenvasquez/.npm/gulp-load-plugins/0.7.1/package/package.json not in flight; writing
-574 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-575 verbose afterAdd /Users/stephenvasquez/.npm/gulp-load-plugins/0.7.1/package/package.json written
-576 verbose afterAdd /Users/stephenvasquez/.npm/express/4.13.4/package/package.json written
-577 silly cache afterAdd gulp-sass@1.3.3
-578 verbose afterAdd /Users/stephenvasquez/.npm/gulp-sass/1.3.3/package/package.json not in flight; writing
-579 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-580 silly cache afterAdd gulp-minify-html@0.1.8
-581 verbose afterAdd /Users/stephenvasquez/.npm/gulp-minify-html/0.1.8/package/package.json not in flight; writing
-582 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-583 silly cache afterAdd marked@0.3.5
-584 verbose afterAdd /Users/stephenvasquez/.npm/marked/0.3.5/package/package.json not in flight; writing
-585 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-586 verbose afterAdd /Users/stephenvasquez/.npm/gulp-sass/1.3.3/package/package.json written
-587 verbose afterAdd /Users/stephenvasquez/.npm/gulp-minify-html/0.1.8/package/package.json written
-588 verbose afterAdd /Users/stephenvasquez/.npm/marked/0.3.5/package/package.json written
-589 silly cache afterAdd gulp-connect@2.3.1
-590 verbose afterAdd /Users/stephenvasquez/.npm/gulp-connect/2.3.1/package/package.json not in flight; writing
-591 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-592 verbose afterAdd /Users/stephenvasquez/.npm/gulp-connect/2.3.1/package/package.json written
-593 http fetch 200 https://registry.npmjs.org/gulp-autoprefixer/-/gulp-autoprefixer-1.0.1.tgz
-594 silly fetchAndShaCheck shasum e42b00d59733dda44c3f201dd21e4dcb4da84733
-595 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-autoprefixer/-/gulp-autoprefixer-1.0.1.tgz not in flight; adding
-596 verbose addTmpTarball already have metadata; skipping unpack for gulp-autoprefixer@1.0.1
-597 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-598 silly cache afterAdd gulp-autoprefixer@1.0.1
-599 verbose afterAdd /Users/stephenvasquez/.npm/gulp-autoprefixer/1.0.1/package/package.json not in flight; writing
-600 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-601 verbose afterAdd /Users/stephenvasquez/.npm/gulp-autoprefixer/1.0.1/package/package.json written
-602 http fetch 200 https://registry.npmjs.org/gulp-rev/-/gulp-rev-2.0.1.tgz
-603 http fetch 200 https://registry.npmjs.org/gulp-usemin/-/gulp-usemin-0.3.21.tgz
-604 silly fetchAndShaCheck shasum 0e50ad1bcffdafe2b9bf469e6c40201e8068e4a6
-605 silly fetchAndShaCheck shasum 1fe9bbb5a33d71474b795cd0eaf87af63bfdcb73
-606 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-rev/-/gulp-rev-2.0.1.tgz not in flight; adding
-607 verbose addTmpTarball already have metadata; skipping unpack for gulp-rev@2.0.1
-608 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-609 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-usemin/-/gulp-usemin-0.3.21.tgz not in flight; adding
-610 verbose addTmpTarball already have metadata; skipping unpack for gulp-usemin@0.3.21
-611 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-612 silly cache afterAdd gulp-rev@2.0.1
-613 verbose afterAdd /Users/stephenvasquez/.npm/gulp-rev/2.0.1/package/package.json not in flight; writing
-614 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-615 silly cache afterAdd gulp-usemin@0.3.21
-616 verbose afterAdd /Users/stephenvasquez/.npm/gulp-usemin/0.3.21/package/package.json not in flight; writing
-617 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-618 verbose afterAdd /Users/stephenvasquez/.npm/gulp-usemin/0.3.21/package/package.json written
-619 verbose afterAdd /Users/stephenvasquez/.npm/gulp-rev/2.0.1/package/package.json written
-620 http fetch 200 https://registry.npmjs.org/mongoose/-/mongoose-4.4.4.tgz
-621 http fetch 200 https://registry.npmjs.org/gulp-template/-/gulp-template-1.1.1.tgz
-622 silly fetchAndShaCheck shasum f7701c659e42e1622bfda0e3db652b03276f8c78
-623 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-template/-/gulp-template-1.1.1.tgz not in flight; adding
-624 verbose addTmpTarball already have metadata; skipping unpack for gulp-template@1.1.1
-625 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-626 silly cache afterAdd gulp-template@1.1.1
-627 verbose afterAdd /Users/stephenvasquez/.npm/gulp-template/1.1.1/package/package.json not in flight; writing
-628 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-629 verbose afterAdd /Users/stephenvasquez/.npm/gulp-template/1.1.1/package/package.json written
-630 silly fetchAndShaCheck shasum d3a2d966d77c4c9808fec66d569e2b883c586b54
-631 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/mongoose/-/mongoose-4.4.4.tgz not in flight; adding
-632 verbose addTmpTarball already have metadata; skipping unpack for mongoose@4.4.4
-633 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-634 silly cache afterAdd mongoose@4.4.4
-635 verbose afterAdd /Users/stephenvasquez/.npm/mongoose/4.4.4/package/package.json not in flight; writing
-636 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-637 verbose afterAdd /Users/stephenvasquez/.npm/mongoose/4.4.4/package/package.json written
-638 http fetch 200 https://registry.npmjs.org/gulp-extname/-/gulp-extname-0.2.2.tgz
-639 silly fetchAndShaCheck shasum 344981172c57523d8781a3c5bc2c8cbacb07aeab
-640 verbose addTmpTarball /var/folders/tb/tkkfwljx0b10k042nsm839n40000gn/T/npm-48768-f735cad4/registry.npmjs.org/gulp-extname/-/gulp-extname-0.2.2.tgz not in flight; adding
-641 verbose addTmpTarball already have metadata; skipping unpack for gulp-extname@0.2.2
-642 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-643 silly cache afterAdd gulp-extname@0.2.2
-644 verbose afterAdd /Users/stephenvasquez/.npm/gulp-extname/0.2.2/package/package.json not in flight; writing
-645 verbose correctMkdir /Users/stephenvasquez/.npm correctMkdir not in flight; initializing
-646 verbose afterAdd /Users/stephenvasquez/.npm/gulp-extname/0.2.2/package/package.json written
-647 verbose mirrorRemote git://github.com/assemble/assemble.git#v0.6.0 git clone git://github.com/assemble/assemble.git
-648 verbose correctMkdir /Users/stephenvasquez/.npm/_git-remotes correctMkdir not in flight; initializing
-649 verbose setPermissions git://github.com/assemble/assemble.git#v0.6.0 set permissions on /Users/stephenvasquez/.npm/_git-remotes/git-github-com-assemble-assemble-git-v0-6-0-9e8b769b
-650 verbose resolveHead git://github.com/assemble/assemble.git#v0.6.0 original treeish: v0.6.0
-651 info git [ 'rev-list', '-n1', 'v0.6.0' ]
-652 error git rev-list -n1 v0.6.0: fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
-652 error git rev-list -n1 v0.6.0: Use '--' to separate paths from revisions, like this:
-652 error git rev-list -n1 v0.6.0: 'git <command> [<revision>...] -- [<file>...]'
-653 silly fetchPackageMetaData Error: Command failed: git rev-list -n1 v0.6.0
-653 silly fetchPackageMetaData fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
-653 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
-653 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
-653 silly fetchPackageMetaData
-653 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
-653 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
-653 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
-653 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
-653 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:319:11)
-653 silly fetchPackageMetaData     at emitOne (events.js:77:13)
-653 silly fetchPackageMetaData     at Socket.emit (events.js:169:7)
-653 silly fetchPackageMetaData     at Pipe._onclose (net.js:469:12)
-653 silly fetchPackageMetaData  error for assemble@git://github.com/assemble/assemble.git#v0.6.0 { [Error: Command failed: git rev-list -n1 v0.6.0
-653 silly fetchPackageMetaData fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
-653 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
-653 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
-653 silly fetchPackageMetaData ]
-653 silly fetchPackageMetaData   killed: false,
-653 silly fetchPackageMetaData   code: 128,
-653 silly fetchPackageMetaData   signal: null,
-653 silly fetchPackageMetaData   cmd: 'git rev-list -n1 v0.6.0' }
-654 silly rollbackFailedOptional Starting
-655 silly rollbackFailedOptional Finishing
-656 silly runTopLevelLifecycles Starting
-657 silly runTopLevelLifecycles Finishing
-658 silly install printInstalled
-659 verbose stack Error: Command failed: git rev-list -n1 v0.6.0
-659 verbose stack fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
-659 verbose stack Use '--' to separate paths from revisions, like this:
-659 verbose stack 'git <command> [<revision>...] -- [<file>...]'
-659 verbose stack
-659 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
-659 verbose stack     at emitTwo (events.js:87:13)
-659 verbose stack     at ChildProcess.emit (events.js:172:7)
-659 verbose stack     at maybeClose (internal/child_process.js:821:16)
-659 verbose stack     at Socket.<anonymous> (internal/child_process.js:319:11)
-659 verbose stack     at emitOne (events.js:77:13)
-659 verbose stack     at Socket.emit (events.js:169:7)
-659 verbose stack     at Pipe._onclose (net.js:469:12)
-660 verbose cwd /Users/stephenvasquez/sxsw
-661 error Darwin 15.2.0
-662 error argv "/usr/local/bin/node" "/Users/stephenvasquez/.npm-packages/bin/npm" "install"
-663 error node v5.4.1
-664 error npm  v3.6.0
-665 error code 128
-666 error Command failed: git rev-list -n1 v0.6.0
-666 error fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
-666 error Use '--' to separate paths from revisions, like this:
-666 error 'git <command> [<revision>...] -- [<file>...]'
-667 error If you need help, you may report this error at:
-667 error     <https://github.com/npm/npm/issues>
-668 verbose exit [ 1, true ]
+536 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+537 silly fetchNamedPackageData gulp-uglify
+538 silly mapToRegistry name gulp-uglify
+539 silly mapToRegistry using default registry
+540 silly mapToRegistry registry https://registry.npmjs.org/
+541 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+542 silly fetchNamedPackageData jsonwebtoken
+543 silly mapToRegistry name jsonwebtoken
+544 silly mapToRegistry using default registry
+545 silly mapToRegistry registry https://registry.npmjs.org/
+546 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+547 silly fetchOtherPackageData git://github.com/assemble/assemble.git#v0.6.0
+548 silly cache add args [ 'git://github.com/assemble/assemble.git#v0.6.0', null ]
+549 verbose cache add spec git://github.com/assemble/assemble.git#v0.6.0
+550 silly cache add parsed spec Result {
+550 silly cache add   raw: 'git://github.com/assemble/assemble.git#v0.6.0',
+550 silly cache add   scope: null,
+550 silly cache add   name: null,
+550 silly cache add   rawSpec: 'git://github.com/assemble/assemble.git#v0.6.0',
+550 silly cache add   spec: 'git://github.com/assemble/assemble.git#v0.6.0',
+550 silly cache add   type: 'hosted',
+550 silly cache add   hosted:
+550 silly cache add    { type: 'github',
+550 silly cache add      ssh: 'git@github.com:assemble/assemble.git#v0.6.0',
+550 silly cache add      sshUrl: 'git+ssh://git@github.com/assemble/assemble.git#v0.6.0',
+550 silly cache add      httpsUrl: 'git+https://github.com/assemble/assemble.git#v0.6.0',
+550 silly cache add      gitUrl: 'git://github.com/assemble/assemble.git#v0.6.0',
+550 silly cache add      shortcut: 'github:assemble/assemble#v0.6.0',
+550 silly cache add      directUrl: 'https://raw.githubusercontent.com/assemble/assemble/v0.6.0/package.json' } }
+551 verbose addRemoteGit caching git://github.com/assemble/assemble.git#v0.6.0
+552 verbose addRemoteGit git://github.com/assemble/assemble.git#v0.6.0 is a repository hosted by github
+553 silly tryClone cloning git://github.com/assemble/assemble.git#v0.6.0 via git://github.com/assemble/assemble.git#v0.6.0
+554 verbose tryClone git-github-com-assemble-assemble-git-v0-6-0-9e8b769b not in flight; caching
+555 verbose correctMkdir /Users/stephenvasquez/.npm/_git-remotes correctMkdir not in flight; initializing
+556 verbose get https://registry.npmjs.org/gulp-connect not expired, no request
+557 verbose get https://registry.npmjs.org/gulp-autoprefixer not expired, no request
+558 verbose get https://registry.npmjs.org/gulp-extname not expired, no request
+559 verbose get https://registry.npmjs.org/gulp-load-plugins not expired, no request
+560 verbose get https://registry.npmjs.org/gulp-minify-html not expired, no request
+561 verbose get https://registry.npmjs.org/gulp-template not expired, no request
+562 verbose get https://registry.npmjs.org/gulp-sass not expired, no request
+563 verbose get https://registry.npmjs.org/gulp-rev not expired, no request
+564 verbose get https://registry.npmjs.org/gulp-usemin not expired, no request
+565 verbose get https://registry.npmjs.org/lodash not expired, no request
+566 verbose get https://registry.npmjs.org/marked not expired, no request
+567 verbose get https://registry.npmjs.org/express not expired, no request
+568 verbose get https://registry.npmjs.org/gulp-sass not expired, no request
+569 verbose get https://registry.npmjs.org/gulp not expired, no request
+570 verbose get https://registry.npmjs.org/gulp-uglify not expired, no request
+571 verbose get https://registry.npmjs.org/jsonwebtoken not expired, no request
+572 verbose get https://registry.npmjs.org/mongoose not expired, no request
+573 info git [ 'config', '--get', 'remote.origin.url' ]
+574 silly validateExistingRemote git://github.com/assemble/assemble.git#v0.6.0 remote.origin.url: git://github.com/assemble/assemble.git
+575 verbose validateExistingRemote git://github.com/assemble/assemble.git#v0.6.0 is updating existing cached remote /Users/stephenvasquez/.npm/_git-remotes/git-github-com-assemble-assemble-git-v0-6-0-9e8b769b
+576 info git [ 'fetch', '-a', 'origin' ]
+577 verbose updateRemote git fetch -a origin (git://github.com/assemble/assemble.git)
+578 verbose correctMkdir /Users/stephenvasquez/.npm/_git-remotes correctMkdir not in flight; initializing
+579 verbose setPermissions git://github.com/assemble/assemble.git#v0.6.0 set permissions on /Users/stephenvasquez/.npm/_git-remotes/git-github-com-assemble-assemble-git-v0-6-0-9e8b769b
+580 verbose resolveHead git://github.com/assemble/assemble.git#v0.6.0 original treeish: v0.6.0
+581 info git [ 'rev-list', '-n1', 'v0.6.0' ]
+582 error git rev-list -n1 v0.6.0: fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
+582 error git rev-list -n1 v0.6.0: Use '--' to separate paths from revisions, like this:
+582 error git rev-list -n1 v0.6.0: 'git <command> [<revision>...] -- [<file>...]'
+583 silly fetchPackageMetaData Error: Command failed: git rev-list -n1 v0.6.0
+583 silly fetchPackageMetaData fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
+583 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
+583 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
+583 silly fetchPackageMetaData
+583 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
+583 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+583 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
+583 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
+583 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:319:11)
+583 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+583 silly fetchPackageMetaData     at Socket.emit (events.js:169:7)
+583 silly fetchPackageMetaData     at Pipe._onclose (net.js:469:12)
+583 silly fetchPackageMetaData  error for git://github.com/assemble/assemble.git#v0.6.0 { [Error: Command failed: git rev-list -n1 v0.6.0
+583 silly fetchPackageMetaData fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
+583 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
+583 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
+583 silly fetchPackageMetaData ]
+583 silly fetchPackageMetaData   killed: false,
+583 silly fetchPackageMetaData   code: 128,
+583 silly fetchPackageMetaData   signal: null,
+583 silly fetchPackageMetaData   cmd: 'git rev-list -n1 v0.6.0' }
+584 silly rollbackFailedOptional Starting
+585 silly rollbackFailedOptional Finishing
+586 silly runTopLevelLifecycles Starting
+587 silly runTopLevelLifecycles Finishing
+588 silly install printInstalled
+589 verbose stack Error: Command failed: git rev-list -n1 v0.6.0
+589 verbose stack fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
+589 verbose stack Use '--' to separate paths from revisions, like this:
+589 verbose stack 'git <command> [<revision>...] -- [<file>...]'
+589 verbose stack
+589 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+589 verbose stack     at emitTwo (events.js:87:13)
+589 verbose stack     at ChildProcess.emit (events.js:172:7)
+589 verbose stack     at maybeClose (internal/child_process.js:821:16)
+589 verbose stack     at Socket.<anonymous> (internal/child_process.js:319:11)
+589 verbose stack     at emitOne (events.js:77:13)
+589 verbose stack     at Socket.emit (events.js:169:7)
+589 verbose stack     at Pipe._onclose (net.js:469:12)
+590 verbose cwd /Users/stephenvasquez/sxsw
+591 error Darwin 15.2.0
+592 error argv "/usr/local/bin/node" "/Users/stephenvasquez/.npm-packages/bin/npm" "update" "-save"
+593 error node v5.4.1
+594 error npm  v3.6.0
+595 error code 128
+596 error Command failed: git rev-list -n1 v0.6.0
+596 error fatal: ambiguous argument 'v0.6.0': unknown revision or path not in the working tree.
+596 error Use '--' to separate paths from revisions, like this:
+596 error 'git <command> [<revision>...] -- [<file>...]'
+597 error If you need help, you may report this error at:
+597 error     <https://github.com/npm/npm/issues>
+598 verbose exit [ 1, true ]
