@@ -17,7 +17,7 @@
     "url": "https://github.com/scubastevray/sxsw"
   },
   "scripts": {
-    "start": "node node_modules/gulp/bin/gulp",
+    "start": "node src/server/app.js",
     "test": "make test"
   },
   "devDependencies": {
