@@ -15,7 +15,8 @@
         <a ng-click="rsvp.scrollTo(19)">March 19</a> &middot;
         <a ng-click="rsvp.scrollTo(20)">March 20</a>
     </div>
-    <div class="gallery-label header-style1"><img src="/images/expandmore.png">Recently Added</div><br>
+    <div id="1" ng-class="{'gallery-label-active':!rsvp.isSet(1),'gallery-label':rsvp.isSet(1)}"
+         class="gallery-label header-style1" ng-click="rsvp.setTab(1)">Recently Added</div><br>
     <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | orderBy: '-dateAdded' | limitTo: 8">
         <div class="rsvp-gallery-item-container">
             <div class="rsvp-gallery-item-title">{{item.title}}</div>
@@ -34,8 +35,9 @@
         </div>
     </div>
     <div class="rsvp-gallery">
-        <div id="10" class="gallery-label header-style1"><img src="/images/expandmore.png">March 10</div><br>
-        <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | filter: {date : 'March 10, 2016'}">
+        <div id="10" ng-class="{'gallery-label-active':!rsvp.isSet(10),'gallery-label':rsvp.isSet(10)}"
+             class="header-style1" ng-click="rsvp.setTab(10); rsvp.limit.i10 = rsvp.list.length">March 10</div><br>
+        <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | filter: {date : 'March 10, 2016'} | orderBy: '-dateAdded' | limitTo: rsvp.limit.i10">
             <div class="rsvp-gallery-item-container" >
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -52,9 +54,10 @@
             </div>
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
-        <div id="11" class="gallery-label header-style1"><img src="/images/expandmore.png">March 11</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 11, 2016'}">
+        <div id="11" ng-class="{'gallery-label-active':!rsvp.isSet(11),'gallery-label':rsvp.isSet(11)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(11); rsvp.limit.i11 = rsvp.list.length">March 11</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 11, 2016'} | orderBy: '-dateAdded' | limitTo: rsvp.limit.i11">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -71,29 +74,10 @@
             </div>
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
-        <div id="12" class="gallery-label header-style1"><img src="/images/expandmore.png">March 12</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 12, 2016'}">
-            <div class="rsvp-gallery-item-container">
-                <div class="rsvp-gallery-item-title">{{item.title}}</div>
-                <a href="{{item.link}}">
-                    <div class="rsvp-gallery-image">
-
-                        <img err-src="/images/comingsoon.png" src="{{item.image}}">
-
-
-                    </div>
-                </a>
-                <div class="rsvp-gallery-description">
-                    <p>{{item.description}}</p>
-                </div>
-            </div>
-        </div>
-        <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
-
-        <div id="13" class="gallery-label header-style1"><img src="/images/expandmore.png">March 13</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 13, 2016'}">
+        <div id="12" ng-class="{'gallery-label-active':!rsvp.isSet(12),'gallery-label':rsvp.isSet(12)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(12); rsvp.limit.i12 = rsvp.list.length">March 12</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 12, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i12">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -111,10 +95,10 @@
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
 
-
-        <div id="14" class="gallery-label header-style1"><img src="/images/expandmore.png">March 14</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 14, 2016'}">
+        <div id="13" ng-class="{'gallery-label-active':!rsvp.isSet(13),'gallery-label':rsvp.isSet(13)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(13); rsvp.limit.i13 = rsvp.list.length">March 13</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 13, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i13">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -132,9 +116,11 @@
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
 
-        <div id="15" class="gallery-label header-style1"><img src="/images/expandmore.png">March 15</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 15, 2016'}">
+
+        <div id="14" ng-class="{'gallery-label-active':!rsvp.isSet(14),'gallery-label':rsvp.isSet(14)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(14); rsvp.limit.i14 = rsvp.list.length">March 14</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 14, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i14">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -152,9 +138,10 @@
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
 
-        <div id="16" class="gallery-label header-style1"><img src="/images/expandmore.png">March 16</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 16, 2016'}">
+        <div id="15" ng-class="{'gallery-label-active':!rsvp.isSet(15),'gallery-label':rsvp.isSet(15)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(15); rsvp.limit.i15 = rsvp.list.length">March 15</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 15, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i15">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -172,9 +159,10 @@
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
 
-        <div id="17" class="gallery-label header-style1"><img src="/images/expandmore.png">March 17</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 17, 2016'}">
+        <div id="16"  ng-class="{'gallery-label-active':!rsvp.isSet(16),'gallery-label':rsvp.isSet(16)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(16); rsvp.limit.i16 = rsvp.list.length">March 16</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 16, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i16">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -192,9 +180,10 @@
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
 
-        <div id="18" class="gallery-label header-style1"><img src="/images/expandmore.png">March 18</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 18, 2016'}">
+        <div id="17" ng-class="{'gallery-label-active':!rsvp.isSet(17),'gallery-label':rsvp.isSet(17)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(17); rsvp.limit.i17 = rsvp.list.length">March 17</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 17, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i17">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -212,9 +201,10 @@
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
 
-        <div id="19" class="gallery-label header-style1"><img src="/images/expandmore.png">March 19</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 19, 2016'}">
+        <div id="18" ng-class="{'gallery-label-active':!rsvp.isSet(18),'gallery-label':rsvp.isSet(18)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(18); rsvp.limit.i18 = rsvp.list.length">March 18</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 18, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i18">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -232,9 +222,31 @@
         </div>
         <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
 
-        <div id="20" class="gallery-label header-style1"><img src="/images/expandmore.png">March 20</div><br>
-        <div class="rsvp-gallery-item" ng-if="$index < 4 && !rsvp.openDivider"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 20, 2016'}">
+        <div id="19" ng-class="{'gallery-label-active':!rsvp.isSet(19),'gallery-label':rsvp.isSet(19)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(19); rsvp.limit.i19 = rsvp.list.length">March 19</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 19, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i19">
+            <div class="rsvp-gallery-item-container">
+                <div class="rsvp-gallery-item-title">{{item.title}}</div>
+                <a href="{{item.link}}">
+                    <div class="rsvp-gallery-image">
+
+                        <img err-src="/images/comingsoon.png" src="{{item.image}}">
+
+
+                    </div>
+                </a>
+                <div class="rsvp-gallery-description">
+                    <p>{{item.description}}</p>
+                </div>
+            </div>
+        </div>
+        <a class="top-button" ng-click="rsvp.scrollTo('')">Back To Top</a>
+
+        <div id="20" ng-class="{'gallery-label-active':!rsvp.isSet(20),'gallery-label':rsvp.isSet(20)}"
+             class="gallery-label header-style1" ng-click="rsvp.setTab(20); rsvp.limit.i20 = rsvp.list.length">March 20</div><br>
+        <div class="rsvp-gallery-item"
+             ng-repeat="item in rsvp.list | filter: {date : 'March 20, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i20">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">

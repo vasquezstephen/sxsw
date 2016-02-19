@@ -9,10 +9,20 @@
   }
   .gallery-label {
     display: inline-block;
-    img {
-      height: 45px;
-      width: 45px;
-    }
+    background-image: url('/images/expandmore.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 45px;
+    padding-left: 45px;
+
+  }
+  .gallery-label-active{
+    display: inline-block;
+    background-image: url('/images/expandless.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 45px;
+    padding-left: 45px;
   }
   .rsvp-gallery-item {
     width: 100%;

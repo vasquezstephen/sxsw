@@ -119,10 +119,19 @@ html {
       display: block;
       clear: both; }
   .rsvp-view .gallery-label {
-    display: inline-block; }
-    .rsvp-view .gallery-label img {
-      height: 45px;
-      width: 45px; }
+    display: inline-block;
+    background-image: url("/images/expandmore.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 45px;
+    padding-left: 45px; }
+  .rsvp-view .gallery-label-active {
+    display: inline-block;
+    background-image: url("/images/expandless.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 45px;
+    padding-left: 45px; }
   .rsvp-view .rsvp-gallery-item {
     width: 100%;
     height: 250px;
