@@ -2,89 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/10Balancing.png" afterPath="$PROJECT_DIR$/src/client/images/screens/10Balancing.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/10Big.png" afterPath="$PROJECT_DIR$/src/client/images/screens/10Big.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/10Fashion.png" afterPath="$PROJECT_DIR$/src/client/images/screens/10Fashion.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/10Startup.png" afterPath="$PROJECT_DIR$/src/client/images/screens/10Startup.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Cal.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Cal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Disco.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Disco.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Drink.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Drink.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Janrain.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Janrain.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Mexico.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Mexico.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11OsloFriday.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11OsloFriday.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Sizmek.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Sizmek.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Sports.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Sports.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Spredfast.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Spredfast.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/11Wildfire.png" afterPath="$PROJECT_DIR$/src/client/images/screens/11Wildfire.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Ballet.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Ballet.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Drupal.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Drupal.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Google.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Google.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Idean.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Idean.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Leadership.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Leadership.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12McCombs.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12McCombs.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Nextgen.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Nextgen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Peligrosa.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Peligrosa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Shopgate.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Shopgate.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Shoppable.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Shoppable.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Siesta.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Siesta.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Starry.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Starry.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Village.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Village.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Women.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Women.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/12Zendesk.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Zendesk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13Coffee.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Coffee.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13Dolphin.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Dolphin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13Health.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Health.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13IEEE.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13IEEE.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13Iowa.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Iowa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13KeepinIt.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13KeepinIt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13Massive.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Massive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13Mimosa.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Mimosa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13OsloSunday.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13OsloSunday.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13ProductTank.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13ProductTank.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13Q1.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Q1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13TakingBack.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13TakingBack.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13TechBreakfast.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13TechBreakfast.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13TechCocktails.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13TechCocktails.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13Vevo.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Vevo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13WP.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13WP.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/13ffMassive.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13ffMassive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14Berlin.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Berlin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14Cvent.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Cvent.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14Make.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Make.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14Onion.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Onion.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14OsloMonday.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14OsloMonday.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14Sap.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Sap.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14Smores.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Smores.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14Souljah.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Souljah.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/14Vets.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Vets.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/15Killem.png" afterPath="$PROJECT_DIR$/src/client/images/screens/15Killem.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/15Lit.png" afterPath="$PROJECT_DIR$/src/client/images/screens/15Lit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/15Music.png" afterPath="$PROJECT_DIR$/src/client/images/screens/15Music.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/15Pacific.png" afterPath="$PROJECT_DIR$/src/client/images/screens/15Pacific.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/15Smart.png" afterPath="$PROJECT_DIR$/src/client/images/screens/15Smart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/15Wes.png" afterPath="$PROJECT_DIR$/src/client/images/screens/15Wes.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/16Buzz.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16Buzz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/16Container.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16Container.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/16Decoded.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16Decoded.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/16Lagunitas.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16Lagunitas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/16Music.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16Music.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/16OsloTuesday.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16OsloTuesday.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/16Pandora.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16Pandora.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/1740oz.png" afterPath="$PROJECT_DIR$/src/client/images/screens/1740oz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/17Blackout.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17Blackout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/17Picture.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17Picture.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/17Quantum.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17Quantum.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/17Sound.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17Sound.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/17TopShelf.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17TopShelf.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/17Whale.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17Whale.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/18Bodytalk.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18Bodytalk.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/18Jumpstart.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18Jumpstart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/18MPress.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18MPress.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/18Millenium.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18Millenium.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/18Vibrate.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18Vibrate.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/18peermusic.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18peermusic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/19Deaf.png" afterPath="$PROJECT_DIR$/src/client/images/screens/19Deaf.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/19Urban.png" afterPath="$PROJECT_DIR$/src/client/images/screens/19Urban.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/12Crowdtap.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Crowdtap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/12Internet.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Internet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/12Mobile.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Mobile.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/12Open.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Open.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/12Percolate.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Percolate.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/12Vote.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Vote.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/13Water.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Water.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/14Onion.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Onion.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/15Quebec.png" afterPath="$PROJECT_DIR$/src/client/images/screens/15Quebec.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/16British.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16British.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/16Showtime.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16Showtime.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/17British.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17British.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/17New.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17New.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/18Beats.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18Beats.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/18British.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18British.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/19Altercation.png" afterPath="$PROJECT_DIR$/src/client/images/screens/19Altercation.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/19British.png" afterPath="$PROJECT_DIR$/src/client/images/screens/19British.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
@@ -109,95 +43,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dbServices.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/js/service/dbServices.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
+      <file leaf-file-name="12Crowdtap.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Crowdtap.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-              <folding />
-            </state>
+      <file leaf-file-name="12Internet.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Internet.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-ui.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/views/account/event-ui.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-              <folding />
-            </state>
+      <file leaf-file-name="12Mobile.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Mobile.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rsvp-page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="246" column="74" selection-start-line="246" selection-start-column="74" selection-end-line="246" selection-end-column="74" />
-              <folding />
-            </state>
+      <file leaf-file-name="12Open.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Open.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rsvp-page.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76237625">
-              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-              <folding />
-            </state>
+      <file leaf-file-name="12Percolate.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Percolate.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_rsvp-page.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding />
-            </state>
+      <file leaf-file-name="12Vote.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Vote.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding />
-            </state>
+      <file leaf-file-name="13Water.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/13Water.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/sass/defaults/_settings.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
-            </state>
+      <file leaf-file-name="14Onion.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/14Onion.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="errorImage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/js/directives/errorImage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#48#0" expanded="false" />
-              </folding>
-            </state>
+      <file leaf-file-name="15Quebec.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/15Quebec.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16British.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/images/screens/16British.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -326,10 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -760,6 +668,10 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -782,16 +694,142 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/stephenvasquez/sxsw/src/client/sass/defaults/_settings.scss" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/images/screens" />
       <recent name="$PROJECT_DIR$/src/server" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/client/views/account" />
       <recent name="$PROJECT_DIR$/src/server/controllers/api" />
-      <recent name="$PROJECT_DIR$/src/server/controllers" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/12Crowdtap.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/12Internet.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/12Mobile.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/12Open.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/12Percolate.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/12Vote.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/13Water.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/14Onion.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/15Quebec.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/16British.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/16Showtime.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/17British.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/17New.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/18Beats.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/18British.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/19Altercation.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/19British.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="JavaScript Debug.homepage.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/sxsw/webroot/index.html">
@@ -1044,7 +1082,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455908343376</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Compressed images">
+      <created>1455912032889</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1455912032889</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1150,7 +1194,8 @@
     <MESSAGE value="Fixed homepage button margin" />
     <MESSAGE value="Added tab flip functionality&#10;Added expand tab functionality&#10;Still need collapse tab" />
     <MESSAGE value="Added full toggle functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added full toggle functionality" />
+    <MESSAGE value="Compressed images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compressed images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1163,59 +1208,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/client/images/right-arrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/images/img8.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/images/img6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/images/img7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/sass/defaults/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/sass/defaults/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/browser-sync/lib/public/socket.io.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="1" column="14954" selection-start-line="1" selection-start-column="14954" selection-end-line="1" selection-end-column="14954" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/images/xmark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/controllers/api/authenticate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1244,13 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092307694">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2542373">
@@ -1276,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.016538037">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1385,37 +1369,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/models/lists.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/controllers/api/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/controllers/api/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="3" selection-start-line="7" selection-start-column="10" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/images/comingsoon.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1851852">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/views/account/event-ui.controller.js">
@@ -1425,18 +1381,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/models/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,10 +1456,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76237625">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/models/lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/models/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/controllers/api/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/controllers/api/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="3" selection-start-line="7" selection-start-column="10" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="41" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Crowdtap.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Internet.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Mobile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Open.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Percolate.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Vote.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/13Water.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/14Onion.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/15Quebec.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/screens/16British.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
