@@ -54,8 +54,26 @@
         }
 
         function setTab(tabId) {
-            rsvp.prevTab = rsvp.tab;
-            rsvp.tab = tabId;
+            if(tabId == rsvp.tab){
+                rsvp.tab = null;
+                Object.getOwnPropertyNames(rsvp.limit).forEach(function(val, idx, array) {
+                    if(val == 'i'+ tabId){
+                        var prop = 'i' + tabId;
+                        rsvp.limit[prop] = 4;
+                    }
+                });
+            }
+            else{
+                rsvp.prevTab = rsvp.tab;
+                rsvp.tab = tabId;
+                Object.getOwnPropertyNames(rsvp.limit).forEach(function(val, idx, array) {
+                    if(val == 'i'+ rsvp.tab){
+                        var prop = 'i' + rsvp.tab;
+                        rsvp.limit[prop] = rsvp.list.length;
+                    }
+                });
+            }
+
         }
 
         function isSet(tabId) {

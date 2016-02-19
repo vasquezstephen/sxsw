@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/css/main.css" afterPath="$PROJECT_DIR$/src/client/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" afterPath="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js" afterPath="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" afterPath="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
     </list>
@@ -34,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/client/js/service/dbServices.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -60,23 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rsvp-page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rsvp-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3253012">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+            <state vertical-scroll-proportion="-5.254902">
+              <caret line="246" column="74" selection-start-line="246" selection-start-column="74" selection-end-line="246" selection-end-column="74" />
               <folding>
-                <marker date="1455871843000" expanded="true" signature="1747:1838" placeholder="{...}" />
+                <marker date="1455907876000" expanded="true" signature="1747:1838" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rsvp-page.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rsvp-page.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.7607497">
+              <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -210,8 +208,8 @@
         <option value="$PROJECT_DIR$/src/client/views/account/event-ui.html" />
         <option value="$PROJECT_DIR$/src/client/sass/layout/_homepage.scss" />
         <option value="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" />
-        <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
+        <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js" />
       </list>
     </option>
   </component>
@@ -699,6 +697,134 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/10Balancing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11Disco.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11Mexico.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11Sizmek.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11Sports.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/12Ballet.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/12Shoppable.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/12Women.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/13Coffee.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/13Dolphin.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/13Massive.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/13Q1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/13Vevo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/14Make.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/14Onion.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/16Container.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/16Pandora.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/17Picture.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/17TopShelf.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunManager" selected="JavaScript Debug.homepage.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/sxsw/webroot/index.html">
       <method />
@@ -938,7 +1064,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455864527877</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added tab flip functionality&#10;Added expand tab functionality&#10;Still need collapse tab">
+      <created>1455871909446</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1455871909446</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -951,9 +1083,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14407815" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42566845" sideWeight="0.59398496" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50427353" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49761903" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.4978678" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.4957265" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32192513" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12790698" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1042,7 +1174,8 @@
     <MESSAGE value="Added Header Buttons&#10;Added Who To Follow splash page&#10;Fixed iphone styling issue" />
     <MESSAGE value="Added image error&#10;Fixed Rsvp mobile view&#10;Fixed ui vulnerabilities" />
     <MESSAGE value="Fixed homepage button margin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed homepage button margin" />
+    <MESSAGE value="Added tab flip functionality&#10;Added expand tab functionality&#10;Still need collapse tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tab flip functionality&#10;Added expand tab functionality&#10;Still need collapse tab" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1350,14 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/js/service/dbServices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5">
@@ -1408,14 +1533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.5">
@@ -1424,13 +1541,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/js/service/dbServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3253012">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        <state vertical-scroll-proportion="-5.254902">
+          <caret line="246" column="74" selection-start-line="246" selection-start-column="74" selection-end-line="246" selection-end-column="74" />
           <folding>
-            <marker date="1455871843000" expanded="true" signature="1747:1838" placeholder="{...}" />
+            <marker date="1455907876000" expanded="true" signature="1747:1838" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7607497">
+          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
