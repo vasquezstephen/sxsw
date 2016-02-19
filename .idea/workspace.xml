@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12Crowdtap.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Crowdtap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12Internet.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Internet.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12Mobile.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Mobile.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12Open.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Open.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12Percolate.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Percolate.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12Vote.png" afterPath="$PROJECT_DIR$/src/client/images/screens/12Vote.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/13Water.png" afterPath="$PROJECT_DIR$/src/client/images/screens/13Water.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/14Onion.png" afterPath="$PROJECT_DIR$/src/client/images/screens/14Onion.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/15Quebec.png" afterPath="$PROJECT_DIR$/src/client/images/screens/15Quebec.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/16British.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16British.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/16Showtime.png" afterPath="$PROJECT_DIR$/src/client/images/screens/16Showtime.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/17British.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17British.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/17New.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17New.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/18Beats.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18Beats.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/18British.png" afterPath="$PROJECT_DIR$/src/client/images/screens/18British.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/19Altercation.png" afterPath="$PROJECT_DIR$/src/client/images/screens/19Altercation.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/19British.png" afterPath="$PROJECT_DIR$/src/client/images/screens/19British.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/layout/footer.html" afterPath="$PROJECT_DIR$/src/client/views/layout/footer.html" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
     <ignored path="sxsw.iws" />
@@ -43,73 +27,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12Crowdtap.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Crowdtap.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12Internet.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Internet.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12Mobile.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Mobile.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12Open.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Open.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12Percolate.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Percolate.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12Vote.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/12Vote.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="13Water.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/13Water.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14Onion.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/14Onion.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15Quebec.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/15Quebec.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="16British.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/client/images/screens/16British.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51428574">
+              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+              <folding>
+                <element signature="n#a#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="e#701#1063#0" expanded="false" />
+                <element signature="n#a#2;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="e#1453#1815#0" expanded="false" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -145,7 +74,6 @@
         <option value="$PROJECT_DIR$/src/client/sass/pages/sxsw/_rsvp-page.scss" />
         <option value="$PROJECT_DIR$/src/client/views/sxsw/rsvp/rsvp-page.html" />
         <option value="$PROJECT_DIR$/src/client/sass/pages/layout/_homepage.scss" />
-        <option value="$PROJECT_DIR$/src/client/views/layout/footer.html" />
         <option value="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/event-ui.html" />
         <option value="$PROJECT_DIR$/src/client/views/layout/homepage.controller.js" />
@@ -191,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js" />
+        <option value="$PROJECT_DIR$/src/client/views/layout/footer.html" />
       </list>
     </option>
   </component>
@@ -208,9 +137,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1676" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -640,32 +568,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxsw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxsw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screens" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -1088,23 +990,30 @@
       <option name="project" value="LOCAL" />
       <updated>1455912032889</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="New Images&#10;">
+      <created>1455920483560</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1455920483560</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="6634000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1676" height="1027" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14381886" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14346765" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50427353" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.4957265" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12790698" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19572192" sideWeight="0.40601504" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19572192" sideWeight="0.40601504" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5059423" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1119,7 +1028,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1195,7 +1103,8 @@
     <MESSAGE value="Added tab flip functionality&#10;Added expand tab functionality&#10;Still need collapse tab" />
     <MESSAGE value="Added full toggle functionality" />
     <MESSAGE value="Compressed images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compressed images" />
+    <MESSAGE value="New Images&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Images&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1208,13 +1117,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/server/controllers/api/authenticate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/controllers/api/token.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1558,6 +1460,19 @@
     <entry file="file://$PROJECT_DIR$/src/client/images/screens/16British.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51428574">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+          <folding>
+            <element signature="n#a#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="e#701#1063#0" expanded="false" />
+            <element signature="n#a#2;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="e#1453#1815#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
