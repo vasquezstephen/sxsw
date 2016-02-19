@@ -21,8 +21,9 @@
             </div>
             
             <div class="form-input">Image:<br><input type="text"
-                                                     ng-focus="ui.imageFormat= 'images/screens/<imagetitle>.png'"
+                                                     ng-focus="ui.imageFormat= '/images/screens/<imagetitle>.png'"
                                                      ng-blur="ui.imageFormat= ''" placeholder="Image"
+                                                     ng-value="event.image ='/images/screens/<imagetitle>.png'"
                                                      ng-model="event.image">{{ui.imageFormat}}</div>
             
             <div class="form-input">Link:<br><input type="text" required placeholder="Link" ng-model="event.link"></div>

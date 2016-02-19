@@ -31,7 +31,6 @@
 
         function activate(){
             DBServices.authenticate();
-
         }
 
 

@@ -6,6 +6,7 @@ var express 	 	= require('express'),
 	config			= require('./config'),
 	jwt				= require('jsonwebtoken'),
 	Users 			= require('./models/users'),
+	Lists			= require('./models/lists'),
 	sha1 			= require('sha1'),
 	databaseName	= 'sxswsite';
 	dbUser			= 'steviedoes';
@@ -23,11 +24,29 @@ app.set('superSecret', config.secret);
 var router 	= express.Router();
 var list = require('./controllers/api/list');
 var user = require('./controllers/api/login');
+var tokenStored = null;
 // Get all lists
 router.get('/api/lists', list.getAll);
 
 // Create a list
-router.post('/api/list', list.create);
+router.post('/api/list', function(req, res, next){
+	if(tokenStored){
+		console.log(req);
+		var event = new Lists(req.body);
+		console.log(event);
+		event.save();
+		return res.status(200).send({
+			success: true,
+			message: 'Event added'
+		})
+	}
+	else{
+		return res.status(403).send({
+			success: false,
+			message: 'No token provided.'
+		});
+	}
+});
 
 //User Info
 router.post('/api/login', function(req, res, next){
@@ -55,11 +74,11 @@ router.post('/api/login', function(req, res, next){
 	});
 
 
-
 router.post('/api/authenticate' ,function(req, res, next) {
 
 	// check header or url parameters or post parameters for token
 	var token = req.body.token;
+	tokenStored = req.body.token;
 	// decode token
 	if (token) {
 

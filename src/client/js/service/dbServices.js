@@ -20,7 +20,12 @@
                 });
         }
         function addEvent(stuff){
-            return $http.post("api/list",stuff);
+            return $http.post("api/list",stuff)
+                .then(function(response){
+                    return response;
+                },function(response){
+                    $state.go('login')
+                });
 
         }
         function login(userInfo){

@@ -12,6 +12,7 @@
     RSVPController.$inject = ['$log','$scope','$location','$anchorScroll','$timeout','DBServices'];
     function RSVPController($log, $scope, $location, $anchorScroll, $timeout ,DBServices) {
         var rsvp = this;
+        rsvp.openDivider = false;
         var populateList = function (data) {
             rsvp.list = data;
         };
