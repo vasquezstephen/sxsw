@@ -77,6 +77,8 @@ html {
     position: absolute;
     bottom: 0;
     left: 0; }
+    .footer-view .footer-text a {
+      color: white; }
 
 .home-view .button-container {
   max-width: 980px;
@@ -121,7 +123,7 @@ html {
   .rsvp-view .divider-line {
     width: 100%;
     border-bottom: solid;
-    border-radius: 1px;
+    border-width: thin;
     border-color: darkgrey; }
   .rsvp-view .gallery-label {
     display: inline-block;
