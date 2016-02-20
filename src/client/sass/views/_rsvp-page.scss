@@ -7,6 +7,12 @@
     @include container(940px);
 
   }
+  .divider-line{
+    width: 100%;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: darkgrey;
+  }
   .gallery-label {
     display: inline-block;
     background-image: url('/images/expandmore.png');

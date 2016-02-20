@@ -118,6 +118,11 @@ html {
       content: " ";
       display: block;
       clear: both; }
+  .rsvp-view .divider-line {
+    width: 100%;
+    border-bottom: solid;
+    border-radius: 1px;
+    border-color: darkgrey; }
   .rsvp-view .gallery-label {
     display: inline-block;
     background-image: url("/images/expandmore.png");
