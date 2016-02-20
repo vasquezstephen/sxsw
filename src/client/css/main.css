@@ -78,7 +78,8 @@ html {
     bottom: 0;
     left: 0; }
     .footer-view .footer-text a {
-      color: white; }
+      color: white;
+      text-decoration: none; }
 
 .home-view .button-container {
   max-width: 980px;
