@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/css/main.css" afterPath="$PROJECT_DIR$/src/client/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/index.html" afterPath="$PROJECT_DIR$/src/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" afterPath="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" afterPath="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/layout/footer.html" afterPath="$PROJECT_DIR$/src/client/views/layout/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" afterPath="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
     <ignored path="sxsw.iws" />
@@ -34,8 +31,18 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17142858">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.016987542">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -54,7 +61,7 @@
       <file leaf-file-name="rsvp-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.916666">
+            <state vertical-scroll-proportion="-30.541666">
               <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
               <folding />
             </state>
@@ -64,7 +71,7 @@
       <file leaf-file-name="_rsvp-page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.416666">
+            <state vertical-scroll-proportion="-28.041666">
               <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
@@ -103,7 +110,6 @@
         <option value="$PROJECT_DIR$/src/client/sass/pages/sxsw/_rsvp-page.scss" />
         <option value="$PROJECT_DIR$/src/client/views/sxsw/rsvp/rsvp-page.html" />
         <option value="$PROJECT_DIR$/src/client/sass/pages/layout/_homepage.scss" />
-        <option value="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/event-ui.html" />
         <option value="$PROJECT_DIR$/src/client/views/layout/homepage.controller.js" />
         <option value="$PROJECT_DIR$/src/client/js/service/authenticationSvc.js" />
@@ -148,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
         <option value="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" />
         <option value="$PROJECT_DIR$/src/client/index.html" />
+        <option value="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/src/client/views/layout/footer.html" />
       </list>
     </option>
@@ -1049,7 +1056,13 @@
       <option name="project" value="LOCAL" />
       <updated>1455943189652</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added Dividers&#10;Added Twitter Data and Follow Buttons&#10;">
+      <created>1455945992525</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1455945992525</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1067,7 +1080,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32192513" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12790698" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19572192" sideWeight="0.40601504" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19572192" sideWeight="0.40601504" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5059423" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1159,7 +1172,8 @@
     <MESSAGE value="New Images&#10;" />
     <MESSAGE value="Removed twitter link" />
     <MESSAGE value="new image&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="new image&#10;" />
+    <MESSAGE value="Added Dividers&#10;Added Twitter Data and Follow Buttons&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Dividers&#10;Added Twitter Data and Follow Buttons&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1183,13 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2542373">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12038523">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1496,22 +1503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.916666">
-          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.416666">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.8333335">
@@ -1520,10 +1511,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.541666">
+          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.041666">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17142858">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.016987542">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding />
         </state>
       </provider>
