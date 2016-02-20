@@ -12,8 +12,8 @@
         .config(configRoutes)
         .controller('UiController', UiController);
 
-    UiController.$inject = ['$log','$scope','DBServices'];
-    function UiController($log, $scope, DBServices) {
+    UiController.$inject = ['$log','$scope','DBServices', 'Upload'];
+    function UiController($log, $scope, DBServices, Upload) {
         var ui = this;
         ui.dateFormat = "";
         ui.addedFormat = "";
@@ -25,24 +25,45 @@
             //dateAdded: "",
             //image: "",
             //link: ""
-    };
+        };
 
         activate();
 
-        function activate(){
+        function activate() {
             DBServices.authenticate();
         }
 
 
-        $scope.insertEvent = function insertEvent(event){
+        $scope.insertEvent = function insertEvent(event) {
             ui.datNew = angular.copy(event);
             //console.log(ui.datNew);
             DBServices.addEvent(ui.datNew);
 
 
-        }
-    }
+        };
+        $scope.uploadFiles = function (file, errFiles) {
+            $scope.f = file;
+            $scope.errFile = errFiles && errFiles[0];
+            if (file) {
+                file.upload = Upload.upload({
+                    url: 'https://angular-file-upload-cors-srv.appspot.com/upload',
+                    data: {file: file}
+                });
 
+                file.upload.then(function (response) {
+                    $timeout(function () {
+                        file.result = response.data;
+                    });
+                }, function (response) {
+                    if (response.status > 0)
+                        $scope.errorMsg = response.status + ': ' + response.data;
+                }, function (evt) {
+                    file.progress = Math.min(100, parseInt(100.0 *
+                        evt.loaded / evt.total));
+                });
+            }
+        };
+    }
 
     configRoutes.$inject = ['$stateProvider'];
     function configRoutes($stateProvider) {

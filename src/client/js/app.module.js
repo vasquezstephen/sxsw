@@ -7,7 +7,9 @@
     angular.module('sxswApp', [
             'ui.router',
             'ngAnimate',
-            'ngTouch'
+            'ngTouch',
+            'ngTouch',
+            'ngFileUpload'
 
         ])
         .config(configRoutes)

@@ -216,7 +216,7 @@ function $Resolve(  $q,    $injector) {
    * propagated immediately. Once the `$resolve` promise has been rejected, no 
    * further invocables will be called.
    * 
-   * Cyclic dependencies between invocables are not permitted and will caues `$resolve`
+   * Cyclic dependencies between invocables are not permitted and will cause `$resolve`
    * to throw an error. As a special case, an injectable can depend on a parameter 
    * with the same name as the injectable, which will be fulfilled from the `parent` 
    * injectable of the same name. This allows inherited values to be decorated. 
@@ -233,7 +233,7 @@ function $Resolve(  $q,    $injector) {
    * As a special case, an invocable can be a string, in which case it is taken to 
    * be a service name to be passed to `$injector.get()`. This is supported primarily 
    * for backwards-compatibility with the `resolve` property of `$routeProvider` 
-   * controllers.
+   * routes.
    *
    * @param {object} invocables functions to invoke or 
    * `$injector` services to fetch.
