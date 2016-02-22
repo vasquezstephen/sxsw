@@ -1,5 +1,6 @@
 // Initialize the express framework
 var express 	 	= require('express'),
+	http 			= require('http'),
     path			= require('path'),
 	mongoose		= require('mongoose'),
 	bodyParser		= require('body-parser'),
@@ -7,6 +8,7 @@ var express 	 	= require('express'),
 	jwt				= require('jsonwebtoken'),
 	Users 			= require('./models/users'),
 	Lists			= require('./models/lists'),
+	aws 			= require('aws-sdk'),
 	sha1 			= require('sha1'),
 	databaseName	= 'sxswsite';
 	dbUser			= 'steviedoes';
@@ -15,10 +17,14 @@ var express 	 	= require('express'),
 // Express setup 
 var app = express();
 app.use(bodyParser.json()); 
-app.use(bodyParser.urlencoded({extended: true}));
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(path.join(__dirname, '../client')));
+app.use(bodyParser.urlencoded({extended: true}));
 app.set('superSecret', config.secret);
+
+var AWS_ACCESS_KEY = process.env.AWS_ACCESS_KEY;
+var AWS_SECRET_KEY = process.env.AWS_SECRET_KEY;
+var S3_BUCKET = process.env.S3_BUCKET;
 
 // Routes set up
 var router 	= express.Router();
@@ -110,6 +116,35 @@ router.post('/api/authenticate' ,function(req, res, next) {
 
 	}
 });
+//router.get('/sign_s3', function(req, res){
+//	aws.config.update({accessKeyId: AWS_ACCESS_KEY, secretAccessKey: AWS_SECRET_KEY});
+//	var s3 = new aws.S3();
+//	var s3_params = {
+//		Bucket: S3_BUCKET,
+//		Key: req.query.file_name,
+//		Expires: 60,
+//		ContentType: req.query.file_type,
+//		ACL: 'public-read'
+//	};
+//	s3.getSignedUrl('putObject', s3_params, function(err, data){
+//		if(err){
+//			console.log(err);
+//		}
+//		else{
+//			var return_data = {
+//				signed_request: data,
+//				url: 'https://'+S3_BUCKET+'.s3.amazonaws.com/'+req.query.file_name
+//			};
+//			res.write(JSON.stringify(return_data));
+//			res.end();
+//		}
+//	});
+//});
+//router.post('/api/upload', function(req, res){
+//	avatar_url = req.body.photo;
+//	update_account(avatar_url); // TODO: create this function
+//	// TODO: Return something useful or redirect
+//});
 
 
 // Register the routing

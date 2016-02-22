@@ -29,7 +29,8 @@
                 </div>
             </a>
             <div class="rsvp-gallery-description">
-                <!--<p>{{item.description}}</p>-->
+                <p class="emoji" ng-if="item.beer"><img src="/images/beer.png"> Free Beer!</p>
+                <p class="emoji" ng-if="item.beer"><img src="/images/food.png"> Free Food!</p>
                 <p>{{item.description}}</p>
             </div>
         </div>

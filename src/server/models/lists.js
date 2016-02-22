@@ -8,7 +8,9 @@ var rsvpList = new Schema ({
     date: String,
     dateAdded: String,
     image: String,
-    link: String
+    link: String,
+    beer: Boolean,
+    food: Boolean
 }, {collection: 'rsvpList'});
 
 var Lists = mongoose.model("lists", rsvpList);

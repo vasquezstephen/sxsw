@@ -12,8 +12,8 @@
         .config(configRoutes)
         .controller('UiController', UiController);
 
-    UiController.$inject = ['$log','$scope','DBServices', 'Upload'];
-    function UiController($log, $scope, DBServices, Upload) {
+    UiController.$inject = ['$log','$scope','DBServices'];
+    function UiController($log, $scope, DBServices) {
         var ui = this;
         ui.dateFormat = "";
         ui.addedFormat = "";
@@ -41,28 +41,13 @@
 
 
         };
-        $scope.uploadFiles = function (file, errFiles) {
-            $scope.f = file;
-            $scope.errFile = errFiles && errFiles[0];
-            if (file) {
-                file.upload = Upload.upload({
-                    url: 'https://angular-file-upload-cors-srv.appspot.com/upload',
-                    data: {file: file}
-                });
 
-                file.upload.then(function (response) {
-                    $timeout(function () {
-                        file.result = response.data;
-                    });
-                }, function (response) {
-                    if (response.status > 0)
-                        $scope.errorMsg = response.status + ': ' + response.data;
-                }, function (evt) {
-                    file.progress = Math.min(100, parseInt(100.0 *
-                        evt.loaded / evt.total));
-                });
-            }
-        };
+        //$scope.uploadPhoto = function checkUser(photo){
+        //    console.log(photo);
+        //    DBServices.upload(photo);
+        //
+        //}
+
     }
 
     configRoutes.$inject = ['$stateProvider'];

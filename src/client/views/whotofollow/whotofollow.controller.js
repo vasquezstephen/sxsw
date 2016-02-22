@@ -9,9 +9,11 @@
         .config(configRoutes)
         .controller('FollowController', FollowController);
 
-    FollowController.$inject = ['$log'];
-    function FollowController($log ) {
+    FollowController.$inject = ['$log', '$scope'];
+    function FollowController($log, $scope ) {
         var follow = this;
+
+
 
     }
 

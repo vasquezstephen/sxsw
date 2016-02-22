@@ -10,7 +10,8 @@
             getResults: getResults,
             addEvent: addEvent,
             login: login,
-            authenticate: authenticate
+            authenticate: authenticate,
+            //upload: upload
         };
 
         function getResults(){
@@ -43,6 +44,12 @@
                     $state.go('login');
                 });
         }
+        //function upload(photo){
+        //    return $http.post("api/upload",photo)
+        //        .then(function (response){
+        //
+        //    });
+        //}
 
 
         }
