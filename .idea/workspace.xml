@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="new image">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/images/prayer.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/beer2.png" afterPath="$PROJECT_DIR$/src/client/images/beer2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/burger.png" afterPath="$PROJECT_DIR$/src/client/images/burger.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/checkmark.png" afterPath="$PROJECT_DIR$/src/client/images/checkmark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/comingsoon.png" afterPath="$PROJECT_DIR$/src/client/images/comingsoon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/expandless.png" afterPath="$PROJECT_DIR$/src/client/images/expandless.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/expandmore.png" afterPath="$PROJECT_DIR$/src/client/images/expandmore.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/food.png" afterPath="$PROJECT_DIR$/src/client/images/food.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img1.jpg" afterPath="$PROJECT_DIR$/src/client/images/img1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img2.jpg" afterPath="$PROJECT_DIR$/src/client/images/img2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img3.jpg" afterPath="$PROJECT_DIR$/src/client/images/img3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img4.jpg" afterPath="$PROJECT_DIR$/src/client/images/img4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img5.jpg" afterPath="$PROJECT_DIR$/src/client/images/img5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img6.jpg" afterPath="$PROJECT_DIR$/src/client/images/img6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img7.jpg" afterPath="$PROJECT_DIR$/src/client/images/img7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img8.jpg" afterPath="$PROJECT_DIR$/src/client/images/img8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/left-arrow.png" afterPath="$PROJECT_DIR$/src/client/images/left-arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/photodefault.png" afterPath="$PROJECT_DIR$/src/client/images/photodefault.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/pizza.png" afterPath="$PROJECT_DIR$/src/client/images/pizza.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/prayer.png" afterPath="$PROJECT_DIR$/src/client/images/prayer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/right-arrow.png" afterPath="$PROJECT_DIR$/src/client/images/right-arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/sunglasses.png" afterPath="$PROJECT_DIR$/src/client/images/sunglasses.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/xmark.png" afterPath="$PROJECT_DIR$/src/client/images/xmark.png" />
+    <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/beer.png" afterPath="$PROJECT_DIR$/src/client/images/beer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/logo.png" afterPath="$PROJECT_DIR$/src/client/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/css/main.css" afterPath="$PROJECT_DIR$/src/client/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" afterPath="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/layout/footer.html" afterPath="$PROJECT_DIR$/src/client/views/layout/footer.html" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
     <ignored path="sxsw.iws" />
@@ -89,8 +66,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/views/layout/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.084937714">
-              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.18686296">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -667,6 +644,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sxsw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sxsw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -922,12 +921,6 @@
       <option name="number" value="Default" />
       <updated>1452782493129</updated>
       <workItem from="1452782494594" duration="6634000" />
-    </task>
-    <task id="LOCAL-00001" summary="added something to header to test">
-      <created>1452789568380</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1452789568380</updated>
     </task>
     <task id="LOCAL-00002" summary="changed it back">
       <created>1452789638195</created>
@@ -1217,7 +1210,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456123808223</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="compressed images&#10;fixed twitter buttons">
+      <created>1456129768679</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1456129768682</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1304,7 +1303,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added login template&#10;formatted stuff" />
     <MESSAGE value="Added Anchor Scroll nad other thing" />
     <MESSAGE value="More changes" />
     <MESSAGE value="Added user UI and validation" />
@@ -1329,7 +1327,8 @@
     <MESSAGE value="new images" />
     <MESSAGE value="added beer and food to other sections" />
     <MESSAGE value="new image" />
-    <option name="LAST_COMMIT_MESSAGE" value="new image" />
+    <MESSAGE value="compressed images&#10;fixed twitter buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="compressed images&#10;fixed twitter buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1700,8 +1699,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/views/layout/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.084937714">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.18686296">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
