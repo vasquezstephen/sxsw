@@ -22,8 +22,8 @@
             .otherwise('/');
     }
     //An App controller that changes some of the bounded data in the view if they are not set.
-    ApplicationController.$inject = ['$scope', '$anchorScroll', '$rootScope', '$state'];
-    function ApplicationController($scope, $anchorScroll, $rootScope, $state) {
+    ApplicationController.$inject = ['$scope', '$anchorScroll', '$rootScope', '$state', '$location','$window'];
+    function ApplicationController($scope, $anchorScroll, $rootScope, $state , $location, $window) {
         var app = this;
 
         app.appName = 'sxsw';
@@ -48,6 +48,10 @@
             } else {
                 app.pageTitle = "The Cheat Sheet";
             }
+            if (!$window.ga)
+                return;
+
+            $window.ga('send', 'pageview', { page: $location.path() });
 
         }
 
