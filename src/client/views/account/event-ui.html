@@ -27,7 +27,7 @@
                                                      ng-model="event.image">{{ui.imageFormat}}</div>
             
             <div class="form-input">Link:<br><input type="text" required placeholder="Link" ng-model="event.link"></div>
-            <div class="checkbox-input">Free Beer?<input type="checkbox" ng-init="event.beer=false" ng-model="event.beer"> Free Food?<input type="checkbox" ng-init="event.food=false" ng-model="event.food"></div>
+            <div class="checkbox-input">Free Drinks?<input type="checkbox" ng-init="event.beer=false" ng-model="event.beer"> Free Food?<input type="checkbox" ng-init="event.food=false" ng-model="event.food"></div>
             <button type="submit" ng-disabled="eventForm.$invalid">Submit</button>
                 <div class="form-image" ng-show="eventForm.$invalid">
                     <img src="/images/xmark.png"></div>
