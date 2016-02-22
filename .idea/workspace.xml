@@ -4,7 +4,6 @@
     <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/index.html" afterPath="$PROJECT_DIR$/src/client/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/js/app.module.js" afterPath="$PROJECT_DIR$/src/client/js/app.module.js" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
     <ignored path="sxsw.iws" />
@@ -79,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/js/app.module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6303448">
+            <state vertical-scroll-proportion="0.0">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
@@ -109,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.660485">
+              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -206,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
         <option value="$PROJECT_DIR$/src/client/views/account/event-ui.html" />
-        <option value="$PROJECT_DIR$/src/client/index.html" />
         <option value="$PROJECT_DIR$/src/client/js/app.module.js" />
+        <option value="$PROJECT_DIR$/src/client/index.html" />
       </list>
     </option>
   </component>
@@ -808,12 +807,6 @@
       <updated>1452782493129</updated>
       <workItem from="1452782494594" duration="6634000" />
     </task>
-    <task id="LOCAL-00005" summary="Added service and json file">
-      <created>1454509584249</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1454509584249</updated>
-    </task>
     <task id="LOCAL-00006" summary="Added service and json file">
       <created>1454509590262</created>
       <option name="number" value="00006" />
@@ -1102,7 +1095,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456131277854</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Google Analytics fix">
+      <created>1456132538551</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1456132538551</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1115,12 +1114,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29197994" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50427353" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19465241" sideWeight="0.55889726" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.4957265" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32192513" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12790698" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19465241" sideWeight="0.40601504" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19465241" sideWeight="0.44110274" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5059423" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1189,7 +1188,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added user UI and validation" />
     <MESSAGE value="Styling changes" />
     <MESSAGE value="Changes to package.json" />
     <MESSAGE value="Changes to app.js" />
@@ -1214,7 +1212,8 @@
     <MESSAGE value="compressed images&#10;fixed twitter buttons" />
     <MESSAGE value="Changed Beer to Drinks" />
     <MESSAGE value="update to meta tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to meta tag" />
+    <MESSAGE value="Google Analytics fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google Analytics fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1567,18 +1566,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/index.html">
+    <entry file="file://$PROJECT_DIR$/src/client/js/app.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/js/app.module.js">
+    <entry file="file://$PROJECT_DIR$/src/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6303448">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.660485">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
           <folding />
         </state>
       </provider>
