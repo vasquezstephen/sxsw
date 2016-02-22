@@ -4,13 +4,19 @@
   opacity: .8;
   color: $white;
   position: relative;
+  text-align: center;
   .footer-text{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    padding: 1em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     a{
       color: white;
       text-decoration: none;
     }
   }
+  .follow-buttons{
+    display:inline-block;
+  }
+
 }

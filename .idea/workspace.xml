@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/screens/14Spotify.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/images/screens/14Spotify.png" afterPath="" />
+    <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="new image">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/client/images/prayer.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/beer2.png" afterPath="$PROJECT_DIR$/src/client/images/beer2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/burger.png" afterPath="$PROJECT_DIR$/src/client/images/burger.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/checkmark.png" afterPath="$PROJECT_DIR$/src/client/images/checkmark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/comingsoon.png" afterPath="$PROJECT_DIR$/src/client/images/comingsoon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/expandless.png" afterPath="$PROJECT_DIR$/src/client/images/expandless.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/expandmore.png" afterPath="$PROJECT_DIR$/src/client/images/expandmore.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/food.png" afterPath="$PROJECT_DIR$/src/client/images/food.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img1.jpg" afterPath="$PROJECT_DIR$/src/client/images/img1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img2.jpg" afterPath="$PROJECT_DIR$/src/client/images/img2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img3.jpg" afterPath="$PROJECT_DIR$/src/client/images/img3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img4.jpg" afterPath="$PROJECT_DIR$/src/client/images/img4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img5.jpg" afterPath="$PROJECT_DIR$/src/client/images/img5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img6.jpg" afterPath="$PROJECT_DIR$/src/client/images/img6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img7.jpg" afterPath="$PROJECT_DIR$/src/client/images/img7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/img8.jpg" afterPath="$PROJECT_DIR$/src/client/images/img8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/left-arrow.png" afterPath="$PROJECT_DIR$/src/client/images/left-arrow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/photodefault.png" afterPath="$PROJECT_DIR$/src/client/images/photodefault.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/pizza.png" afterPath="$PROJECT_DIR$/src/client/images/pizza.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/prayer.png" afterPath="$PROJECT_DIR$/src/client/images/prayer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/right-arrow.png" afterPath="$PROJECT_DIR$/src/client/images/right-arrow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/sunglasses.png" afterPath="$PROJECT_DIR$/src/client/images/sunglasses.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/xmark.png" afterPath="$PROJECT_DIR$/src/client/images/xmark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/css/main.css" afterPath="$PROJECT_DIR$/src/client/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" afterPath="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/layout/footer.html" afterPath="$PROJECT_DIR$/src/client/views/layout/footer.html" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
     <ignored path="sxsw.iws" />
@@ -28,6 +52,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/views/layout/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.084937714">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="event-ui.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/views/account/event-ui.controller.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rsvp-page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rsvp-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72131145">
-              <caret line="305" column="22" selection-start-line="305" selection-start-column="22" selection-end-line="305" selection-end-column="22" />
+            <state vertical-scroll-proportion="-3.2830188">
+              <caret line="279" column="47" selection-start-line="279" selection-start-column="47" selection-end-line="280" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -83,36 +151,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-15.0">
               <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="token.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/controllers/api/token.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lists.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/models/lists.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/models/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -182,8 +220,6 @@
         <option value="$PROJECT_DIR$/src/client/sass/layout/_homepage.scss" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js" />
         <option value="$PROJECT_DIR$/src/client/js/default/twitter/widget.js" />
-        <option value="$PROJECT_DIR$/src/client/views/layout/footer.html" />
-        <option value="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/src/client/js/app.module.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/src/client/index.html" />
@@ -197,6 +233,8 @@
         <option value="$PROJECT_DIR$/src/client/views/account/event-ui.html" />
         <option value="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
+        <option value="$PROJECT_DIR$/src/client/views/layout/footer.html" />
+        <option value="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
       </list>
     </option>
   </component>
@@ -518,6 +556,32 @@
               <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sxsw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sxsw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -590,54 +654,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxsw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxsw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxsw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sxsw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screens" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1195,7 +1211,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456123077574</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="new image">
+      <created>1456123808223</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1456123808223</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1282,7 +1304,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reorganized.&#10;Implimented Mongoose" />
     <MESSAGE value="added login template&#10;formatted stuff" />
     <MESSAGE value="Added Anchor Scroll nad other thing" />
     <MESSAGE value="More changes" />
@@ -1307,7 +1328,8 @@
     <MESSAGE value="Fixed padding&#10;Added Beer and Food emoji stuff&#10;Added commented code for future photo upload&#10;Fixed input for beer and food" />
     <MESSAGE value="new images" />
     <MESSAGE value="added beer and food to other sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="added beer and food to other sections" />
+    <MESSAGE value="new image" />
+    <option name="LAST_COMMIT_MESSAGE" value="new image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1348,13 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/layout/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/images/comingsoon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1364,13 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1466,14 +1474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.625">
@@ -1538,14 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1638,22 +1630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/account/event-ui.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5">
-          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.823529">
-          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/sass/views/_event-ui.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.0">
@@ -1670,10 +1646,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.823529">
+          <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/account/event-ui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.5">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72131145">
-          <caret line="305" column="22" selection-start-line="305" selection-start-column="22" selection-end-line="305" selection-end-column="22" />
+        <state vertical-scroll-proportion="-3.2830188">
+          <caret line="279" column="47" selection-start-line="279" selection-start-column="47" selection-end-line="280" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/layout/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.084937714">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
           <folding />
         </state>
       </provider>
