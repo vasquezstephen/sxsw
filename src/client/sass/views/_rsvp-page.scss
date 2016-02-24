@@ -7,6 +7,9 @@
     @include container(940px);
 
   }
+  .underline{
+    text-decoration: underline;
+  }
   .divider-line{
     width: 100%;
     border-bottom: solid;

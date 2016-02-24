@@ -125,6 +125,8 @@ html {
       content: " ";
       display: block;
       clear: both; }
+  .rsvp-view .underline {
+    text-decoration: underline; }
   .rsvp-view .divider-line {
     width: 100%;
     border-bottom: solid;
