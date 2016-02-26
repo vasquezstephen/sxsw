@@ -31,7 +31,7 @@
     function configRoutes($stateProvider) {
         $stateProvider
             .state('follow', {
-                url: '/who-to-follow',
+                url: '/who2follow',
                 templateUrl: 'views/whotofollow/whotofollow.html',
                 controller: 'FollowController as follow',
                 data: {
