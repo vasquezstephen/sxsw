@@ -227,7 +227,7 @@ html {
     width: 100%; }
   @media (min-width: 400px) {
     .follow-view .follow-item {
-      width: 50%; } }
+      width: 44%; } }
   @media (min-width: 500px) {
     .follow-view .follow-item {
       width: 200px; } }

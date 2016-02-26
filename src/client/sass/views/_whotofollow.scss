@@ -23,7 +23,7 @@
   }
   @include breakpoint($breakpoint-mobile){
     .follow-item{
-      width: 50%;
+      width: 44%;
     }
   }
   @include breakpoint(500px){
