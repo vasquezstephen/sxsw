@@ -11,11 +11,18 @@
             addEvent: addEvent,
             login: login,
             authenticate: authenticate,
+            getFollow: getFollow
             //upload: upload
         };
 
         function getResults(){
             return $http.get("api/lists")
+                .then(function(response){
+                    return response.data;
+                });
+        }
+        function getFollow(){
+            return $http.get("api/people")
                 .then(function(response){
                     return response.data;
                 });

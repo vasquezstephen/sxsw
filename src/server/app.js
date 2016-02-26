@@ -30,10 +30,11 @@ var S3_BUCKET = process.env.S3_BUCKET;
 var router 	= express.Router();
 var list = require('./controllers/api/list');
 var user = require('./controllers/api/login');
+var people = require('./controllers/api/follow');
 var tokenStored = null;
 // Get all lists
 router.get('/api/lists', list.getAll);
-
+router.get('/api/people', people.getAll);
 // Create a list
 router.post('/api/list', function(req, res, next){
 	if(tokenStored){

@@ -211,3 +211,23 @@ html {
   background-color: #FFF;
   opacity: .95;
   padding: 20px; }
+  .follow-view .follow-item {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    padding: 10px; }
+  .follow-view .follow-image {
+    height: 100%;
+    width: 100%; }
+    .follow-view .follow-image img {
+      height: 100%;
+      width: 100%; }
+  .follow-view .follow-button {
+    height: 20px;
+    width: 100%; }
+  @media (min-width: 400px) {
+    .follow-view .follow-item {
+      width: 50%; } }
+  @media (min-width: 500px) {
+    .follow-view .follow-item {
+      width: 200px; } }

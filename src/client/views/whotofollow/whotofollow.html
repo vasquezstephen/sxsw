@@ -1,5 +1,53 @@
 <div class="follow-view">
     <div class="header-style1">Who to Follow</div>
-    <div class="header-style2">Page Under Construction</div>
-
+    <div class="header-style2">Creators</div><br>
+    <div class="follow-item" ng-repeat="item in follow.list | filter: {group: 'creator'} | orderBy: 'order'">
+        <div class="follow-image"><img src="{{item.image}}"></div>
+        <div class="follow-buttons">
+            <iframe allowtransparency="true"
+                    frameborder="0" scrolling="no"
+                    ng-src="{{getScreenName(item.name)}}"
+                    width="100%"
+                    style="overflow:hidden; height:20px;"></iframe>
+        </div>
+    </div>
+    <br>
+    <div class="header-style2">The Mafia</div>
+    <div>These accounts are the best source for everything SXSW</div>
+    <div class="follow-item" ng-repeat="item in follow.list | filter: {group: 'mafia'} | orderBy: 'order'">
+        <div class="follow-image"><img src="{{item.image}}"></div>
+        <div class="follow-buttons">
+            <iframe allowtransparency="true"
+                    frameborder="0" scrolling="no"
+                    ng-src="{{getScreenName(item.name)}}"
+                    width="100%"
+                    style="overflow:hidden; height:20px;"></iframe>
+        </div>
+    </div>
+    <br>
+    <div class="header-style2">The Homies</div>
+    <div>These accounts are awesome people we've meet through the years and have great insights to everything SXSW</div>
+    <div class="follow-item" ng-repeat="item in follow.list | filter: {group: 'homies'} | orderBy: 'order'">
+        <div class="follow-image"><img src="{{item.image}}"></div>
+        <div class="follow-buttons">
+            <iframe allowtransparency="true"
+                    frameborder="0" scrolling="no"
+                    ng-src="{{getScreenName(item.name)}}"
+                    width="100%"
+                    style="overflow:hidden; height:20px;"></iframe>
+        </div>
+    </div>
+    <br>
+    <div class="header-style2">The Best Parties</div>
+    <div>These accounts are who you need to follow to be the first to know about the biggest parties</div>
+    <div class="follow-item" ng-repeat="item in follow.list | filter: {group: 'parties'} | orderBy: 'order'">
+        <div class="follow-image"><img src="{{item.image}}"></div>
+        <div class="follow-buttons">
+            <iframe allowtransparency="true"
+                    frameborder="0" scrolling="no"
+                    ng-src="{{getScreenName(item.name)}}"
+                    width="100%"
+                    style="overflow:hidden; height:20px;"></iframe>
+        </div>
+    </div>
 </div>

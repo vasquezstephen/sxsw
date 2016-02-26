@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
+    <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="New Images&#10;Follow Pages done">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/atxconcert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/cameronatsx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/cheatsheetatx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/chriskeegan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/felixnavidad__.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/freeatsxsw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/jakenavarroatx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/jruffhouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/markquestion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/martyratsxsw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/mhsxsw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/mikeyzee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/mischiefonline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/misskrissxsw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/mycityatx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/openbaratx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/ray_gun_.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/rsvpster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/sayitaintsxsw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/southsidelopey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/steviedoes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/sxsjess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/sxswdocumentary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/sxswhiphop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/sxswmafia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/sxswmf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/tayloredyouth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/thefader.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/thefreenoms.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/theillmore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/images/follow/whoaco.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/server/controllers/api/follow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/server/models/people.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/screens/17Quantum.png" afterPath="$PROJECT_DIR$/src/client/images/screens/17Quantum.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/css/main.css" afterPath="$PROJECT_DIR$/src/client/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" afterPath="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" afterPath="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/index.html" afterPath="$PROJECT_DIR$/src/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/js/service/dbServices.js" afterPath="$PROJECT_DIR$/src/client/js/service/dbServices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/sass/views/_whotofollow.scss" afterPath="$PROJECT_DIR$/src/client/sass/views/_whotofollow.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.controller.js" afterPath="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.html" afterPath="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/app.js" afterPath="$PROJECT_DIR$/src/server/app.js" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
     <ignored path="sxsw.iws" />
@@ -29,62 +67,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
+      <file leaf-file-name="whotofollow.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_whotofollow.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/sass/views/_whotofollow.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.0">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="whotofollow.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6883116">
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
               <folding>
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#11;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/images/logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/views/layout/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/js/app.module.js">
+      <file leaf-file-name="dbServices.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/js/service/dbServices.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event-ui.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/views/account/event-ui.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rsvp-page.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70481926">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -100,31 +122,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_settings.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/sass/defaults/_settings.scss">
+      <file leaf-file-name="rsvp-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.125">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9583335">
-              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbServices.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/js/service/dbServices.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.11891279">
+              <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -158,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/client/sass/pages/layout/_homepage.scss" />
-        <option value="$PROJECT_DIR$/src/client/views/rsvp/event-ui.html" />
         <option value="$PROJECT_DIR$/src/client/views/layout/homepage.controller.js" />
         <option value="$PROJECT_DIR$/src/client/js/service/authenticationSvc.js" />
         <option value="$PROJECT_DIR$/src/server/models/users.js" />
@@ -184,7 +194,6 @@
         <option value="$PROJECT_DIR$/gulp.config.js" />
         <option value="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.js" />
         <option value="$PROJECT_DIR$/src/client/views/layout/homepage.html" />
-        <option value="$PROJECT_DIR$/src/client/sass/views/_whotofollow.scss" />
         <option value="$PROJECT_DIR$/src/client/main.scss" />
         <option value="$PROJECT_DIR$/src/client/views/layout/header.html" />
         <option value="$PROJECT_DIR$/src/client/sass/layout/_header.scss" />
@@ -194,21 +203,24 @@
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js" />
         <option value="$PROJECT_DIR$/src/client/js/default/twitter/widget.js" />
         <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/src/server/app.js" />
-        <option value="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.controller.js" />
         <option value="$PROJECT_DIR$/src/client/views/account/event-ui.controller.js" />
-        <option value="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.html" />
-        <option value="$PROJECT_DIR$/src/client/js/service/dbServices.js" />
         <option value="$PROJECT_DIR$/src/server/models/lists.js" />
         <option value="$PROJECT_DIR$/src/client/sass/views/_event-ui.scss" />
         <option value="$PROJECT_DIR$/src/client/views/layout/footer.html" />
         <option value="$PROJECT_DIR$/src/client/sass/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/src/client/views/account/event-ui.html" />
         <option value="$PROJECT_DIR$/src/client/js/app.module.js" />
-        <option value="$PROJECT_DIR$/src/client/index.html" />
         <option value="$PROJECT_DIR$/src/client/sass/defaults/_settings.scss" />
         <option value="$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss" />
         <option value="$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html" />
+        <option value="$PROJECT_DIR$/src/server/models/people.js" />
+        <option value="$PROJECT_DIR$/src/server/controllers/api/follow.js" />
+        <option value="$PROJECT_DIR$/src/server/app.js" />
+        <option value="$PROJECT_DIR$/src/client/js/service/dbServices.js" />
+        <option value="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.controller.js" />
+        <option value="$PROJECT_DIR$/src/client/sass/views/_whotofollow.scss" />
+        <option value="$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.html" />
+        <option value="$PROJECT_DIR$/src/client/index.html" />
       </list>
     </option>
   </component>
@@ -227,7 +239,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="840" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -670,6 +682,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="follow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sxsw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sxsw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -700,16 +738,16 @@
     <property name="javascript.nodejs.core.library.configured.version" value="5.4.1" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/client/js/default" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/images/follow" />
       <recent name="$PROJECT_DIR$/src/client/images/screens" />
       <recent name="$PROJECT_DIR$/src/server" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/client/views/account" />
-      <recent name="$PROJECT_DIR$/src/server/controllers/api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/js/default" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -733,14 +771,16 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11Arc.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11SB.jpeg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/12Arc.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/15Lucha.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/16Avocado.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/16Stub.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/16Woodies.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/16Yard.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11CasaMex.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11NatGeo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11Scoop.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/11Video.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/12Hack.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/13Glass.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/13Milkshakes.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/14Brain.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/15IBM.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/images/screens/17Tulsa.png</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -929,12 +969,6 @@
       <option name="number" value="Default" />
       <updated>1452782493129</updated>
       <workItem from="1452782494594" duration="6634000" />
-    </task>
-    <task id="LOCAL-00007" summary="Reorganized.&#10;Implimented Mongoose">
-      <created>1454803441291</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1454803441291</updated>
     </task>
     <task id="LOCAL-00008" summary="added login template&#10;formatted stuff">
       <created>1454822264272</created>
@@ -1224,17 +1258,23 @@
       <option name="project" value="LOCAL" />
       <updated>1456132984762</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Changed page to reflect new style">
+      <created>1456287864528</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1456287864528</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="6634000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="840" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14224665" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34962407" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19465241" sideWeight="0.55889726" order="8" side_tool="true" content_ui="tabs" />
@@ -1242,7 +1282,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32192513" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12790698" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19465241" sideWeight="0.44110274" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2962567" sideWeight="0.44110274" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5059423" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1311,8 +1351,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Styling changes" />
-    <MESSAGE value="Changes to package.json" />
     <MESSAGE value="Changes to app.js" />
     <MESSAGE value="Added analytics and form formatting" />
     <MESSAGE value="Added Header Buttons&#10;Added Who To Follow splash page&#10;Fixed iphone styling issue" />
@@ -1336,7 +1374,9 @@
     <MESSAGE value="Changed Beer to Drinks" />
     <MESSAGE value="update to meta tag" />
     <MESSAGE value="Google Analytics fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google Analytics fix" />
+    <MESSAGE value="Changed page to reflect new style" />
+    <MESSAGE value="New Images&#10;Follow Pages done" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Images&#10;Follow Pages done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1349,32 +1389,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/client/sass/views/_whotofollow.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10152284">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5076142">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/layout/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07614213">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/images/comingsoon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/sass/layout/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1517,33 +1531,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06410257">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/views/account/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17094018">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30991736">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30165288">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1555,40 +1546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.060085837">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/models/lists.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/models/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/controllers/api/token.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/controllers/api/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="3" selection-start-line="7" selection-start-column="10" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1625,59 +1586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/views/account/event-ui.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9583335">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/js/service/dbServices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/js/app.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/layout/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1690,6 +1602,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/images/follow/whoaco.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/js/app.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/controllers/api/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/models/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/models/lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.555555">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/layout/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23537803">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/layout/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.042796005">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="6" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/controllers/api/follow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24827586">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/models/people.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2689655">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/sass/views/_rsvp-page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
@@ -1698,10 +1714,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/views/rsvp/rsvp-page.html">
+    <entry file="file://$PROJECT_DIR$/src/client/js/service/dbServices.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70481926">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/sass/views/_whotofollow.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/views/whotofollow/whotofollow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6883116">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#11;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11891279">
+          <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
           <folding />
         </state>
       </provider>

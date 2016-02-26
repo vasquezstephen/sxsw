@@ -1,6 +1,34 @@
 .follow-view{
+  $breakpoint-mobile: 400px;
   background-color: $white;
   opacity: .95;
   padding: 20px;
-
+.follow-item{
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+}
+  .follow-image{
+    height: 100%;
+    width: 100%;
+    img{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .follow-button{
+    height: 20px;
+    width:100%;
+  }
+  @include breakpoint($breakpoint-mobile){
+    .follow-item{
+      width: 50%;
+    }
+  }
+  @include breakpoint(500px){
+    .follow-item{
+      width: 200px;
+    }
+  }
 }
