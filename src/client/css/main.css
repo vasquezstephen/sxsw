@@ -52,9 +52,11 @@ html {
     opacity: .8;
     color: #FFF;
     font-family: SansThin, sans-serif;
-    font-size: 36px; }
+    font-size: 32px; }
     .header-view .nav-bar .header-style2 {
       font-size: 15px; }
+  .header-view .header-buttons {
+    display: inline-block; }
   .header-view .header-name {
     padding-left: 5px; }
   .header-view .logo img {
@@ -89,8 +91,8 @@ html {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
-  margin-bottom: 15%; }
+  margin-top: 10%;
+  margin-bottom: 10%; }
   .home-view .button-container:after {
     content: " ";
     display: block;
@@ -231,3 +233,8 @@ html {
   @media (min-width: 500px) {
     .follow-view .follow-item {
       width: 200px; } }
+
+.blog-view {
+  background-color: #FFF;
+  opacity: .95;
+  padding: 20px; }
