@@ -9,7 +9,7 @@
             'ngAnimate',
             'ngTouch',
             'ngTouch',
-            'ngFileUpload'
+            'ngSanitize'
 
         ])
         .config(configRoutes)

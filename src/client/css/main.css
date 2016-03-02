@@ -128,7 +128,14 @@ html {
       display: block;
       clear: both; }
   .rsvp-view .underline {
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: #727272; }
+    .rsvp-view .underline:hover {
+      color: -webkit-link; }
+  .rsvp-view .description a {
+    color: #727272; }
+    .rsvp-view .description a:hover {
+      color: -webkit-link; }
   .rsvp-view .divider-line {
     width: 100%;
     border-bottom: solid;

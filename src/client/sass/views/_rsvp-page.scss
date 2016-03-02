@@ -9,6 +9,18 @@
   }
   .underline{
     text-decoration: underline;
+    color: $primary-text-color;
+    &:hover{
+    color:-webkit-link
+  }
+  }
+  .description{
+    a{
+      color: $primary-text-color;
+      &:hover{
+        color:-webkit-link;
+      }
+    }
   }
   .divider-line{
     width: 100%;
