@@ -374,3 +374,11 @@ html {
       .post-view .post .post-image img {
         width: 100%;
         height: auto; }
+  .post-view .post-body {
+    font-size: 18px; }
+    .post-view .post-body img {
+      height: 200px; }
+    .post-view .post-body a {
+      color: #727272; }
+      .post-view .post-body a:hover {
+        color: -webkit-link; }

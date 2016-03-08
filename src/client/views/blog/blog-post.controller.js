@@ -30,6 +30,7 @@
         }
         function setPost(data){
             post.list = data;
+            post.list.body = post.list.body.split("\n").join("<br><br>");
         }
         post.likePost = function (){
             post.list.likes = post.list.likes+1;

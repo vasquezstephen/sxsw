@@ -83,4 +83,16 @@
     }
 
   }
+  .post-body{
+    font-size: 18px;
+    img{
+      height: 200px
+    }
+    a{
+      color: $primary-text-color;
+      &:hover{
+        color:-webkit-link;
+      }
+    }
+  }
 }
