@@ -40,9 +40,7 @@ router.get('/api/posts', post.getOne);
 // Create a list
 router.post('/api/list', function(req, res, next){
 	if(tokenStored){
-		console.log(req);
 		var event = new Lists(req.body);
-		console.log(event);
 		event.save();
 		return res.status(200).send({
 			success: true,
@@ -59,9 +57,7 @@ router.post('/api/list', function(req, res, next){
 
 router.post('/api/blog', function(req, res, next){
 	if(tokenStored){
-		console.log(req);
 		var post = new Blogs(req.body);
-		console.log(post);
 		post.save();
 		return res.status(200).send({
 			success: true,
@@ -100,7 +96,6 @@ router.post('/api/login', function(req, res, next){
 		});
 	});
 router.post('/api/likes', function(req, res, next){
-	console.log(req.body);
 	Blogs.update({ 'urlKey': req.body.urlKey },{likes: req.body.likes} ,function (err, users) {
 
 	});
@@ -122,7 +117,6 @@ router.post('/api/authenticate' ,function(req, res, next) {
 				// if everything is good, save to request for use in other routes
 
 				req.decoded = decoded;
-				console.log(decoded);
 				next();
 				return res.status(200).send({
 					success: true,

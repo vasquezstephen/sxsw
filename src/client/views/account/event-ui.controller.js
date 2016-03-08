@@ -37,7 +37,6 @@
 
         $scope.insertEvent = function insertEvent(event) {
             ui.datNew = angular.copy(event);
-            //console.log(ui.datNew);
             DBServices.addEvent(ui.datNew);
 
 

@@ -36,7 +36,6 @@
             };
             return $http.get("api/posts/", config)
                 .then(function(response){
-                    console.log(response);
                     return response.data;
                 })
         }

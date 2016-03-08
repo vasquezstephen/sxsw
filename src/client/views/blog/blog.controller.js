@@ -30,7 +30,6 @@
         };
         blog.selectTab = function (setTab) {
             blog.tab = setTab;
-            console.log(blog.tab)
         };
         blog.isSelected = function (checkTab) {
             return blog.tab === checkTab;

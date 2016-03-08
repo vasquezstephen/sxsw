@@ -16,11 +16,9 @@
         var checkRedirect = function (response){
             if(response.data.success){
                 console.log("redirect to ui");
-                console.log(response);
                 $state.go('ui');
             }
             else{
-                console.log(response);
                 console.log("did not redirect");
                 login.error = response.data.message;
             }
@@ -28,7 +26,6 @@
         };
 
         $scope.checkUser = function checkUser(user){
-            console.log(user);
             DBServices.login(user)
                 .then(checkRedirect);
 

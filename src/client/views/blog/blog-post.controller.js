@@ -24,7 +24,6 @@
         function getPostData(urlKey){
             return DBServices.getPostByUrlKey(urlKey)
                 .then(function (response){
-                    console.log(response);
                     setPost(response);
                 })
         }

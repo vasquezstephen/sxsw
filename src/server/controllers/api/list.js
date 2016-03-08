@@ -6,9 +6,7 @@ var list = {
   //  res.json({type: "Read", id: req.params.id});
   //},
   create: function(req, res, next){
-    console.log(req);
     var event = new Lists(req.body);
-    console.log(event);
     event.save();
   },
   //update: function(req, res, next){

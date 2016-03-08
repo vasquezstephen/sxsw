@@ -9,9 +9,7 @@ var blog = {
     //  res.json({type: "Read", id: req.params.id});
     //},
     create: function(req, res, next){
-        console.log(req);
         var post = new Blogs(req.body);
-        console.log(event);
         post.save();
     },
     //update: function(req, res, next){
