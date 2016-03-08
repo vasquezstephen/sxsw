@@ -8,6 +8,7 @@ var express 	 	= require('express'),
 	jwt				= require('jsonwebtoken'),
 	Users 			= require('./models/users'),
 	Lists			= require('./models/lists'),
+	Blogs			= require('./models/blogs'),
 	aws 			= require('aws-sdk'),
 	sha1 			= require('sha1'),
 	databaseName	= 'sxswsite';
@@ -22,19 +23,20 @@ app.use(express.static(path.join(__dirname, '../client')));
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('superSecret', config.secret);
 
-var AWS_ACCESS_KEY = process.env.AWS_ACCESS_KEY;
-var AWS_SECRET_KEY = process.env.AWS_SECRET_KEY;
-var S3_BUCKET = process.env.S3_BUCKET;
-
 // Routes set up
 var router 	= express.Router();
 var list = require('./controllers/api/list');
 var user = require('./controllers/api/login');
 var people = require('./controllers/api/follow');
+var blog = require('./controllers/api/blog');
+var post = require('./controllers/api/posts');
 var tokenStored = null;
 // Get all lists
 router.get('/api/lists', list.getAll);
 router.get('/api/people', people.getAll);
+router.get('/api/blogs', blog.getAll);
+router.get('/api/posts', post.getOne);
+
 // Create a list
 router.post('/api/list', function(req, res, next){
 	if(tokenStored){
@@ -55,6 +57,24 @@ router.post('/api/list', function(req, res, next){
 	}
 });
 
+router.post('/api/blog', function(req, res, next){
+	if(tokenStored){
+		console.log(req);
+		var post = new Blogs(req.body);
+		console.log(post);
+		post.save();
+		return res.status(200).send({
+			success: true,
+			message: 'Post added'
+		})
+	}
+	else{
+		return res.status(403).send({
+			success: false,
+			message: 'No token provided.'
+		});
+	}
+});
 //User Info
 router.post('/api/login', function(req, res, next){
 		Users.findOne({ 'user': req.body.user }, function (err, users) {
@@ -79,7 +99,12 @@ router.post('/api/login', function(req, res, next){
 
 		});
 	});
+router.post('/api/likes', function(req, res, next){
+	console.log(req.body);
+	Blogs.update({ 'urlKey': req.body.urlKey },{likes: req.body.likes} ,function (err, users) {
 
+	});
+});
 
 router.post('/api/authenticate' ,function(req, res, next) {
 
@@ -117,35 +142,7 @@ router.post('/api/authenticate' ,function(req, res, next) {
 
 	}
 });
-//router.get('/sign_s3', function(req, res){
-//	aws.config.update({accessKeyId: AWS_ACCESS_KEY, secretAccessKey: AWS_SECRET_KEY});
-//	var s3 = new aws.S3();
-//	var s3_params = {
-//		Bucket: S3_BUCKET,
-//		Key: req.query.file_name,
-//		Expires: 60,
-//		ContentType: req.query.file_type,
-//		ACL: 'public-read'
-//	};
-//	s3.getSignedUrl('putObject', s3_params, function(err, data){
-//		if(err){
-//			console.log(err);
-//		}
-//		else{
-//			var return_data = {
-//				signed_request: data,
-//				url: 'https://'+S3_BUCKET+'.s3.amazonaws.com/'+req.query.file_name
-//			};
-//			res.write(JSON.stringify(return_data));
-//			res.end();
-//		}
-//	});
-//});
-//router.post('/api/upload', function(req, res){
-//	avatar_url = req.body.photo;
-//	update_account(avatar_url); // TODO: create this function
-//	// TODO: Return something useful or redirect
-//});
+
 
 
 // Register the routing

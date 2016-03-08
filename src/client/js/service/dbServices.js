@@ -8,11 +8,14 @@
         var token = null;
         return {
             getResults: getResults,
+            getPosts: getPosts,
+            getPostByUrlKey: getPostByUrlKey,
             addEvent: addEvent,
             login: login,
             authenticate: authenticate,
-            getFollow: getFollow
-            //upload: upload
+            getFollow: getFollow,
+            newPost: newPost,
+            updateLikes: updateLikes
         };
 
         function getResults(){
@@ -20,6 +23,22 @@
                 .then(function(response){
                     return response.data;
                 });
+        }
+        function getPosts(){
+            return $http.get("api/blogs")
+                .then(function(response){
+                    return response.data;
+                });
+        }
+        function getPostByUrlKey(urlKey){
+            var config = {
+                params: {urlKey: urlKey}
+            };
+            return $http.get("api/posts/", config)
+                .then(function(response){
+                    console.log(response);
+                    return response.data;
+                })
         }
         function getFollow(){
             return $http.get("api/people")
@@ -51,12 +70,22 @@
                     $state.go('login');
                 });
         }
-        //function upload(photo){
-        //    return $http.post("api/upload",photo)
-        //        .then(function (response){
-        //
-        //    });
-        //}
+       function newPost(post){
+           return $http.post("api/blog", post)
+               .then(function(response){
+                   return response;
+               },function(response){
+                   $state.go('login')
+               });
+       }
+        function updateLikes(urlKey, likes){
+            var postObj = {
+                urlKey: urlKey,
+                likes: likes
+            };
+            return $http.post("api/likes", postObj);
+
+        }
 
 
         }

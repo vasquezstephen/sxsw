@@ -196,6 +196,16 @@ html {
   background-color: #FFF;
   opacity: .95;
   padding: 20px; }
+  .ui-view .blog-input {
+    font-size: 18px; }
+    .ui-view .blog-input input {
+      height: 20px;
+      width: 250px; }
+    .ui-view .blog-input textarea {
+      display: block;
+      width: 250px;
+      padding: 10px;
+      font-size: 1.1em; }
   .ui-view .form-input {
     font-size: 18px; }
     .ui-view .form-input input {
@@ -245,3 +255,122 @@ html {
   background-color: #FFF;
   opacity: .95;
   padding: 20px; }
+  .blog-view .post-grid {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch; }
+    .blog-view .post-grid .single-post {
+      padding: 20px;
+      margin: 0 5px;
+      cursor: pointer;
+      transition: background linear 0.5s;
+      border-bottom: 1px solid #767676;
+      color: #727272;
+      flex-grow: 1; }
+      .blog-view .post-grid .single-post:hover {
+        background: #767676;
+        color: #262626; }
+  .blog-view .back-arrow img {
+    width: 20px;
+    height: 20px; }
+  .blog-view .comments {
+    display: inline-block;
+    float: left; }
+    .blog-view .comments img {
+      width: 20px;
+      height: 20px; }
+  .blog-view .likes {
+    display: inline-block;
+    float: right; }
+    .blog-view .likes img {
+      width: 20px;
+      height: 20px; }
+  .blog-view .like-button {
+    color: black;
+    background: #dadada;
+    padding: .5em 1em;
+    border: solid 1px #c0c0c0;
+    border-radius: 0;
+    font-size: 18px; }
+    .blog-view .like-button img {
+      width: 15px;
+      height: 15px; }
+    .blog-view .like-button:hover {
+      background: #a7a7a7; }
+  .blog-view .post {
+    -webkit-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+    opacity: 1;
+    padding-bottom: 30px; }
+    .blog-view .post cite {
+      display: inline-block;
+      padding: 10px 0; }
+    .blog-view .post .post-image {
+      opacity: 1; }
+      .blog-view .post .post-image img {
+        width: 100%;
+        height: auto; }
+
+.post-view {
+  background-color: #FFF;
+  opacity: 1;
+  padding: 20px; }
+  .post-view .post-grid {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch; }
+    .post-view .post-grid .single-post {
+      padding: 20px;
+      margin: 0 5px;
+      cursor: pointer;
+      transition: background linear 0.5s;
+      border-bottom: 1px solid #767676;
+      color: #727272;
+      flex-grow: 1; }
+      .post-view .post-grid .single-post:hover {
+        background: #767676;
+        color: #262626; }
+  .post-view .back-arrow img {
+    width: 20px;
+    height: 20px; }
+  .post-view .comments {
+    display: inline-block;
+    float: left; }
+    .post-view .comments img {
+      width: 20px;
+      height: 20px; }
+  .post-view .likes {
+    display: inline-block;
+    float: right; }
+    .post-view .likes img {
+      width: 20px;
+      height: 20px; }
+  .post-view .like-button {
+    color: black;
+    background: #dadada;
+    padding: .5em 1em;
+    border: solid 1px #c0c0c0;
+    border-radius: 0;
+    font-size: 18px; }
+    .post-view .like-button img {
+      width: 15px;
+      height: 15px; }
+    .post-view .like-button:hover {
+      background: #a7a7a7; }
+  .post-view .post {
+    -webkit-transition: 0.5s linear all;
+    transition: 0.5s linear all;
+    opacity: 1;
+    padding-bottom: 30px; }
+    .post-view .post cite {
+      display: inline-block;
+      padding: 10px 0; }
+    .post-view .post .post-image {
+      opacity: 1; }
+      .post-view .post .post-image img {
+        width: 100%;
+        height: auto; }

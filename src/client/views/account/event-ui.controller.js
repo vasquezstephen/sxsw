@@ -26,6 +26,7 @@
             //image: "",
             //link: ""
         };
+        ui.post = {};
 
         activate();
 
@@ -41,12 +42,16 @@
 
 
         };
+        $scope.addPost = function addPost(){
+            ui.post.createdOn = Date.now();
+            ui.post.comments = [];
+            ui.post.likes = 0;
+            var urlKey = ui.post.title.split(' ').join('-');
+            ui.post.urlKey = urlKey.toLowerCase();
+            DBServices.newPost(ui.post);
+            ui.post ={};
 
-        //$scope.uploadPhoto = function checkUser(photo){
-        //    console.log(photo);
-        //    DBServices.upload(photo);
-        //
-        //}
+        };
 
     }
 

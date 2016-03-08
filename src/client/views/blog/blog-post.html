@@ -1,0 +1,17 @@
+<div class="post-view">
+    <div class="post">
+        <div class="back-arrow" ui-sref="blog" ui-sref-opts="{reload: true}"><img src="/images/back-arrow.png"></div>
+        <div class="header-style1">{{post.list.title}}</div>
+        <div class="post-image">
+        <img src="{{post.list.image}}" ng-show="post.list.image"/></div>
+        <cite>by {{post.list.author}} on {{post.list.createdOn | date}}</cite>
+        <div class="post-body">
+            <p ng-bind-html="post.list.body">
+            </p>
+        </div>
+        <button class="like-button" ng-click="post.likePost()">
+            <div class="likes"><img src="/images/heart.png"> {{post.list.likes}}</div>
+        </button>
+    </div>
+</div>
+
