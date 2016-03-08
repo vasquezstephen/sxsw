@@ -382,3 +382,8 @@ html {
       color: #727272; }
       .post-view .post-body a:hover {
         color: -webkit-link; }
+  .post-view .share-buttons {
+    display: inline-block; }
+    .post-view .share-buttons img {
+      width: 50px;
+      height: 50px; }
