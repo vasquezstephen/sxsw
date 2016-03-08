@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/js/service/dbServices.js" afterPath="$PROJECT_DIR$/src/client/js/service/dbServices.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/account/event-ui.controller.js" afterPath="$PROJECT_DIR$/src/client/views/account/event-ui.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/account/login.controller.js" afterPath="$PROJECT_DIR$/src/client/views/account/login.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/blog/blog-post.controller.js" afterPath="$PROJECT_DIR$/src/client/views/blog/blog-post.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/blog/blog-post.html" afterPath="$PROJECT_DIR$/src/client/views/blog/blog-post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/blog/blog.controller.js" afterPath="$PROJECT_DIR$/src/client/views/blog/blog.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/app.js" afterPath="$PROJECT_DIR$/src/server/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/controllers/api/blog.js" afterPath="$PROJECT_DIR$/src/server/controllers/api/blog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/controllers/api/list.js" afterPath="$PROJECT_DIR$/src/server/controllers/api/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/controllers/api/posts.js" afterPath="$PROJECT_DIR$/src/server/controllers/api/posts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/index.html" afterPath="$PROJECT_DIR$/src/client/index.html" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
     <ignored path="sxsw.iws" />
@@ -62,6 +53,19 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15652174">
+              <caret line="6" column="156" selection-start-line="6" selection-start-column="156" selection-end-line="6" selection-end-column="156" />
+              <folding>
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#2213#2572#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,24 +124,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authenticate.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="authenticate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/controllers/api/authenticate.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog-post.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/views/blog/blog-post.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#48#95#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -206,7 +198,6 @@
         <option value="$PROJECT_DIR$/src/client/sass/views/_event-ui.scss" />
         <option value="$PROJECT_DIR$/src/client/views/layout/header.html" />
         <option value="$PROJECT_DIR$/src/server/models/blogs.js" />
-        <option value="$PROJECT_DIR$/src/client/index.html" />
         <option value="$PROJECT_DIR$/src/client/sass/views/_blog.scss" />
         <option value="$PROJECT_DIR$/src/client/main.scss" />
         <option value="$PROJECT_DIR$/src/client/views/blog/blog.html" />
@@ -221,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/server/controllers/api/posts.js" />
         <option value="$PROJECT_DIR$/src/server/controllers/api/list.js" />
         <option value="$PROJECT_DIR$/src/server/controllers/api/blog.js" />
+        <option value="$PROJECT_DIR$/src/client/index.html" />
       </list>
     </option>
   </component>
@@ -964,12 +956,6 @@
       <updated>1452782493129</updated>
       <workItem from="1452782494594" duration="6634000" />
     </task>
-    <task id="LOCAL-00022" summary="Added image error&#10;Fixed Rsvp mobile view&#10;Fixed ui vulnerabilities">
-      <created>1455864057219</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1455864057219</updated>
-    </task>
     <task id="LOCAL-00023" summary="Fixed homepage button margin">
       <created>1455864527877</created>
       <option name="number" value="00023" />
@@ -1258,7 +1244,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457464378433</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Removed console logs">
+      <created>1457464809276</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1457464809276</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1345,7 +1337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new image&#10;" />
     <MESSAGE value="Added Dividers&#10;Added Twitter Data and Follow Buttons&#10;" />
     <MESSAGE value="Fixed Footer styling" />
     <MESSAGE value="&#10;" />
@@ -1370,7 +1361,8 @@
     <MESSAGE value="Added Blog buttons and Under Construction Page" />
     <MESSAGE value="Add Complete Blog Functionality" />
     <MESSAGE value="Blog Styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blog Styling" />
+    <MESSAGE value="Removed console logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed console logs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1580,17 +1572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60146254">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#2127#2486#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/font-awesome-4.5.0/scss/font-awesome.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46617916">
@@ -1788,6 +1769,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15652174">
+          <caret line="6" column="156" selection-start-line="6" selection-start-column="156" selection-end-line="6" selection-end-column="156" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2213#2572#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
