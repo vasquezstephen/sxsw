@@ -61,10 +61,10 @@
         <entry file="file://$PROJECT_DIR$/src/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.15652174">
-              <caret line="6" column="127" selection-start-line="6" selection-start-column="127" selection-end-line="6" selection-end-column="127" />
+              <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
               <folding>
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#2213#2572#0" expanded="false" />
+                <element signature="e#2127#2486#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -956,12 +956,6 @@
       <updated>1452782493129</updated>
       <workItem from="1452782494594" duration="6634000" />
     </task>
-    <task id="LOCAL-00024" summary="Added tab flip functionality&#10;Added expand tab functionality&#10;Still need collapse tab">
-      <created>1455871909446</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1455871909446</updated>
-    </task>
     <task id="LOCAL-00025" summary="Added full toggle functionality">
       <created>1455908343376</created>
       <option name="number" value="00025" />
@@ -1250,7 +1244,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457468009560</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Viewport fix">
+      <created>1457468236587</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1457468236588</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1775,10 +1775,10 @@
     <entry file="file://$PROJECT_DIR$/src/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15652174">
-          <caret line="6" column="127" selection-start-line="6" selection-start-column="127" selection-end-line="6" selection-end-column="127" />
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
           <folding>
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#2213#2572#0" expanded="false" />
+            <element signature="e#2127#2486#0" expanded="false" />
           </folding>
         </state>
       </provider>
