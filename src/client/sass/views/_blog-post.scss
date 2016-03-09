@@ -56,6 +56,7 @@
     border: solid 1px #c0c0c0;
     border-radius: 0;
     font-size: 18px;
+    margin-right: 5px;
     img{
       width:15px;
       height:15px;
@@ -83,6 +84,11 @@
     }
 
   }
+  .share-container{
+    display: flex;
+    align-items: flex-start;
+
+  }
   .post-body{
     font-size: 18px;
     img{
@@ -96,10 +102,12 @@
     }
   }
   .share-buttons{
-    display: inline-block;
+    display: flex;
+    font-size: 18px;
     img{
-      width: 50px;
-      height: 50px;
+      padding: 0 5px;
+      width: 40px;
+      height: 40px;
     }
   }
 }

@@ -1,13 +1,14 @@
 <div class="blog-view">
     <div class="header-style1">Blog</div>
     <div class="post-grid">
-        <div class="single-post" ng-repeat="post in blog.posts"
+        <div class="single-post" ng-repeat="post in blog.posts | orderBy: '-createdOn'"
              ng-click="blog.goToPost(post.urlKey)"
              ng-style="{'background':'linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),url('+post.image+')','background-size':'cover'}">
             <div class="header-style2">{{post.title}}</div>
             <p ng-bind-html="(post.body | limitTo: 30) +'...'"></p>
             <!--<div class="comments"><img src="/images/comment.png">{{post.comments.length}}-->
             <!--</div>-->
+            <div class="comments">Posted: {{post.createdOn | date}}</div>
             <div class="likes"><img src="/images/heart.png"> {{post.likes}}
             </div>
         </div>

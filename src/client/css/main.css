@@ -355,7 +355,8 @@ html {
     padding: .5em 1em;
     border: solid 1px #c0c0c0;
     border-radius: 0;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-right: 5px; }
     .post-view .like-button img {
       width: 15px;
       height: 15px; }
@@ -374,6 +375,9 @@ html {
       .post-view .post .post-image img {
         width: 100%;
         height: auto; }
+  .post-view .share-container {
+    display: flex;
+    align-items: flex-start; }
   .post-view .post-body {
     font-size: 18px; }
     .post-view .post-body img {
@@ -383,7 +387,9 @@ html {
       .post-view .post-body a:hover {
         color: -webkit-link; }
   .post-view .share-buttons {
-    display: inline-block; }
+    display: flex;
+    font-size: 18px; }
     .post-view .share-buttons img {
-      width: 50px;
-      height: 50px; }
+      padding: 0 5px;
+      width: 40px;
+      height: 40px; }
