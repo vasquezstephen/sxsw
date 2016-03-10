@@ -331,6 +331,8 @@ html {
       border-bottom: 1px solid #767676;
       color: #727272;
       flex-grow: 1; }
+      .post-view .post-grid .single-post .header-style-2 {
+        font-weight: bold; }
       .post-view .post-grid .single-post:hover {
         background: #767676;
         color: #262626; }

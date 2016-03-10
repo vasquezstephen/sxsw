@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/css/main.css" afterPath="$PROJECT_DIR$/src/client/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/sass/views/_blog-post.scss" afterPath="$PROJECT_DIR$/src/client/sass/views/_blog-post.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/blog/blog-post.html" afterPath="$PROJECT_DIR$/src/client/views/blog/blog-post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/views/blog/blog.html" afterPath="$PROJECT_DIR$/src/client/views/blog/blog.html" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
     <ignored path="sxsw.iws" />
@@ -80,8 +78,8 @@
       <file leaf-file-name="_blog-post.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/sass/views/_blog-post.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41133454">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.7952468">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -944,12 +942,6 @@
       <updated>1452782493129</updated>
       <workItem from="1452782494594" duration="6634000" />
     </task>
-    <task id="LOCAL-00030" summary="Removed twitter link">
-      <created>1455924113849</created>
-      <option name="number" value="00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1455924113849</updated>
-    </task>
     <task id="LOCAL-00031" summary="new image&#10;">
       <created>1455943189652</created>
       <option name="number" value="00031" />
@@ -1238,7 +1230,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457482186166</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Styling Changes">
+      <created>1457495298717</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1457495298718</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1251,13 +1249,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21978022" sideWeight="0.49405771" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35935828" sideWeight="0.52258855" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35935828" sideWeight="0.52503055" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.492674" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.4932845" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32192513" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12790698" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35935828" sideWeight="0.47741148" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35935828" sideWeight="0.47496948" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5059423" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1325,7 +1323,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added beer and food to other sections" />
     <MESSAGE value="new image" />
     <MESSAGE value="compressed images&#10;fixed twitter buttons" />
     <MESSAGE value="Changed Beer to Drinks" />
@@ -1350,7 +1347,8 @@
     <MESSAGE value="It worked! Push!!!" />
     <MESSAGE value="Sting needed to be on same line" />
     <MESSAGE value="Share for facebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Share for facebook" />
+    <MESSAGE value="Styling Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1763,8 +1761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/sass/views/_blog-post.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41133454">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.7952468">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>
