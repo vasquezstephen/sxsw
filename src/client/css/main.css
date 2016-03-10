@@ -383,7 +383,8 @@ html {
   .post-view .post-body {
     font-size: 18px; }
     .post-view .post-body img {
-      height: 200px; }
+      height: 200px;
+      max-width: 100%; }
     .post-view .post-body a {
       color: #727272; }
       .post-view .post-body a:hover {

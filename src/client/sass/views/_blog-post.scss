@@ -95,7 +95,8 @@
   .post-body{
     font-size: 18px;
     img{
-      height: 200px
+      height: 200px;
+      max-width: 100%;
     }
     a{
       color: $primary-text-color;
