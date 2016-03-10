@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e90f482-4864-46d6-af4f-ab8a5e5f781e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/client/images/austin.jpg" afterPath="$PROJECT_DIR$/src/client/images/austin.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="5cb9deb1-12b5-4906-a689-3fa26b48dca8" name="New changelist" comment="" />
@@ -941,12 +940,6 @@
       <updated>1452782493129</updated>
       <workItem from="1452782494594" duration="6634000" />
     </task>
-    <task id="LOCAL-00032" summary="Added Dividers&#10;Added Twitter Data and Follow Buttons&#10;">
-      <created>1455945992525</created>
-      <option name="number" value="00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1455945992525</updated>
-    </task>
     <task id="LOCAL-00033" summary="Fixed Footer styling">
       <created>1455946506079</created>
       <option name="number" value="00033" />
@@ -1235,7 +1228,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457631576435</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Image edit">
+      <created>1457631743746</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1457631743746</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1322,7 +1321,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new image" />
     <MESSAGE value="compressed images&#10;fixed twitter buttons" />
     <MESSAGE value="Changed Beer to Drinks" />
     <MESSAGE value="update to meta tag" />
@@ -1347,7 +1345,8 @@
     <MESSAGE value="Sting needed to be on same line" />
     <MESSAGE value="Share for facebook" />
     <MESSAGE value="Styling Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling Changes" />
+    <MESSAGE value="Image edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image edit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
