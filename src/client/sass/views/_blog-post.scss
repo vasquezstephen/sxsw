@@ -20,9 +20,6 @@
       border-bottom:1px solid $accent;
       color: #727272;
       flex-grow: 1;
-      .header-style-2{
-        font-weight: bold;
-      }
       &:hover {
         background:$accent;
         color: darken(#727272,30);
