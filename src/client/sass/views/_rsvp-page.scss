@@ -14,6 +14,12 @@
     color:-webkit-link
   }
   }
+  .callout{
+    cursor: default;
+    font-weight: bold;
+    padding: 15px 0;
+    text-decoration: underline;
+  }
   .description{
     a{
       color: $primary-text-color;

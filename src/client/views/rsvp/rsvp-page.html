@@ -1,6 +1,6 @@
 
 <div class="rsvp-view">
-<div class="header-style1">Best R&middot;S&middot;V&middot;P&middot; Links</div>
+<div class="header-style1">Best R&middot;S&middot;V&middot;P&middot; Links 2016</div>
     <div class="header-style2">Full List Available at <a class="underline" href="http://keeganslistsxsw.wordpress.com">Keegan's List</a></div><br>
     <div class="header-style2">
         Go To:
@@ -18,7 +18,7 @@
     </div>
     <div id="1" ng-class="{'gallery-label-active':!rsvp.isSet(1),'gallery-label':rsvp.isSet(1)}"
          class="gallery-label header-style1" ng-click="rsvp.setTab(1)">Recently Added</div><br>
-    <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | orderBy: '-dateAdded' | limitTo: 8">
+    <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | orderBy: '-dateAdded' | limitTo: rsvp.limit.i1">
         <div class="rsvp-gallery-item-container">
             <div class="rsvp-gallery-item-title">{{item.title}}</div>
             <a href="{{item.link}}">
@@ -36,11 +36,12 @@
             </div>
         </div>
     </div>
-    <div class="divider-line"></div>
+    <div class="header-style1 callout">The Daily Breakdown: Best then the Rest</div>
+    <div class="header-style2 callout">Click the tabs for more events</div>
     <div class="rsvp-gallery">
         <div id="10" ng-class="{'gallery-label-active':!rsvp.isSet(10),'gallery-label':rsvp.isSet(10)}"
              class="header-style1" ng-click="rsvp.setTab(10)">March 10</div><br>
-        <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | filter: {date : 'March 10, 2016'} | orderBy: '-dateAdded' | limitTo: rsvp.limit.i10">
+        <div class="rsvp-gallery-item" ng-repeat="item in rsvp.list | filter: {date : 'March 10, 2016'} | orderBy: 'order' | limitTo: rsvp.limit.i10">
             <div class="rsvp-gallery-item-container" >
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -64,7 +65,7 @@
         <div id="11" ng-class="{'gallery-label-active':!rsvp.isSet(11),'gallery-label':rsvp.isSet(11)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(11)">March 11</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 11, 2016'} | orderBy: '-dateAdded' | limitTo: rsvp.limit.i11">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 11, 2016'} | orderBy: 'order' | limitTo: rsvp.limit.i11">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -88,7 +89,7 @@
         <div id="12" ng-class="{'gallery-label-active':!rsvp.isSet(12),'gallery-label':rsvp.isSet(12)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(12)">March 12</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 12, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i12">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 12, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i12">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -113,7 +114,7 @@
         <div id="13" ng-class="{'gallery-label-active':!rsvp.isSet(13),'gallery-label':rsvp.isSet(13)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(13)">March 13</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 13, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i13">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 13, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i13">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -139,7 +140,7 @@
         <div id="14" ng-class="{'gallery-label-active':!rsvp.isSet(14),'gallery-label':rsvp.isSet(14)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(14)">March 14</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 14, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i14">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 14, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i14">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -164,7 +165,7 @@
         <div id="15" ng-class="{'gallery-label-active':!rsvp.isSet(15),'gallery-label':rsvp.isSet(15)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(15)">March 15</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 15, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i15">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 15, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i15">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -189,7 +190,7 @@
         <div id="16"  ng-class="{'gallery-label-active':!rsvp.isSet(16),'gallery-label':rsvp.isSet(16)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(16)">March 16</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 16, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i16">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 16, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i16">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -214,7 +215,7 @@
         <div id="17" ng-class="{'gallery-label-active':!rsvp.isSet(17),'gallery-label':rsvp.isSet(17)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(17)">March 17</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 17, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i17">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 17, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i17">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -239,7 +240,7 @@
         <div id="18" ng-class="{'gallery-label-active':!rsvp.isSet(18),'gallery-label':rsvp.isSet(18)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(18)">March 18</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 18, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i18">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 18, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i18">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -264,7 +265,7 @@
         <div id="19" ng-class="{'gallery-label-active':!rsvp.isSet(19),'gallery-label':rsvp.isSet(19)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(19)">March 19</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 19, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i19">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 19, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i19">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">
@@ -280,7 +281,7 @@
                     <p class="emoji" ng-if="item.food"><img src="/images/food.png"> Free Food!</p>
                     <p class="description" ng-bind-html="item.description"></p>
                 </div>
-            </div>x
+            </div>
         </div>
         <div class="divider-line"></div>
 
@@ -289,7 +290,7 @@
         <div id="20" ng-class="{'gallery-label-active':!rsvp.isSet(20),'gallery-label':rsvp.isSet(20)}"
              class="gallery-label header-style1" ng-click="rsvp.setTab(20)">March 20</div><br>
         <div class="rsvp-gallery-item"
-             ng-repeat="item in rsvp.list | filter: {date : 'March 20, 2016'}| orderBy: '-dateAdded' | limitTo: rsvp.limit.i20">
+             ng-repeat="item in rsvp.list | filter: {date : 'March 20, 2016'}| orderBy: 'order' | limitTo: rsvp.limit.i20">
             <div class="rsvp-gallery-item-container">
                 <div class="rsvp-gallery-item-title">{{item.title}}</div>
                 <a href="{{item.link}}">

@@ -12,10 +12,10 @@
     RSVPController.$inject = ['$log', '$scope', '$location', '$anchorScroll', '$timeout', 'DBServices'];
     function RSVPController($log, $scope, $location, $anchorScroll, $timeout, DBServices) {
         var rsvp = this;
-        rsvp.tab = 1;
+        rsvp.tab = 0;
         rsvp.prevTab = null;
         rsvp.limit = {
-            i1: 8,
+            i1: 4,
             i10: 4,
             i11: 4,
             i12: 4,
@@ -59,7 +59,12 @@
                 Object.getOwnPropertyNames(rsvp.limit).forEach(function(val, idx, array) {
                     if(val == 'i'+ tabId){
                         var prop = 'i' + tabId;
-                        rsvp.limit[prop] = 4;
+                        if(tabId == 1){
+                            rsvp.limit[prop] = 4;
+                        }
+                        else{
+                            rsvp.limit[prop] = 4;
+                        }
                     }
                 });
             }
@@ -69,7 +74,12 @@
                 Object.getOwnPropertyNames(rsvp.limit).forEach(function(val, idx, array) {
                     if(val == 'i'+ rsvp.tab){
                         var prop = 'i' + rsvp.tab;
-                        rsvp.limit[prop] = rsvp.list.length;
+                        if(rsvp.tab == 1){
+                            rsvp.limit[prop] = 8;
+                        }
+                        else{
+                            rsvp.limit[prop] = rsvp.list.length;
+                        }
                     }
                 });
             }

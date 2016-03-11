@@ -132,6 +132,11 @@ html {
     color: #727272; }
     .rsvp-view .underline:hover {
       color: -webkit-link; }
+  .rsvp-view .callout {
+    cursor: default;
+    font-weight: bold;
+    padding: 15px 0;
+    text-decoration: underline; }
   .rsvp-view .description a {
     color: #727272; }
     .rsvp-view .description a:hover {
@@ -269,6 +274,8 @@ html {
       border-bottom: 1px solid #767676;
       color: #727272;
       flex-grow: 1; }
+      .blog-view .post-grid .single-post .header-style-2 {
+        font-weight: bold; }
       .blog-view .post-grid .single-post:hover {
         background: #767676;
         color: #262626; }
@@ -331,8 +338,6 @@ html {
       border-bottom: 1px solid #767676;
       color: #727272;
       flex-grow: 1; }
-      .post-view .post-grid .single-post .header-style-2 {
-        font-weight: bold; }
       .post-view .post-grid .single-post:hover {
         background: #767676;
         color: #262626; }
