@@ -12,8 +12,6 @@ var express 	 	= require('express'),
 	aws 			= require('aws-sdk'),
 	sha1 			= require('sha1'),
 	databaseName	= 'sxswsite';
-	dbUser			= 'steviedoes';
-	dbPass			= 'Steve4005';
 
 // Express setup 
 var app = express();
